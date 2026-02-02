@@ -323,6 +323,34 @@ def get_log_sessions():
         parser = LogParser()
         sessions = parser.discover_logs(LOGS_DIR)
         
+        # Provide helpful message if no logs found
+        if not sessions:
+            # Return helpful diagnostic info
+            return jsonify({
+                'success': True,
+                'sessions': [],
+                'message': 'No log sessions found',
+                'help': {
+                    'description': 'No logs were found in the configured logs directory',
+                    'logs_directory': LOGS_DIR,
+                    'absolute_path': os.path.abspath(LOGS_DIR),
+                    'directory_exists': os.path.exists(LOGS_DIR),
+                    'next_steps': [
+                        'Check that the logs directory exists at: ' + os.path.abspath(LOGS_DIR),
+                        'Ensure logs follow this structure: {user_id}/{system_name}/{timestamp}/',
+                        'Call /api/logs/diagnose for detailed directory structure',
+                        'Check LOGS_DIR setting in config.py if path is incorrect'
+                    ]
+                },
+                'statistics': {
+                    'total_sessions': 0,
+                    'unique_users': 0,
+                    'unique_systems': 0,
+                    'users': [],
+                    'systems': []
+                }
+            })
+        
         session_list = [
             {
                 'userId': user_id,
@@ -348,6 +376,58 @@ def get_log_sessions():
                 'systems': unique_systems
             }
         })
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+
+@app.route('/api/logs/diagnose', methods=['GET'])
+def diagnose_logs():
+    """Diagnostic endpoint to check log directory structure"""
+    try:
+        diagnosis = {
+            'logs_dir': LOGS_DIR,
+            'exists': os.path.exists(LOGS_DIR),
+            'is_absolute': os.path.isabs(LOGS_DIR),
+            'absolute_path': os.path.abspath(LOGS_DIR),
+            'structure': {}
+        }
+        
+        if not os.path.exists(LOGS_DIR):
+            return jsonify(diagnosis)
+        
+        # Check directory structure
+        try:
+            user_dirs = os.listdir(LOGS_DIR)
+            diagnosis['user_count'] = len(user_dirs)
+            diagnosis['users'] = []
+            
+            for user_id in user_dirs[:5]:  # Only check first 5 users
+                user_path = os.path.join(LOGS_DIR, user_id)
+                if os.path.isdir(user_path):
+                    system_dirs = os.listdir(user_path)
+                    diagnosis['users'].append({
+                        'user_id': user_id,
+                        'systems': system_dirs[:3]  # Only first 3 systems
+                    })
+            
+            # Also list all files at root level
+            all_items = os.listdir(LOGS_DIR)
+            files_at_root = [f for f in all_items if os.path.isfile(os.path.join(LOGS_DIR, f))]
+            dirs_at_root = [d for d in all_items if os.path.isdir(os.path.join(LOGS_DIR, d))]
+            
+            diagnosis['structure'] = {
+                'directories': dirs_at_root,
+                'files': files_at_root,
+                'total_items': len(all_items)
+            }
+            
+        except Exception as e:
+            diagnosis['error_reading_directory'] = str(e)
+        
+        return jsonify(diagnosis)
     except Exception as e:
         return jsonify({
             'success': False,
@@ -1664,6 +1744,7 @@ if __name__ == '__main__':
     print("    POST /api/ollama/install")
     print("\n  Data:")
     print("    GET  /api/logs/sessions")
+    print("    GET  /api/logs/diagnose (troubleshooting)")
     print(f"\nServer running on: http://localhost:5000")
     print("=" * 80)
     print("\nPress Ctrl+C to stop the server\n")
