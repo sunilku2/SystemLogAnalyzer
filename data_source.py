@@ -3,8 +3,11 @@ Data Source Abstraction Layer
 Provides interface for reading logs from filesystem or database
 """
 from abc import ABC, abstractmethod
+import logging
 from typing import List
 from models import LogEntry
+
+logger = logging.getLogger('log_analyzer.data_source')
 
 
 class DataSource(ABC):
@@ -31,21 +34,28 @@ class FileSystemDataSource(DataSource):
     
     def get_log_entries(self, **kwargs) -> List[LogEntry]:
         """Read log entries from filesystem"""
-        return self.log_parser.parse_all_logs(self.base_logs_dir, self.log_types)
+        logger.info(f'Retrieving log entries from {self.base_logs_dir}')
+        logger.debug(f'Log types to retrieve: {self.log_types}')
+        entries = self.log_parser.parse_all_logs(self.base_logs_dir, self.log_types)
+        logger.info(f'Retrieved {len(entries)} log entries')
+        return entries
     
     def get_statistics(self) -> dict:
         """Get statistics about filesystem logs"""
+        logger.debug('Gathering filesystem statistics')
         discovered = self.log_parser.discover_logs(self.base_logs_dir)
         unique_users = set(user_id for user_id, _, _, _ in discovered)
         unique_systems = set(system_name for _, system_name, _, _ in discovered)
         
-        return {
+        stats = {
             "total_sessions": len(discovered),
             "unique_users": len(unique_users),
             "unique_systems": len(unique_systems),
             "source_type": "filesystem",
             "base_directory": self.base_logs_dir
         }
+        logger.info(f'Filesystem stats: {len(discovered)} sessions, {len(unique_users)} users, {len(unique_systems)} systems')
+        return stats
 
 
 class DatabaseDataSource(DataSource):

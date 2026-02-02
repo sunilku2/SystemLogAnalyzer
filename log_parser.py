@@ -3,17 +3,22 @@ Log Parser Module - Parses various Windows Event Logs (both .log text files and 
 """
 import os
 import re
+import logging
 from datetime import datetime
 from typing import List, Dict, Tuple
 from models import LogEntry
+
+logger = logging.getLogger('log_analyzer.parser')
 
 # Try to import EVTX parser (optional dependency)
 try:
     from evtx_parser import EvtxParser
     EVTX_SUPPORT = True
+    logger.info('EVTX support enabled')
 except ImportError:
     EVTX_SUPPORT = False
     EvtxParser = None
+    logger.debug('EVTX support not available')
 
 
 class LogParser:
@@ -29,22 +34,26 @@ class LogParser:
     
     def parse_log_file(self, file_path: str, user_id: str, system_name: str, session_timestamp: str) -> List[LogEntry]:
         """Parse a single log file and extract all events (supports both .log and .evtx formats)"""
+        logger.debug(f'Parsing log file: {file_path}')
         
         # Check file extension and route to appropriate parser
         if file_path.lower().endswith('.evtx'):
             if self.evtx_parser:
+                logger.debug(f'Using EVTX parser for {file_path}')
                 return self.evtx_parser.parse_evtx_file(file_path, user_id, system_name, session_timestamp)
             else:
-                print(f"Warning: EVTX format not supported for {file_path}. Install pyevtx: pip install libevtx-python")
+                logger.warning(f'EVTX format not supported for {file_path}. Install pyevtx: pip install libevtx-python')
                 return []
         else:
             # Parse as text-based log file
+            logger.debug(f'Using text parser for {file_path}')
             return self._parse_text_log_file(file_path, user_id, system_name, session_timestamp)
     
     def _parse_text_log_file(self, file_path: str, user_id: str, system_name: str, session_timestamp: str) -> List[LogEntry]:
         """Parse text-based log files (.log format)"""
         log_entries = []
         log_type = os.path.basename(file_path).replace(".log", "")
+        logger.debug(f'Parsing text log file: {file_path} (type: {log_type})')
         
         try:
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:

@@ -5,9 +5,12 @@ Integrates with local LLMs (Ollama, LM Studio) or cloud providers
 import json
 import time
 import requests
+import logging
 from typing import List, Dict, Optional
 from models import LogEntry, Issue
 import hashlib
+
+logger = logging.getLogger('log_analyzer.llm')
 
 
 class LLMAnalyzer:
@@ -24,6 +27,7 @@ class LLMAnalyzer:
         self.model_name = model_name
         self.provider = provider
         self.base_url = self._get_base_url()
+        logger.info(f'LLMAnalyzer initialized: provider={provider}, model={model_name}')
     
     def _get_base_url(self) -> str:
         """Get base URL for the LLM provider"""
@@ -33,10 +37,13 @@ class LLMAnalyzer:
             "openai": "https://api.openai.com/v1",
             "azure": "https://your-resource.openai.azure.com"
         }
-        return urls.get(self.provider, urls["ollama"])
+        url = urls.get(self.provider, urls["ollama"])
+        logger.debug(f'Base URL for {self.provider}: {url}')
+        return url
     
     def get_available_models(self) -> List[Dict]:
         """Get list of available models from the provider"""
+        logger.info(f'Fetching available models from {self.provider}')
         try:
             # Disable proxies for localhost connections
             proxies = {
@@ -45,35 +52,50 @@ class LLMAnalyzer:
             }
             
             if self.provider == "ollama":
+                url = f"{self.base_url}/api/tags"
+                logger.debug(f'Querying Ollama endpoint: {url}')
                 response = requests.get(
-                    f"{self.base_url}/api/tags", 
+                    url, 
                     timeout=5,
                     proxies=proxies
                 )
+                logger.debug(f'Ollama response status: {response.status_code}')
                 if response.status_code == 200:
                     data = response.json()
                     models = [{"name": model["name"], "size": model.get("size", 0)} 
                              for model in data.get("models", [])]
+                    logger.info(f'Found {len(models)} models in Ollama')
                     if models:
                         return models
                 elif response.status_code == 403:
                     # Proxy interference - return default models
+                    logger.warning('Got 403 from Ollama, returning default models')
                     return self._get_default_ollama_models()
             elif self.provider == "lmstudio":
+                url = f"{self.base_url}/v1/models"
+                logger.debug(f'Querying LM Studio endpoint: {url}')
                 response = requests.get(
-                    f"{self.base_url}/v1/models", 
+                    url, 
                     timeout=5,
                     proxies=proxies
                 )
+                logger.debug(f'LM Studio response status: {response.status_code}')
                 if response.status_code == 200:
                     data = response.json()
-                    return [{"name": model["id"], "size": 0} 
+                    models = [{"name": model["id"], "size": 0} 
                            for model in data.get("data", [])]
+                    logger.info(f'Found {len(models)} models in LM Studio')
+                    return models
+        except requests.exceptions.Timeout:
+            logger.warning(f'Timeout connecting to {self.provider} at {self.base_url}')
+        except requests.exceptions.ConnectionError:
+            logger.warning(f'Connection error to {self.provider} at {self.base_url}')
         except Exception as e:
-            print(f"Error fetching models: {e}")
+            logger.error(f'Error fetching models from {self.provider}: {str(e)}', exc_info=True)
             if self.provider == "ollama":
                 return self._get_default_ollama_models()
         
+        logger.warning(f'Could not fetch models, returning empty list')
         return []
     
     def _get_default_ollama_models(self) -> List[Dict]:

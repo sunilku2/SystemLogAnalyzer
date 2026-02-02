@@ -13,6 +13,8 @@ import time
 import subprocess
 import tempfile
 import requests
+import logging
+from logging.handlers import RotatingFileHandler
 
 # Add parent directory to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -27,6 +29,43 @@ from models import AnalysisReport
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for .NET frontend
+
+# Setup logging
+log_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs')
+os.makedirs(log_dir, exist_ok=True)
+
+logger = logging.getLogger('log_analyzer')
+logger.setLevel(logging.DEBUG)
+
+# File handler - rotating logs
+file_handler = RotatingFileHandler(
+    os.path.join(log_dir, 'api_server.log'),
+    maxBytes=10*1024*1024,
+    backupCount=5
+)
+file_handler.setLevel(logging.DEBUG)
+
+# Console handler
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+
+# Formatter
+formatter = logging.Formatter(
+    '%(asctime)s - %(name)s - %(levelname)s - [%(filename)s:%(lineno)d] - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+file_handler.setFormatter(formatter)
+console_handler.setFormatter(formatter)
+
+logger.addHandler(file_handler)
+logger.addHandler(console_handler)
+
+logger.info('=== Log Analyzer API Server Starting ===')
+logger.info(f'Logs Directory: {LOGS_DIR}')
+logger.info(f'Report Output Directory: {REPORT_OUTPUT_DIR}')
+logger.info(f'LLM Enabled: {LLM_ENABLED}')
+logger.info(f'LLM Provider: {LLM_PROVIDER}')
+logger.info(f'LLM Model: {LLM_MODEL}')
 
 # Background watcher settings
 WATCH_INTERVAL_SECONDS = 600  # 10 minutes
@@ -50,24 +89,35 @@ analysis_lock = threading.Lock()
 
 def _compute_logs_signature():
     """Return a lightweight signature of current logs (max mtime, file count) - includes .log and .evtx files."""
+    logger.debug(f'Computing logs signature from {LOGS_DIR}')
     latest_mtime = 0
     file_count = 0
-    for root, _dirs, files in os.walk(LOGS_DIR):
-        # Check configured log types
-        for log_name in LOG_TYPES:
-            path = os.path.join(root, log_name)
-            if os.path.exists(path):
-                file_count += 1
-                latest_mtime = max(latest_mtime, os.path.getmtime(path))
+    try:
+        for root, _dirs, files in os.walk(LOGS_DIR):
+            # Check configured log types
+            for log_name in LOG_TYPES:
+                path = os.path.join(root, log_name)
+                if os.path.exists(path):
+                    file_count += 1
+                    mtime = os.path.getmtime(path)
+                    latest_mtime = max(latest_mtime, mtime)
+                    logger.debug(f'Found log file: {path}')
+            
+            # Also check for .evtx files
+            for filename in files:
+                if filename.lower().endswith('.evtx'):
+                    path = os.path.join(root, filename)
+                    file_count += 1
+                    mtime = os.path.getmtime(path)
+                    latest_mtime = max(latest_mtime, mtime)
+                    logger.debug(f'Found EVTX file: {path}')
         
-        # Also check for .evtx files
-        for filename in files:
-            if filename.lower().endswith('.evtx'):
-                path = os.path.join(root, filename)
-                file_count += 1
-                latest_mtime = max(latest_mtime, os.path.getmtime(path))
-    
-    return (latest_mtime, file_count)
+        signature = (latest_mtime, file_count)
+        logger.debug(f'Logs signature: {file_count} files, latest mtime: {latest_mtime}')
+        return signature
+    except Exception as e:
+        logger.error(f'Error computing logs signature: {str(e)}', exc_info=True)
+        return (0, 0)
 
 
 def _execute_analysis(use_llm: bool, model_name: str, provider: str, source: str = "manual"):

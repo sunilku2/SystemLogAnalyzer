@@ -3,10 +3,13 @@ Issue Detection Module - Identifies and categorizes issues from log entries
 """
 import re
 import hashlib
+import logging
 from typing import List, Dict
 from collections import defaultdict
 from difflib import SequenceMatcher
 from models import LogEntry, Issue
+
+logger = logging.getLogger('log_analyzer.detector')
 
 
 class IssueDetector:
@@ -173,13 +176,15 @@ class IssueDetector:
     
     def detect_issues(self, log_entries: List[LogEntry]) -> List[Issue]:
         """Detect and group issues from log entries"""
+        logger.info(f'Starting issue detection on {len(log_entries)} log entries')
+        
         # Filter for warnings, errors, and critical entries
         significant_entries = [
             entry for entry in log_entries 
             if entry.level in ["Warning", "Error", "Critical"]
         ]
         
-        print(f"\nAnalyzing {len(significant_entries)} significant log entries...")
+        logger.info(f'Found {len(significant_entries)} significant entries (Warning/Error/Critical)')
         
         # Group similar issues
         issue_groups = defaultdict(list)
@@ -188,14 +193,15 @@ class IssueDetector:
             issue_signature = self._get_issue_signature(entry)
             issue_groups[issue_signature].append(entry)
         
+        logger.debug(f'Grouped entries into {len(issue_groups)} unique issue signatures')
+        
         # Create Issue objects
         issues = []
         for signature, entries in issue_groups.items():
             issue = self._create_issue_from_entries(signature, entries)
             if issue:
                 issues.append(issue)
-        
-        print(f"Identified {len(issues)} unique issues")
+                logger.debug(f'Created issue: category={issue.category}, severity={issue.severity}, count={len(entries)}')
         return issues
     
     def _get_issue_signature(self, entry: LogEntry) -> str:
