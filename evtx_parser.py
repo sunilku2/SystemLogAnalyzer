@@ -7,9 +7,12 @@ Supports multiple parsing strategies:
 """
 import os
 import sys
+import logging
 from datetime import datetime
 from typing import List
 from models import LogEntry
+
+logger = logging.getLogger('log_analyzer.parser')
 
 # Try different EVTX parsing libraries in order of preference
 PYEVTX_AVAILABLE = False
@@ -43,35 +46,43 @@ class EvtxParser:
         
         # Log available parsers
         if self.pyevtx_available:
-            print("[EVTX] pyevtx library available for parsing")
+            logger.info("[EVTX] pyevtx library available for parsing")
         elif self.simple_parser:
-            print("[EVTX] Using pure Python/Windows API fallback parser")
+            logger.info("[EVTX] Using pure Python/Windows API fallback parser")
         else:
-            print("[EVTX] Warning: No EVTX parsing available. Install pyevtx or ensure simple_evtx_parser is available")
+            logger.warning("[EVTX] Warning: No EVTX parsing available. Install pyevtx or ensure simple_evtx_parser is available")
     
     def parse_evtx_file(self, file_path: str, user_id: str, system_name: str, session_timestamp: str) -> List[LogEntry]:
         """Parse a single .evtx file and extract all events"""
         log_entries = []
         
         if not os.path.exists(file_path):
-            print(f"Warning: EVTX file not found: {file_path}")
+            logger.warning(f"EVTX file not found: {file_path}")
             return log_entries
+        
+        logger.debug(f"EvtxParser.parse_evtx_file called for {os.path.basename(file_path)}")
         
         # Try pyevtx first if available
         if self.pyevtx_available:
             try:
-                return self._parse_with_pyevtx(file_path, user_id, system_name, session_timestamp)
+                logger.debug(f"Attempting pyevtx parsing for {os.path.basename(file_path)}")
+                entries = self._parse_with_pyevtx(file_path, user_id, system_name, session_timestamp)
+                logger.info(f"pyevtx successfully parsed {len(entries)} entries")
+                return entries
             except Exception as e:
-                print(f"pyevtx parsing failed: {e}. Trying fallback parser...")
+                logger.debug(f"pyevtx parsing failed: {e}. Trying fallback parser...")
         
         # Fall back to simple parser
         if self.simple_parser:
             try:
-                return self.simple_parser.parse_evtx_file(file_path, user_id, system_name, session_timestamp)
+                logger.debug(f"Attempting simple parser for {os.path.basename(file_path)}")
+                entries = self.simple_parser.parse_evtx_file(file_path, user_id, system_name, session_timestamp)
+                logger.info(f"Simple parser returned {len(entries)} entries")
+                return entries
             except Exception as e:
-                print(f"Simple parser failed: {e}")
+                logger.error(f"Simple parser failed: {e}", exc_info=True)
         
-        print(f"Warning: Could not parse EVTX file {file_path}")
+        logger.warning(f"Could not parse EVTX file {file_path}")
         return log_entries
     
     def _parse_with_pyevtx(self, file_path: str, user_id: str, system_name: str, session_timestamp: str) -> List[LogEntry]:

@@ -5,9 +5,12 @@ Uses xml.etree to parse EVTX files if Windows API is available
 import os
 import struct
 import xml.etree.ElementTree as ET
+import logging
 from datetime import datetime
 from typing import List
 from models import LogEntry
+
+logger = logging.getLogger('log_analyzer.parser')
 
 
 class SimpleEvtxParser:
@@ -28,23 +31,34 @@ class SimpleEvtxParser:
         log_entries = []
         
         if not os.path.exists(file_path):
-            print(f"Warning: EVTX file not found: {file_path}")
+            logger.warning(f"EVTX file not found: {file_path}")
             return log_entries
+        
+        file_size = os.path.getsize(file_path)
+        logger.debug(f"Parsing EVTX file: {file_path} (size: {file_size} bytes)")
         
         log_type = os.path.basename(file_path).replace(".evtx", "")
         
         try:
             # Try to use Windows API if available (Windows only)
             if os.name == 'nt':
-                return self._parse_with_windows_api(file_path, user_id, system_name, session_timestamp, log_type)
+                logger.debug(f"Attempting Windows API parsing for {os.path.basename(file_path)}")
+                entries = self._parse_with_windows_api(file_path, user_id, system_name, session_timestamp, log_type)
+                if entries:
+                    logger.info(f"Windows API successfully parsed {len(entries)} events from {os.path.basename(file_path)}")
+                    return entries
+                logger.debug(f"Windows API returned 0 entries, trying fallback")
         except Exception as e:
-            print(f"Windows API parsing failed: {e}, falling back to basic parsing")
+            logger.debug(f"Windows API parsing failed: {e}, falling back to basic parsing")
         
         # Fallback: try basic binary parsing
         try:
-            return self._parse_basic_evtx(file_path, user_id, system_name, session_timestamp, log_type)
+            logger.debug(f"Using basic binary parsing for {os.path.basename(file_path)}")
+            entries = self._parse_basic_evtx(file_path, user_id, system_name, session_timestamp, log_type)
+            logger.info(f"Basic parser extracted {len(entries)} events from {os.path.basename(file_path)}")
+            return entries
         except Exception as e:
-            print(f"Error parsing EVTX file {file_path}: {e}")
+            logger.error(f"Error parsing EVTX file {file_path}: {e}", exc_info=True)
             return log_entries
     
     def _parse_with_windows_api(self, file_path: str, user_id: str, system_name: str, session_timestamp: str, log_type: str) -> List[LogEntry]:
@@ -131,20 +145,29 @@ class SimpleEvtxParser:
             with open(file_path, 'rb') as f:
                 content = f.read()
             
+            logger.debug(f"Read {len(content)} bytes from {os.path.basename(file_path)}")
+            
             # Search for XML strings in the binary data
             # EVTX files contain UTF-16LE encoded XML fragments
             
             # Try to decode and extract XML-like patterns
+            text = None
+            encoding_used = None
             try:
                 # Try UTF-16LE (common in Windows event logs)
                 text = content.decode('utf-16-le', errors='ignore')
+                encoding_used = 'utf-16-le'
             except:
                 try:
                     # Fallback to UTF-8
                     text = content.decode('utf-8', errors='ignore')
+                    encoding_used = 'utf-8'
                 except:
                     # Last resort: try latin-1
                     text = content.decode('latin-1', errors='ignore')
+                    encoding_used = 'latin-1'
+            
+            logger.debug(f"Decoded file using {encoding_used} encoding, result length: {len(text) if text else 0} characters")
             
             # Extract text content between common markers
             # This is a very basic extraction
@@ -158,15 +181,34 @@ class SimpleEvtxParser:
             
             # Split by Event-like markers
             # This is very approximate and may not work for all EVTX files
+            time_matches = list(time_pattern.finditer(text))
+            logger.debug(f"Found {len(time_matches)} SystemTime patterns in decoded text")
+            
+            if len(time_matches) == 0:
+                # Try alternative markers if SystemTime not found
+                logger.debug(f"No SystemTime found, searching for alternative patterns")
+                # Look for Event elements as fallback
+                event_elem_pattern = re.compile(r'<Event[^>]*>.*?</Event>', re.IGNORECASE | re.DOTALL)
+                alt_matches = list(event_elem_pattern.finditer(text))
+                logger.debug(f"Found {len(alt_matches)} alternative Event element patterns")
+                if alt_matches:
+                    time_matches = alt_matches
+            
             event_num = 0
-            for match_time in time_pattern.finditer(text):
+            for match_time in time_matches:
                 try:
                     event_num += 1
                     
-                    # Find nearest matches for this event
-                    start_pos = max(0, match_time.start() - 1000)
-                    end_pos = min(len(text), match_time.end() + 1000)
-                    event_context = text[start_pos:end_pos]
+                    # For alternative matches, use the whole match as context
+                    if hasattr(match_time, 'group') and '<Event' in match_time.group():
+                        event_context = match_time.group()
+                    else:
+                        # Find nearest matches for this event
+                        start_pos = max(0, match_time.start() - 1000)
+                        end_pos = min(len(text), match_time.end() + 1000)
+                        event_context = text[start_pos:end_pos]
+                    
+                    logger.debug(f"Processing event {event_num}, context length: {len(event_context)} chars")
                     
                     # Extract fields
                     event_id_match = event_pattern.search(event_context)
@@ -215,12 +257,14 @@ class SimpleEvtxParser:
                         session_timestamp=session_timestamp
                     )
                     log_entries.append(log_entry)
+                    logger.debug(f"Event {event_num} parsed: ID={event_id}, Level={level}, Source={source}")
                     
                 except Exception as e:
-                    print(f"Error parsing event {event_num}: {e}")
+                    logger.debug(f"Error parsing event {event_num}: {e}", exc_info=True)
                     continue
         
         except Exception as e:
-            print(f"Error reading EVTX file {file_path}: {e}")
+            logger.error(f"Error reading EVTX file {file_path}: {e}", exc_info=True)
         
+        logger.info(f"Completed basic parsing: extracted {len(log_entries)} total events from {os.path.basename(file_path)}")
         return log_entries

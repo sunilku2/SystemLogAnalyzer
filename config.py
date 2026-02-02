@@ -9,12 +9,11 @@ LOGS_DIR = os.path.join(BASE_DIR, "analysis_logs")
 
 # Log types to analyze
 LOG_TYPES = [
-    "System.log",
-    "Application.log",
-    "Network.log",
-    "network_ncsi.log",
-    "network_wlan.log",
-    "Driver.log"
+    "system_logs.txt",
+    "application_logs.txt",
+    "network_logs.txt",
+    "driver_logs.txt",
+    "security_logs.txt"
 ]
 
 # Data source configuration (for future DB integration)

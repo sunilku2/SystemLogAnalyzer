@@ -25,7 +25,19 @@ class LogParser:
     """Parses Windows Event Log files (both .log and .evtx formats)"""
     
     def __init__(self):
-        self.event_pattern = re.compile(
+        # Pattern for format: Time, Level, Source, Event ID, Category (actual format in logs)
+        # Message can be on same line or next line
+        self.event_pattern_actual = re.compile(
+            r"Event #(\d+)\s*\n-+\s*\n(?:Time:\s*([\d\-:]+)\s*\n)?(?:Level:\s*(\w+)\s*\n)?(?:Source:\s*(.*?)\s*\n)?(?:Event ID:\s*(\d+)\s*\n)?(?:Category:\s*(.*?)\s*\n)?Message:\s*\n?(.*?)(?=\n\n=+|\nEvent #|\Z)",
+            re.DOTALL | re.MULTILINE
+        )
+        # Pattern for multi-line format (Level, Source, Event ID, Time order)
+        self.event_pattern_multiline = re.compile(
+            r"Event #(\d+)\s*\n-*\s*\n(?:Level:\s*(\w+)\s*\n)?(?:Source:\s*(.*?)\s*\n)?(?:Event ID:\s*(\d+)\s*\n)?(?:Time:\s*([\d\-:\s]+)\s*\n)?Message:\s*\n?(.*?)(?=\n\nEvent #|\Z)",
+            re.DOTALL | re.MULTILINE
+        )
+        # Pattern for single-line event format (backward compatibility)
+        self.event_pattern_inline = re.compile(
             r"Event #(\d+)\s*-+\s*Level:\s*(\w+)\s*Source:\s*([\w\s]+)\s*Event ID:\s*(\d+)\s*Time:\s*([\d\-:\s]+)\s*Message:\s*(.*?)(?=\n\nEvent #|\n\n\Z)",
             re.DOTALL | re.MULTILINE
         )
@@ -52,26 +64,64 @@ class LogParser:
     def _parse_text_log_file(self, file_path: str, user_id: str, system_name: str, session_timestamp: str) -> List[LogEntry]:
         """Parse text-based log files (.log format)"""
         log_entries = []
-        log_type = os.path.basename(file_path).replace(".log", "")
+        log_type = os.path.basename(file_path).replace(".log", "").replace(".txt", "")
         logger.debug(f'Parsing text log file: {file_path} (type: {log_type})')
         
         try:
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
                 content = f.read()
             
-            matches = self.event_pattern.finditer(content)
+            logger.debug(f'Read {len(content)} characters from text log file')
+            
+            # Try actual format first (Time, Level, Source, Event ID, Category)
+            matches = list(self.event_pattern_actual.finditer(content))
+            logger.debug(f'Actual format pattern found {len(matches)} matches')
+            
+            # If no matches, try multi-line format
+            if len(matches) == 0:
+                matches = list(self.event_pattern_multiline.finditer(content))
+                logger.debug(f'Multi-line format pattern found {len(matches)} matches')
+                format_used = "multiline"
+            else:
+                format_used = "actual"
+            
+            # If still no matches, try single-line format
+            if len(matches) == 0:
+                matches = list(self.event_pattern_inline.finditer(content))
+                logger.debug(f'Single-line format pattern found {len(matches)} matches')
+                format_used = "inline"
+            
+            logger.debug(f'Using format: {format_used}')
             
             for match in matches:
                 try:
-                    event_num = int(match.group(1))
-                    level = match.group(2).strip()
-                    source = match.group(3).strip()
-                    event_id = int(match.group(4))
-                    timestamp_str = match.group(5).strip()
-                    message = match.group(6).strip()
+                    groups = match.groups()
+                    
+                    if format_used == "actual":
+                        # Groups: event_num, time, level, source, event_id, category, message
+                        event_num = int(groups[0])
+                        timestamp_str = (groups[1] or "").strip()
+                        level = (groups[2] or "Information").strip()
+                        source = (groups[3] or "Unknown").strip()
+                        event_id = int(groups[4]) if groups[4] else 0
+                        message = (groups[6] or "").strip()
+                    else:
+                        # For multiline and inline formats - need to handle differently
+                        # Multiline: event_num, level, source, event_id, time, message
+                        # Inline: event_num, level, source, event_id, time, message
+                        event_num = int(groups[0])
+                        if format_used == "actual":
+                            timestamp_str = (groups[1] or "").strip()
+                            level = (groups[2] or "Information").strip()
+                        else:
+                            level = (groups[1] or "Information").strip()
+                            timestamp_str = (groups[4] if len(groups) > 4 else "").strip()
+                        source = (groups[2] if len(groups) > 2 else "Unknown").strip()
+                        event_id = int(groups[3]) if len(groups) > 3 and groups[3] else 0
+                        message = (groups[5] if len(groups) > 5 else groups[-1] or "").strip()
                     
                     # Parse timestamp
-                    timestamp = self._parse_timestamp(timestamp_str)
+                    timestamp = self._parse_timestamp(timestamp_str) if timestamp_str else datetime.now()
                     
                     log_entry = LogEntry(
                         event_number=event_num,
@@ -86,14 +136,16 @@ class LogParser:
                         session_timestamp=session_timestamp
                     )
                     log_entries.append(log_entry)
+                    logger.debug(f'Event {event_num} parsed: Level={level}, Source={source}')
                     
                 except Exception as e:
-                    print(f"Error parsing event in {file_path}: {e}")
+                    logger.debug(f"Error parsing event in {file_path}: {e}", exc_info=True)
                     continue
                     
         except Exception as e:
-            print(f"Error reading file {file_path}: {e}")
+            logger.error(f"Error reading text log file {file_path}: {e}", exc_info=True)
         
+        logger.info(f'Text log file parsing complete: {len(log_entries)} entries extracted from {os.path.basename(file_path)}')
         return log_entries
     
     def _parse_timestamp(self, timestamp_str: str) -> datetime:
@@ -149,27 +201,37 @@ class LogParser:
         all_entries = []
         
         discovered_logs = self.discover_logs(base_logs_dir)
+        logger.info(f"Discovered {len(discovered_logs)} log sessions")
         print(f"Discovered {len(discovered_logs)} log sessions")
         
         for user_id, system_name, session_timestamp, session_path in discovered_logs:
+            logger.debug(f"Processing session: User={user_id}, System={system_name}, Session={session_timestamp}, Path={session_path}")
             print(f"Parsing logs for User: {user_id}, System: {system_name}, Session: {session_timestamp}")
             
             # First, parse configured log types (.log files)
             for log_type in log_types:
                 log_file_path = os.path.join(session_path, log_type)
                 if os.path.exists(log_file_path):
+                    logger.debug(f"Found log file: {log_file_path}")
                     entries = self.parse_log_file(log_file_path, user_id, system_name, session_timestamp)
                     all_entries.extend(entries)
                     print(f"  - Parsed {len(entries)} entries from {log_type}")
+                    logger.info(f"Parsed {len(entries)} entries from {log_type} in session {session_timestamp}")
+                else:
+                    logger.debug(f"Log file not found: {log_file_path}")
             
             # Also scan for any .evtx files in the session directory
             if os.path.isdir(session_path):
+                logger.debug(f"Scanning {session_path} for EVTX files")
                 for filename in os.listdir(session_path):
                     if filename.lower().endswith('.evtx'):
                         evtx_file_path = os.path.join(session_path, filename)
+                        logger.debug(f"Found EVTX file: {evtx_file_path}")
                         entries = self.parse_log_file(evtx_file_path, user_id, system_name, session_timestamp)
                         all_entries.extend(entries)
                         print(f"  - Parsed {len(entries)} entries from {filename} (EVTX)")
+                        logger.info(f"Parsed {len(entries)} entries from {filename} (EVTX)")
         
+        logger.info(f"Total log parsing complete: {len(all_entries)} entries parsed from all sources")
         print(f"\nTotal entries parsed: {len(all_entries)}")
         return all_entries
