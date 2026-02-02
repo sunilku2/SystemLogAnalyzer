@@ -76,6 +76,107 @@
   margin-left: auto;
 }
 
+/* Ollama Status Display */
+.url-display {
+  background-color: #f0f9ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  color: #1e40af;
+  word-break: break-all;
+  margin-bottom: 6px;
+}
+
+.models-list {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.model-summary {
+  padding: 8px;
+  background-color: #e0e7ff;
+  color: #3730a3;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.model-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 12px;
+}
+
+.model-item:last-child {
+  border-bottom: none;
+}
+
+.model-name {
+  flex: 1;
+  color: #334155;
+  font-weight: 500;
+  word-break: break-all;
+}
+
+.model-size {
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 600;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+.alert-info {
+  background-color: #dbeafe;
+  color: #0c4a6e;
+  border: 1px solid #7dd3fc;
+}
+
+/* Startup Instructions */
+.startup-instructions {
+  background-color: #fef3c7;
+  border: 1px solid #fcd34d;
+  border-radius: 4px;
+  padding: 12px;
+  margin: 12px 0;
+  font-size: 12px;
+  color: #92400e;
+}
+
+.startup-instructions strong {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.startup-instructions ol {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.startup-instructions li {
+  margin: 4px 0;
+  line-height: 1.4;
+}
+
+.startup-instructions a {
+  color: #1f2937;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.startup-instructions a:hover {
+  color: #111827;
+}
+
 @keyframes slideDown {
   from {
     opacity: 0;
@@ -349,6 +450,21 @@
   width: 100%;
   padding: 12px 24px;
   font-size: 14px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.installation-note {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fef3c7;
+  border: 1px solid #fcd34d;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #92400e;
+  text-align: center;
 }
 
 /* Info Box */

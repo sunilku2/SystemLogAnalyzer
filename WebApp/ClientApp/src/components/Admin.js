@@ -17,6 +17,10 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [isDownloading, setIsDownloading] = useState(false);
+  const [ollamaStatus, setOllamaStatus] = useState({ is_running: false });
+  const [modelToDownload, setModelToDownload] = useState('');
+  const [ollamaInstalled, setOllamaInstalled] = useState({ is_installed: false });
+  const [isStartingOllama, setIsStartingOllama] = useState(false);
 
   // Initialize from config
   useEffect(() => {
@@ -80,8 +84,38 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     }
   };
 
+  const fetchOllamaStatus = async () => {
+    try {
+      const response = await fetch('/api/ollama/status');
+      if (response.ok) {
+        const data = await response.json();
+        setOllamaStatus(data);
+      } else {
+        setOllamaStatus({ is_running: false, error: 'Failed to fetch status' });
+      }
+    } catch (error) {
+      console.error('Failed to fetch Ollama status:', error);
+      setOllamaStatus({ is_running: false, error: error.message });
+    }
+  };
+
+  const checkOllamaInstalled = async () => {
+    try {
+      const response = await fetch('/api/ollama/check-installed');
+      if (response.ok) {
+        const data = await response.json();
+        setOllamaInstalled(data);
+      }
+    } catch (error) {
+      console.error('Failed to check Ollama installation:', error);
+      setOllamaInstalled({ is_installed: false, error: error.message });
+    }
+  };
+
   useEffect(() => {
     fetchAnalyzerStatus();
+    fetchOllamaStatus();
+    checkOllamaInstalled();
   }, []);
 
   const handleSaveConfiguration = async () => {
@@ -208,6 +242,76 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     }
   };
 
+  const handleDownloadModel = async () => {
+    if (!modelToDownload) {
+      setErrorMessage('❌ Please select a model to download.');
+      return;
+    }
+
+    setErrorMessage('');
+    setSuccessMessage('');
+    setIsDownloading(true);
+
+    try {
+      const response = await fetch('/api/ollama/pull', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ model: modelToDownload }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSuccessMessage(`✅ Model '${modelToDownload}' downloaded successfully!`);
+        setTimeout(() => setSuccessMessage(''), 4000);
+        setModelToDownload('');
+        fetchOllamaStatus();
+        loadModels(llmProvider);
+      } else {
+        setErrorMessage(`❌ ${data.error || 'Failed to download model'}`);
+      }
+    } catch (error) {
+      setErrorMessage(`❌ ${error.message || 'Failed to download model.'}`);
+    } finally {
+      setIsDownloading(false);
+    }
+  };
+
+  const handleStartOllama = async () => {
+    setErrorMessage('');
+    setSuccessMessage('');
+    setIsStartingOllama(true);
+
+    try {
+      const response = await fetch('/api/ollama/start', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+      });
+
+      const data = await response.json();
+
+      if (data.is_running) {
+        setSuccessMessage('✅ Ollama started successfully!');
+        setTimeout(() => setSuccessMessage(''), 3000);
+        fetchOllamaStatus();
+      } else if (data.started) {
+        setSuccessMessage('⏳ Ollama is starting... Please wait a moment and refresh status.');
+        setTimeout(() => {
+          fetchOllamaStatus();
+          setSuccessMessage('');
+        }, 3000);
+      } else if (data.is_installed === false) {
+        setErrorMessage(`❌ Ollama is not installed. Click the download button below to get it.`);
+      } else {
+        setErrorMessage(`❌ ${data.error || 'Failed to start Ollama'}`);
+      }
+    } catch (error) {
+      setErrorMessage(`❌ ${error.message || 'Failed to start Ollama.'}`);
+    } finally {
+      setIsStartingOllama(false);
+    }
+  };
+
   const analyzerStatusColor = {
     idle: '#94a3b8',
     running: '#10b981',
@@ -327,6 +431,116 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
             </button>
           </div>
         </div>
+
+        {/* Ollama Status */}
+        {supportsDownload && ollamaStatus && (
+          <div className="admin-card">
+            <div className="card-header">
+              <h3>🦙 Ollama Status</h3>
+              <span className="card-badge">Service</span>
+            </div>
+            <div className="card-content">
+              <div className="form-group">
+                <label>Service Status</label>
+                <div className="status-display" style={{
+                  background: ollamaStatus.is_running ? '#10b981' : '#ea580c',
+                  marginBottom: '16px'
+                }}>
+                  {ollamaStatus.is_running ? '✅ RUNNING' : '❌ STOPPED'}
+                </div>
+              </div>
+
+              {!ollamaStatus.is_running && (
+                <div className="alert alert-error">
+                  <span>⚠️ Ollama service is not running.</span>
+                </div>
+              )}
+
+              {!ollamaStatus.is_running && ollamaInstalled && ollamaInstalled.is_installed && (
+                <button className="btn btn-success w-full" onClick={handleStartOllama} disabled={isStartingOllama}>
+                  {isStartingOllama ? '▶️ Starting...' : '▶️ Start Ollama'}
+                </button>
+              )}
+
+              {!ollamaStatus.is_running && ollamaInstalled && !ollamaInstalled.is_installed && (
+                <>
+                  <div className="alert alert-error">
+                    <span>❌ Ollama is not installed on this system.</span>
+                  </div>
+                  <a 
+                    href="https://ollama.ai" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="btn btn-primary w-full"
+                    style={{ display: 'inline-block', textAlign: 'center', textDecoration: 'none' }}
+                  >
+                    📥 Download & Install Ollama
+                  </a>
+                  <p className="installation-note">
+                    After installation, restart this application and click "Start Ollama" button.
+                  </p>
+                </>
+              )}
+
+              {ollamaStatus.is_running && (
+                <>
+                  <div className="form-group">
+                    <label>Base URL</label>
+                    <div className="url-display">
+                      {ollamaStatus.base_url}
+                    </div>
+                  </div>
+
+                  <div className="form-group">
+                    <label>Installed Models ({ollamaStatus.model_count})</label>
+                    {ollamaStatus.installed_models && ollamaStatus.installed_models.length > 0 ? (
+                      <div className="models-list">
+                        <div className="model-summary">
+                          📦 {ollamaStatus.model_count} model(s) • {ollamaStatus.total_size_gb} GB total
+                        </div>
+                        {ollamaStatus.installed_models.map((model, idx) => (
+                          <div key={idx} className="model-item">
+                            <div className="model-name">📄 {model.name}</div>
+                            <div className="model-size">{model.size_gb} GB</div>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="alert alert-info">
+                        <span>ℹ️ No models installed. Use download section below.</span>
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="form-group">
+                    <label>Download Model</label>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: '8px' }}>
+                      <input
+                        type="text"
+                        placeholder="e.g., llama3.2:3b, mistral, phi3:mini"
+                        value={modelToDownload}
+                        onChange={(e) => setModelToDownload(e.target.value)}
+                        className="form-input"
+                      />
+                      <button
+                        className="btn btn-success"
+                        onClick={handleDownloadModel}
+                        disabled={isDownloading || !modelToDownload}
+                      >
+                        {isDownloading ? '⬇️...' : '⬇️ Pull'}
+                      </button>
+                    </div>
+                    <small>Enter model name and click Pull to download</small>
+                  </div>
+                </>
+              )}
+
+              <button className="btn btn-secondary" onClick={fetchOllamaStatus}>
+                🔄 Refresh Status
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Analyzer Controls */}
         <div className="admin-card">

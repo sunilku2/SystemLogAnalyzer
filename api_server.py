@@ -1261,6 +1261,229 @@ def get_analyzer_status():
         }), 500
 
 
+@app.route('/api/ollama/status', methods=['GET'])
+def get_ollama_status():
+    """Get Ollama service status and information"""
+    try:
+        proxies = {'http': None, 'https': None}
+        
+        # Check if Ollama is running
+        try:
+            response = requests.get(
+                'http://localhost:11434/api/tags',
+                timeout=3,
+                proxies=proxies
+            )
+            is_running = response.status_code in [200, 403]
+        except:
+            is_running = False
+        
+        # Get installed models
+        installed_models = []
+        if is_running:
+            try:
+                response = requests.get(
+                    'http://localhost:11434/api/tags',
+                    timeout=5,
+                    proxies=proxies
+                )
+                if response.status_code == 200:
+                    data = response.json()
+                    installed_models = [
+                        {
+                            'name': model.get('name', ''),
+                            'size': model.get('size', 0),
+                            'size_gb': round(model.get('size', 0) / (1024**3), 2),
+                            'modified': model.get('modified_at', '')
+                        }
+                        for model in data.get('models', [])
+                    ]
+            except Exception as e:
+                print(f"Error fetching Ollama models: {e}")
+        
+        return jsonify({
+            'success': True,
+            'is_running': is_running,
+            'status': 'running' if is_running else 'stopped',
+            'base_url': 'http://localhost:11434',
+            'installed_models': installed_models,
+            'model_count': len(installed_models),
+            'total_size_gb': round(sum(m.get('size', 0) for m in installed_models) / (1024**3), 2)
+        })
+    except Exception as e:
+        return jsonify({
+            'success': True,
+            'error': str(e),
+            'is_running': False
+        }), 200
+
+
+@app.route('/api/ollama/pull', methods=['POST'])
+def ollama_pull_model():
+    """Download an Ollama model"""
+    try:
+        data = request.json
+        model_name = data.get('model')
+        
+        if not model_name:
+            return jsonify({
+                'success': False,
+                'error': 'Model name is required'
+            }), 400
+        
+        # Check if Ollama is running
+        try:
+            response = requests.get(
+                'http://localhost:11434/api/tags',
+                timeout=3,
+                proxies={'http': None, 'https': None}
+            )
+            is_running = response.status_code in [200, 403]
+        except:
+            is_running = False
+        
+        if not is_running:
+            return jsonify({
+                'success': False,
+                'error': 'Ollama service is not running. Please start Ollama first.',
+                'is_running': False
+            }), 503
+        
+        # Pull the model
+        success, message = _pull_ollama_model(model_name)
+        
+        if success:
+            return jsonify({
+                'success': True,
+                'message': message,
+                'model': model_name
+            })
+        else:
+            return jsonify({
+                'success': False,
+                'error': message,
+                'model': model_name
+            }), 500
+            
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+
+@app.route('/api/ollama/start', methods=['POST'])
+def start_ollama():
+    """Start Ollama service"""
+    try:
+        # Check if already running
+        try:
+            response = requests.get(
+                'http://localhost:11434/api/tags',
+                timeout=3,
+                proxies={'http': None, 'https': None}
+            )
+            if response.status_code in [200, 403]:
+                return jsonify({
+                    'success': True,
+                    'message': 'Ollama is already running',
+                    'is_running': True
+                })
+        except:
+            pass
+        
+        # Try to start Ollama
+        try:
+            # For Windows - try to start Ollama
+            result = subprocess.Popen(
+                ['ollama', 'serve'],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                creationflags=subprocess.CREATE_NEW_CONSOLE if sys.platform == 'win32' else 0
+            )
+            
+            # Give it a moment to start
+            time.sleep(2)
+            
+            # Check if it started
+            try:
+                response = requests.get(
+                    'http://localhost:11434/api/tags',
+                    timeout=3,
+                    proxies={'http': None, 'https': None}
+                )
+                if response.status_code in [200, 403]:
+                    return jsonify({
+                        'success': True,
+                        'message': 'Ollama service started successfully',
+                        'is_running': True
+                    })
+            except:
+                pass
+            
+            # If not responding yet, it might still be starting
+            return jsonify({
+                'success': True,
+                'message': 'Ollama service starting (please wait a moment and refresh)',
+                'is_running': False,
+                'started': True
+            })
+            
+        except FileNotFoundError:
+            return jsonify({
+                'success': False,
+                'error': 'Ollama is not installed. Please download and install from ollama.ai',
+                'is_installed': False,
+                'download_url': 'https://ollama.ai'
+            }), 503
+        except Exception as e:
+            return jsonify({
+                'success': False,
+                'error': f'Failed to start Ollama: {str(e)}',
+                'is_running': False
+            }), 500
+            
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+
+@app.route('/api/ollama/check-installed', methods=['GET'])
+def check_ollama_installed():
+    """Check if Ollama is installed"""
+    try:
+        result = subprocess.run(
+            ['ollama', '--version'],
+            capture_output=True,
+            text=True,
+            timeout=5
+        )
+        is_installed = result.returncode == 0
+        version = result.stdout.strip() if is_installed else None
+        
+        return jsonify({
+            'success': True,
+            'is_installed': is_installed,
+            'version': version,
+            'download_url': 'https://ollama.ai'
+        })
+    except FileNotFoundError:
+        return jsonify({
+            'success': True,
+            'is_installed': False,
+            'version': None,
+            'download_url': 'https://ollama.ai'
+        })
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e),
+            'is_installed': False
+        }), 200
+
+
 if __name__ == '__main__':
     print("=" * 80)
     print("Log Analyzer REST API Server")
