@@ -1,0 +1,25 @@
+================================================================================
+WINDOWS LOGS CAPTURE INDEX - 2026-02-02_14-25-37
+================================================================================
+
+Total Logs Captured: 198
+Capture Date: 2026-02-02 14:25:37
+Time Range: Last 24 hours
+
+CATEGORY BREAKDOWN
+--------------------------------------------------------------------------------
+  System: 50 events → system_logs.txt
+  Application: 50 events → application_logs.txt
+  Driver: 8 events → driver_logs.txt
+  Security: 48 events → security_logs.txt
+  Network: 42 events → network_logs.txt
+
+================================================================================
+FILES IN THIS CAPTURE:
+--------------------------------------------------------------------------------
+  • system_logs.txt
+  • application_logs.txt
+  • driver_logs.txt
+  • security_logs.txt
+  • network_logs.txt
+  • index.txt (this file)
