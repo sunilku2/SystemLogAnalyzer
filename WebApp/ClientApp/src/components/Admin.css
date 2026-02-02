@@ -62,6 +62,20 @@
   border: 1px solid #fca5a5;
 }
 
+.alert-warning {
+  background-color: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fcd34d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.alert .btn {
+  margin-left: auto;
+}
+
 @keyframes slideDown {
   from {
     opacity: 0;

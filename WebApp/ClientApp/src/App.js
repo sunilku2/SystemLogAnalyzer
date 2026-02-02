@@ -79,8 +79,10 @@ function App() {
       const result = await runAnalysis(settings);
       setAnalysisResult(result);
       setActiveView('dashboard');
+      return result;
     } catch (err) {
       setError(err.message);
+      throw err;
     } finally {
       setIsAnalyzing(false);
     }

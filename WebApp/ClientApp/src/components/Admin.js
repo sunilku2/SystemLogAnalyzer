@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import './Admin.css';
 
 export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisAction }) {
@@ -7,6 +7,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
   const [llmEnabled, setLlmEnabled] = useState(false);
   const [llmTemperature, setLlmTemperature] = useState(0.7);
   const [availableModels, setAvailableModels] = useState([]);
+  const [installedModels, setInstalledModels] = useState([]);
   const [analyzerStatus, setAnalyzerStatus] = useState('idle');
   const [lastConfigUpdate, setLastConfigUpdate] = useState(null);
   const [autoAnalysisEnabled, setAutoAnalysisEnabled] = useState(false);
@@ -15,6 +16,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
   const [maxThreads, setMaxThreads] = useState(4);
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const [isDownloading, setIsDownloading] = useState(false);
 
   // Initialize from config
   useEffect(() => {
@@ -30,21 +32,30 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     }
   }, [config]);
 
-  // Fetch available models
-  useEffect(() => {
-    const fetchModels = async () => {
-      try {
-        const response = await fetch('/api/models/available');
-        if (response.ok) {
-          const data = await response.json();
-          setAvailableModels(data.models || []);
-        }
-      } catch (error) {
-        console.error('Failed to fetch models:', error);
+  const loadModels = useCallback(async (provider) => {
+    try {
+      const response = await fetch(`/api/models/available?provider=${encodeURIComponent(provider)}`);
+      if (response.ok) {
+        const data = await response.json();
+        setAvailableModels(data.models || []);
+        setInstalledModels(data.installed_models || data.models || []);
+      } else {
+        setAvailableModels([]);
+        setInstalledModels([]);
       }
-    };
-    fetchModels();
+    } catch (error) {
+      console.error('Failed to fetch models:', error);
+      setAvailableModels([]);
+      setInstalledModels([]);
+    }
   }, []);
+
+  // Fetch available models when provider changes
+  useEffect(() => {
+    if (llmProvider) {
+      loadModels(llmProvider);
+    }
+  }, [llmProvider, loadModels]);
 
   // Fetch analyzer status (initial + refresh)
   const fetchAnalyzerStatus = async () => {
@@ -168,6 +179,35 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     }
   };
 
+  const handleDownloadAndAnalyze = async () => {
+    if (!onAnalysisAction) return;
+    if (!llmModel) {
+      setErrorMessage('❌ Please select a model to download.');
+      return;
+    }
+
+    setErrorMessage('');
+    setSuccessMessage('');
+    setIsDownloading(true);
+
+    try {
+      await onAnalysisAction({
+        useLlm: true,
+        model: llmModel,
+        provider: llmProvider,
+        autoDownload: true
+      });
+
+      setSuccessMessage('✅ Model download initiated (if needed) and analysis started.');
+      setTimeout(() => setSuccessMessage(''), 4000);
+      loadModels(llmProvider);
+    } catch (error) {
+      setErrorMessage(`❌ ${error.message || 'Failed to download model and analyze.'}`);
+    } finally {
+      setIsDownloading(false);
+    }
+  };
+
   const analyzerStatusColor = {
     idle: '#94a3b8',
     running: '#10b981',
@@ -176,6 +216,10 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     processing: '#f59e0b',
     restarting: '#3b82f6',
   };
+
+  const supportsDownload = llmProvider === 'ollama';
+  const isModelSelected = Boolean(llmModel);
+  const isModelAvailable = !supportsDownload || !isModelSelected || installedModels.includes(llmModel);
 
   return (
     <div className="admin">
@@ -247,6 +291,19 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
                 <option value="llama3.2:3b">llama3.2:3b (default)</option>
               </select>
             </div>
+
+            {llmEnabled && supportsDownload && isModelSelected && !isModelAvailable && (
+              <div className="alert alert-warning">
+                <span>⚠️ Selected model is not installed locally.</span>
+                <button
+                  className="btn btn-primary"
+                  onClick={handleDownloadAndAnalyze}
+                  disabled={isDownloading || isAnalyzing}
+                >
+                  {isDownloading ? '⬇️ Downloading...' : '⬇️ Download & Analyze Now'}
+                </button>
+              </div>
+            )}
 
             <div className="form-group">
               <label>Temperature (Creativity)</label>

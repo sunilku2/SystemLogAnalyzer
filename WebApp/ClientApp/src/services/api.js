@@ -30,7 +30,8 @@ export const runAnalysis = async (settings) => {
   const response = await api.post('/analyze', {
     use_llm: settings.useLlm,
     model: settings.model,
-    provider: settings.provider
+    provider: settings.provider,
+    auto_download: settings.autoDownload || false
   });
   return response.data;
 };

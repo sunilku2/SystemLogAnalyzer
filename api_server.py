@@ -10,6 +10,7 @@ import os
 import sys
 import threading
 import time
+import subprocess
 
 # Add parent directory to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -206,6 +207,60 @@ def _execute_analysis(use_llm: bool, model_name: str, provider: str, source: str
         return result
 
 
+def _list_ollama_models():
+    """Return installed Ollama model names or raise an error if Ollama is not available."""
+    try:
+        result = subprocess.run(
+            ['ollama', 'list'],
+            capture_output=True,
+            text=True,
+            timeout=10
+        )
+        if result.returncode != 0:
+            return [], result.stderr.strip() or result.stdout.strip() or 'Failed to list Ollama models'
+
+        models = []
+        for line in result.stdout.splitlines()[1:]:  # Skip header
+            if line.strip():
+                model_name = line.split()[0]
+                if model_name:
+                    models.append(model_name)
+        return models, None
+    except FileNotFoundError:
+        return [], 'Ollama CLI not found. Please install Ollama to download models.'
+    except subprocess.TimeoutExpired:
+        return [], 'Ollama list timed out. Please try again.'
+    except Exception as e:
+        return [], f'Error listing Ollama models: {e}'
+
+
+def _ollama_model_exists(model_name: str):
+    models, error = _list_ollama_models()
+    if error:
+        return False, error
+    return model_name in models, None
+
+
+def _pull_ollama_model(model_name: str):
+    """Download an Ollama model and return (success, message)."""
+    try:
+        result = subprocess.run(
+            ['ollama', 'pull', model_name],
+            capture_output=True,
+            text=True,
+            timeout=1800
+        )
+        if result.returncode == 0:
+            return True, result.stdout.strip() or f"Model '{model_name}' downloaded successfully."
+        return False, result.stderr.strip() or result.stdout.strip() or 'Failed to download model'
+    except FileNotFoundError:
+        return False, 'Ollama CLI not found. Please install Ollama to download models.'
+    except subprocess.TimeoutExpired:
+        return False, 'Model download timed out. Please try again.'
+    except Exception as e:
+        return False, f'Error downloading model: {e}'
+
+
 def _watcher_loop():
     """Background loop that triggers analysis when logs change or interval elapses."""
     last_signature = None
@@ -306,6 +361,30 @@ def run_analysis():
         use_llm = data.get('use_llm', LLM_ENABLED)
         model_name = data.get('model', LLM_MODEL)
         provider = data.get('provider', LLM_PROVIDER)
+        auto_download = data.get('auto_download', False)
+
+        if use_llm and provider == 'ollama':
+            model_exists, error = _ollama_model_exists(model_name)
+            if error:
+                return jsonify({
+                    'success': False,
+                    'error': error
+                }), 503
+            if not model_exists:
+                if auto_download:
+                    success, message = _pull_ollama_model(model_name)
+                    if not success:
+                        return jsonify({
+                            'success': False,
+                            'error': message
+                        }), 500
+                else:
+                    return jsonify({
+                        'success': False,
+                        'error': f"Model '{model_name}' not found. Download it and try again.",
+                        'model_missing': True
+                    }), 404
+
         result = _execute_analysis(use_llm, model_name, provider, source="manual")
         return jsonify(result)
         
@@ -1006,28 +1085,16 @@ def update_config():
 def get_available_models():
     """Get list of available LLM models"""
     try:
+        provider = request.args.get('provider', LLM_PROVIDER)
         models = []
         
-        # Check Ollama models
-        try:
-            import subprocess
-            result = subprocess.run(
-                ['ollama', 'list'],
-                capture_output=True,
-                text=True,
-                timeout=5
-            )
-            if result.returncode == 0:
-                # Parse ollama list output
-                for line in result.stdout.split('\n')[1:]:  # Skip header
-                    if line.strip():
-                        model_name = line.split()[0]
-                        if model_name:
-                            models.append(model_name)
-        except Exception:
-            pass
-        
-        # Add default models if not already present
+        installed_models = []
+        if provider == 'ollama':
+            installed_models, error = _list_ollama_models()
+            if not error:
+                models.extend(installed_models)
+
+        # Add default models as suggestions
         defaults = ['llama3.2:3b', 'llama2', 'neural-chat', 'mistral']
         for model in defaults:
             if model not in models:
@@ -1035,7 +1102,9 @@ def get_available_models():
         
         return jsonify({
             'success': True,
-            'models': sorted(list(set(models)))
+            'models': sorted(list(set(models))),
+            'installed_models': sorted(list(set(installed_models))),
+            'suggested_models': defaults
         })
     except Exception as e:
         return jsonify({
