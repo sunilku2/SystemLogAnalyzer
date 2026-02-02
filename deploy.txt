@@ -7,14 +7,14 @@ docker run -it -p 5000:5000 log-poc-api:1-local
 
 
 
-docker build -t log-poc-ui:2 .
-docker tag log-poc-ui:2 amr-registry.caas.intel.com/ao-ml-ai/log-poc-ui:2
-docker push amr-registry.caas.intel.com/ao-ml-ai/log-poc-ui:2
+docker build -t log-poc-ui:2-pre .
+docker tag log-poc-ui:2-pre amr-registry.caas.intel.com/ao-ml-ai/log-poc-ui:2-pre
+docker push amr-registry.caas.intel.com/ao-ml-ai/log-poc-ui:2-pre
 
 
-docker build -t log-poc-api:3-ollama-no-install .
-docker tag log-poc-api:3-ollama-no-install amr-registry.caas.intel.com/ao-ml-ai/log-poc-api:3-ollama-no-install
-docker push amr-registry.caas.intel.com/ao-ml-ai/log-poc-api:3-ollama-no-install
+docker build -t log-poc-api:3-with-ollama .
+docker tag log-poc-api:3-with-ollama amr-registry.caas.intel.com/ao-ml-ai/log-poc-api:3-with-ollama
+docker push amr-registry.caas.intel.com/ao-ml-ai/log-poc-api:3-with-ollama
 
 
 docker exec -it c442566bca6a /bin/bash
