@@ -1,0 +1,107 @@
+================================================================================
+🌐 NETWORK & CONNECTIVITY ISSUES
+================================================================================
+Generated: 2026-01-26 12:14:45
+Category: NETWORK
+Total Events in Category: 4
+================================================================================
+
+STATISTICS
+--------------------------------------------------------------------------------
+  Critical Events: 0
+  Error Events:    0
+  Warning Events:  4
+  Info Events:     0
+
+EVENT SOURCES
+--------------------------------------------------------------------------------
+  System: 4 events
+
+DETECTED ISSUES IN THIS CATEGORY
+--------------------------------------------------------------------------------
+
+  1. ⚠️ DHCP Configuration Failure
+     Severity: High
+     Occurrences: 111
+     Description: Failed to obtain IP address from DHCP server
+     First Seen: 2026-01-25 21:19:19
+     Last Seen: 2026-01-26 11:55:45
+     Components: Microsoft-Windows-DNS-Client, Windows Error Reporting
+
+  2. 🟡 DNS Resolution Failure
+     Severity: Medium
+     Occurrences: 4
+     Description: DNS server unable to resolve domain names
+     First Seen: 2026-01-25 22:43:00
+     Last Seen: 2026-01-26 11:40:11
+     Components: Microsoft-Windows-DNS-Client
+
+ROOT CAUSES IDENTIFIED
+--------------------------------------------------------------------------------
+
+  1. Network Connectivity Issues
+     Severity: High
+     Related Events: 4
+     Description: Network-related errors detected. This could indicate DNS issues, DHCP problems, or physical network connectivity.
+     Affected Components: System
+
+
+DETAILED EVENT LOG
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:40:11
+Level:      Warning
+Source:     System
+Event ID:   1014
+Category:   network
+Issue Type: DNS Resolution Failure
+
+Message:
+Name resolution for the name soc-5CG5233YBT.clients.intel.com timed out after none of the configured DNS servers responded. Client PID 2404.
+
+
+Event #2
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:39:34
+Level:      Warning
+Source:     System
+Event ID:   1014
+Category:   network
+Issue Type: DNS Resolution Failure
+
+Message:
+Name resolution for the name soc-5CG5233YBT.clients.intel.com timed out after none of the configured DNS servers responded. Client PID 2404.
+
+
+Event #3
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:38:47
+Level:      Warning
+Source:     System
+Event ID:   1014
+Category:   network
+Issue Type: DNS Resolution Failure
+
+Message:
+Name resolution for the name soc-5CG5233YBT.clients.intel.com timed out after none of the configured DNS servers responded. Client PID 2404.
+
+
+Event #4
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:43:00
+Level:      Warning
+Source:     System
+Event ID:   1014
+Category:   network
+Issue Type: DNS Resolution Failure
+
+Message:
+Name resolution for the name soc-5CG5233YBT.clients.intel.com timed out after none of the configured DNS servers responded. Client PID 2404.
+
+
+================================================================================
+End of Network & Connectivity Issues
+Total Events Listed: 4
+================================================================================

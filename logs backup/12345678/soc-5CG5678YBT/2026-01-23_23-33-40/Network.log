@@ -1,0 +1,814 @@
+================================================================================
+WINDOWS EVENT LOGS - Network
+================================================================================
+Generated: 2026-01-23 23:34:39
+Total Events: 100
+
+Summary:
+  Critical: 0
+  Errors: 0
+  Warnings: 0
+  Total: 100
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 23:33:07
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T18:03:07Z, RulesEngine'.>
+
+Event #2
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 23:32:36
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #3
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 22:48:15
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T17:18:15Z, RulesEngine'.>
+
+Event #4
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 22:47:26
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #5
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 22:44:10
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T17:14:10Z, RulesEngine'.>
+
+Event #6
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 22:43:40
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #7
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 22:43:21
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T17:13:20Z, RulesEngine'.>
+
+Event #8
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 22:42:07
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #9
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 22:28:50
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T16:58:50Z, RulesEngine'.>
+
+Event #10
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 22:28:19
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #11
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 21:59:43
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T16:29:43Z, RulesEngine'.>
+
+Event #12
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 21:59:12
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #13
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:57:34
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #14
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:57:33
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #15
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:57:33
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #16
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:57:33
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #17
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:57:33
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #18
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 21:52:31
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T16:22:30Z, RulesEngine'.>
+
+Event #19
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 21:52:00
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #20
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 21:47:53
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T16:17:53Z, RulesEngine'.>
+
+Event #21
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 21:47:02
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #22
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:58
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'HP Audio Analytics Service (8.10.50.393) in OnStart'.>
+
+Event #23
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:58
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'HP Audio Analytics Service in OnStop'.>
+
+Event #24
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:57
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x8'.>
+
+Event #25
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:57
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x8'.>
+
+Event #26
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:51
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x7'.>
+
+Event #27
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:51
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x7'.>
+
+Event #28
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:40
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #29
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:40
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #30
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:39
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #31
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:39
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #32
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:38
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #33
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:27
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #34
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:27
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #35
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:27
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #36
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:26
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #37
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:26
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #38
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:44
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+Event #39
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:44
+Message: <The description for Event ID ( 0 ) in Source ( 'IT Cloud Service' ) could not be found. It contains the following insertion string(s):'PowerEvent handled successfully by the service.'.>
+
+Event #40
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:44
+Message: <The description for Event ID ( 0 ) in Source ( 'Updater Utility Service Components Controller' ) could not be found. It contains the following insertion string(s):'PowerEvent handled successfully by the service.'.>
+
+Event #41
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:44
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+Event #42
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:43
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+Event #43
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:43
+Message: <The description for Event ID ( 0 ) in Source ( 'IT Cloud Service' ) could not be found. It contains the following insertion string(s):'PowerEvent handled successfully by the service.'.>
+
+Event #44
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:43
+Message: <The description for Event ID ( 0 ) in Source ( 'Updater Utility Service Components Controller' ) could not be found. It contains the following insertion string(s):'PowerEvent handled successfully by the service.'.>
+
+Event #45
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:43
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+Event #46
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 21:35:06
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T16:05:06Z, RulesEngine'.>
+
+Event #47
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 21:34:36
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #48
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 256
+Time: 2026-01-23 21:26:56
+Message: <The description for Event ID ( 256 ) in Source ( 'Chrome' ) could not be found. It contains the following insertion string(s):'[15712:24736:0123/212656.162:INFO:rlz\\lib\\rlz_lib.cc:451] Succeeded in sending RLZ ping'.>
+
+Event #49
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 256
+Time: 2026-01-23 21:26:55
+Message: <The description for Event ID ( 256 ) in Source ( 'Chrome' ) could not be found. It contains the following insertion string(s):'[15712:24736:0123/212655.795:INFO:rlz\\lib\\rlz_lib.cc:442] Attempting to send RLZ ping brand=GCCA'.>
+
+Event #50
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 256
+Time: 2026-01-23 21:25:56
+Message: <The description for Event ID ( 256 ) in Source ( 'Chrome' ) could not be found. It contains the following insertion string(s):'[15712:13880:0123/212556.201:INFO:chrome\\browser\\extensions\\extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.'.>
+
+Event #51
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 23:33:07
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T18:03:07Z, RulesEngine'.>
+
+Event #52
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 23:32:36
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #53
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 22:48:15
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T17:18:15Z, RulesEngine'.>
+
+Event #54
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 22:47:26
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #55
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 22:44:10
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T17:14:10Z, RulesEngine'.>
+
+Event #56
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 22:43:40
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #57
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 22:43:21
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T17:13:20Z, RulesEngine'.>
+
+Event #58
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 22:42:07
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #59
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 22:28:50
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T16:58:50Z, RulesEngine'.>
+
+Event #60
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 22:28:19
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #61
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 21:59:43
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T16:29:43Z, RulesEngine'.>
+
+Event #62
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 21:59:12
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #63
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:57:34
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #64
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:57:33
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #65
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:57:33
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #66
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:57:33
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #67
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:57:33
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #68
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 21:52:31
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T16:22:30Z, RulesEngine'.>
+
+Event #69
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 21:52:00
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #70
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 21:47:53
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T16:17:53Z, RulesEngine'.>
+
+Event #71
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 21:47:02
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #72
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:58
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'HP Audio Analytics Service (8.10.50.393) in OnStart'.>
+
+Event #73
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:58
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'HP Audio Analytics Service in OnStop'.>
+
+Event #74
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:57
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x8'.>
+
+Event #75
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:57
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x8'.>
+
+Event #76
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:51
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x7'.>
+
+Event #77
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:44:51
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x7'.>
+
+Event #78
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:40
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #79
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:40
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #80
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:39
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #81
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:39
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #82
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:38
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #83
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:27
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #84
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:27
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #85
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:27
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #86
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:26
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #87
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 1001
+Time: 2026-01-23 21:40:26
+Message: <The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #88
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:44
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+Event #89
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:44
+Message: <The description for Event ID ( 0 ) in Source ( 'IT Cloud Service' ) could not be found. It contains the following insertion string(s):'PowerEvent handled successfully by the service.'.>
+
+Event #90
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:44
+Message: <The description for Event ID ( 0 ) in Source ( 'Updater Utility Service Components Controller' ) could not be found. It contains the following insertion string(s):'PowerEvent handled successfully by the service.'.>
+
+Event #91
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:44
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+Event #92
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:43
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+Event #93
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:43
+Message: <The description for Event ID ( 0 ) in Source ( 'IT Cloud Service' ) could not be found. It contains the following insertion string(s):'PowerEvent handled successfully by the service.'.>
+
+Event #94
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:43
+Message: <The description for Event ID ( 0 ) in Source ( 'Updater Utility Service Components Controller' ) could not be found. It contains the following insertion string(s):'PowerEvent handled successfully by the service.'.>
+
+Event #95
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 0
+Time: 2026-01-23 21:37:43
+Message: <The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+Event #96
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16384
+Time: 2026-01-23 21:35:06
+Message: <The description for Event ID ( 16384 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):'2125-12-30T16:05:06Z, RulesEngine'.>
+
+Event #97
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 16394
+Time: 2026-01-23 21:34:36
+Message: <The description for Event ID ( 16394 ) in Source ( 'Software Protection Platform Service' ) could not be found. It contains the following insertion string(s):''.>
+
+Event #98
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 256
+Time: 2026-01-23 21:26:56
+Message: <The description for Event ID ( 256 ) in Source ( 'Chrome' ) could not be found. It contains the following insertion string(s):'[15712:24736:0123/212656.162:INFO:rlz\\lib\\rlz_lib.cc:451] Succeeded in sending RLZ ping'.>
+
+Event #99
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 256
+Time: 2026-01-23 21:26:55
+Message: <The description for Event ID ( 256 ) in Source ( 'Chrome' ) could not be found. It contains the following insertion string(s):'[15712:24736:0123/212655.795:INFO:rlz\\lib\\rlz_lib.cc:442] Attempting to send RLZ ping brand=GCCA'.>
+
+Event #100
+--------------------------------------------------------------------------------
+Level: Information
+Source: Network
+Event ID: 256
+Time: 2026-01-23 21:25:56
+Message: <The description for Event ID ( 256 ) in Source ( 'Chrome' ) could not be found. It contains the following insertion string(s):'[15712:13880:0123/212556.201:INFO:chrome\\browser\\extensions\\extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.'.>
+

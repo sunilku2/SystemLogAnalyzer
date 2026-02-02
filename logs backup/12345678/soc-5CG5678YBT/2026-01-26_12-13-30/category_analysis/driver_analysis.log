@@ -1,0 +1,1804 @@
+================================================================================
+🔧 DRIVER & HARDWARE ISSUES
+================================================================================
+Generated: 2026-01-26 12:14:45
+Category: DRIVER
+Total Events in Category: 94
+================================================================================
+
+STATISTICS
+--------------------------------------------------------------------------------
+  Critical Events: 0
+  Error Events:    3
+  Warning Events:  1
+  Info Events:     90
+
+EVENT SOURCES
+--------------------------------------------------------------------------------
+  Network: 60 events
+  Application: 30 events
+  Driver: 3 events
+  System: 1 events
+
+DETECTED ISSUES IN THIS CATEGORY
+--------------------------------------------------------------------------------
+
+  1. 🔴 Blue Screen of Death (BSOD)
+     Severity: Critical
+     Occurrences: 90
+     Description: System crash requiring immediate attention
+     First Seen: 2026-01-25 21:19:19
+     Last Seen: 2026-01-26 11:51:48
+     Components: Windows Error Reporting
+
+  2. ⚠️ Disk/Storage Error
+     Severity: High
+     Occurrences: 3
+     Description: Disk hardware or controller issue detected
+     First Seen: 2026-01-25 21:18:44
+     Last Seen: 2026-01-26 11:38:12
+     Components: Kerberos
+
+ROOT CAUSES IDENTIFIED
+--------------------------------------------------------------------------------
+
+  1. Driver Failure or Incompatibility
+     Severity: High
+     Related Events: 94
+     Description: Multiple driver-related errors detected. This could indicate outdated, corrupt, or incompatible drivers.
+     Affected Components: Driver, Application, Network, System
+
+
+DETAILED EVENT LOG
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffca0ccff792e0
+P3: fffff80178e32b20
+P4: 0
+P5: ffffca0c8f179080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20260107-1116.dmp
+\\?\C:\windows\SystemTemp\WER-1630784890-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.0c562836-be45-4a12-8240-d178b31a2d61.tmp.WERInternalMetadata.xml
+
+Event #2
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #3
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffae0ff9789010
+P3: fffff80146b42b20
+P4: 0
+P5: ffffae0fe6107080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20251211-1044.dmp
+\\?\C:\windows\SystemTemp\WER-1478140437-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2fa5fe41-6670-4424-969c-1862f21aa52f.tmp.WERInternalMetadata.xml
+
+Event #4
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #5
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #6
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #7
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #8
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #9
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #10
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #11
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #12
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:48
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #13
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:47
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 141
+P2: ffffc008701f2010
+P3: fffff8015a883280
+P4: 0
+P5: ffffc0086aced080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\SystemTemp\WER-24874687-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.bda2b3df-0130-464f-a
+
+Event #14
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:47
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #15
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:51:47
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #16
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:53
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffca0ccff792e0
+P3: fffff80178e32b20
+P4: 0
+P5: ffffca0c8f179080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20260107-1116.dmp
+\\?\C:\windows\SystemTemp\WER-1630784890-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.0c562836-be45-4a12-8240-d178b31a2d61.tmp.WERInternalMetadata.xml
+
+Event #17
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:53
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #18
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:53
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #19
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #20
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffae0ff9789010
+P3: fffff80146b42b20
+P4: 0
+P5: ffffae0fe6107080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20251211-1044.dmp
+\\?\C:\windows\SystemTemp\WER-1478140437-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2fa5fe41-6670-4424-969c-1862f21aa52f.tmp.WERInternalMetadata.xml
+
+Event #21
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #22
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 141
+P2: ffffc008701f2010
+P3: fffff8015a883280
+P4: 0
+P5: ffffc0086aced080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\SystemTemp\WER-24874687-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.bda2b3df-0130-464f-a
+
+Event #23
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #24
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #25
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #26
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #27
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #28
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #29
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #30
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:52
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #31
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:51
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffca0ccff792e0
+P3: fffff80178e32b20
+P4: 0
+P5: ffffca0c8f179080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20260107-1116.dmp
+\\?\C:\windows\SystemTemp\WER-1630784890-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.0c562836-be45-4a12-8240-d178b31a2d61.tmp.WERInternalMetadata.xml
+
+Event #32
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:51
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #33
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:51
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #34
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:50
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #35
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:50
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #36
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:50
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #37
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:49
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffae0ff9789010
+P3: fffff80146b42b20
+P4: 0
+P5: ffffae0fe6107080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20251211-1044.dmp
+\\?\C:\windows\SystemTemp\WER-1478140437-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2fa5fe41-6670-4424-969c-1862f21aa52f.tmp.WERInternalMetadata.xml
+
+Event #38
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:49
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #39
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:49
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #40
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:49
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #41
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:49
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #42
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:49
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #43
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:48
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 141
+P2: ffffc008701f2010
+P3: fffff8015a883280
+P4: 0
+P5: ffffc0086aced080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\SystemTemp\WER-24874687-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.bda2b3df-0130-464f-a
+
+Event #44
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:48
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #45
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:48:48
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #46
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:38:12
+Level:      Error
+Source:     System
+Event ID:   11
+Category:   driver
+Issue Type: Disk Driver Error
+
+Message:
+The Distinguished Name in the subject field of your smart card logon certificate does not contain enough information to identify the appropriate domain on an non-domain joined computer. Contact your system administrator.
+
+
+Event #47
+--------------------------------------------------------------------------------
+Time:       2026-01-26 11:38:12
+Level:      Error
+Source:     Driver
+Event ID:   11
+Category:   driver
+Issue Type: Disk Driver Error
+
+Message:
+The Distinguished Name in the subject field of your smart card logon certificate does not contain enough information to identify the appropriate domain on an non-domain joined computer. Contact your system administrator.
+
+
+Event #48
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:36
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffca0ccff792e0
+P3: fffff80178e32b20
+P4: 0
+P5: ffffca0c8f179080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20260107-1116.dmp
+\\?\C:\windows\SystemTemp\WER-1630784890-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.0c562836-be45-4a12-8240-d178b31a2d61.tmp.WERInternalMetadata.xml
+
+Event #49
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:36
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #50
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:36
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #51
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:34
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #52
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:34
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #53
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:34
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #54
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:33
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffae0ff9789010
+P3: fffff80146b42b20
+P4: 0
+P5: ffffae0fe6107080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20251211-1044.dmp
+\\?\C:\windows\SystemTemp\WER-1478140437-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2fa5fe41-6670-4424-969c-1862f21aa52f.tmp.WERInternalMetadata.xml
+
+Event #55
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:33
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #56
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:33
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #57
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:33
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #58
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:33
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #59
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:33
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #60
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:32
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 141
+P2: ffffc008701f2010
+P3: fffff8015a883280
+P4: 0
+P5: ffffc0086aced080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\SystemTemp\WER-24874687-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.bda2b3df-0130-464f-a
+
+Event #61
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:32
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #62
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:38:32
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #63
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:11:00
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffca0ccff792e0
+P3: fffff80178e32b20
+P4: 0
+P5: ffffca0c8f179080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20260107-1116.dmp
+\\?\C:\windows\SystemTemp\WER-1630784890-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.0c562836-be45-4a12-8240-d178b31a2d61.tmp.WERInternalMetadata.xml
+
+Event #64
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:11:00
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #65
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:11:00
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #66
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #67
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffae0ff9789010
+P3: fffff80146b42b20
+P4: 0
+P5: ffffae0fe6107080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20251211-1044.dmp
+\\?\C:\windows\SystemTemp\WER-1478140437-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2fa5fe41-6670-4424-969c-1862f21aa52f.tmp.WERInternalMetadata.xml
+
+Event #68
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #69
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 141
+P2: ffffc008701f2010
+P3: fffff8015a883280
+P4: 0
+P5: ffffc0086aced080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\SystemTemp\WER-24874687-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.bda2b3df-0130-464f-a
+
+Event #70
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #71
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #72
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #73
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #74
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #75
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #76
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #77
+--------------------------------------------------------------------------------
+Time:       2026-01-25 22:10:59
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #78
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:21
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffca0ccff792e0
+P3: fffff80178e32b20
+P4: 0
+P5: ffffca0c8f179080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20260107-1116.dmp
+\\?\C:\windows\SystemTemp\WER-1630784890-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.0c562836-be45-4a12-8240-d178b31a2d61.tmp.WERInternalMetadata.xml
+
+Event #79
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:21
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #80
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:21
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffae0ff9789010
+P3: fffff80146b42b20
+P4: 0
+P5: ffffae0fe6107080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20251211-1044.dmp
+\\?\C:\windows\SystemTemp\WER-1478140437-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2fa5fe41-6670-4424-969c-1862f21aa52f.tmp.WERInternalMetadata.xml
+
+Event #81
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:21
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #82
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:21
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #83
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:21
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #84
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:21
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffca0ccff792e0, fffff80178e32b20, 0, ffffca0c8f179080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20260107-1116.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1630784890-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.0c562836-be45-4a12
+
+Event #85
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:21
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERI
+
+Event #86
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:21
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 117, ffffae0ff9789010, fffff80146b42b20, 0, ffffae0fe6107080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20251211-1044.dmp\r\n\\\\?\\C:\\windows\\SystemTemp\\WER-1478140437-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.2fa5fe41-6670-4424
+
+Event #87
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:20
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+Event #88
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:20
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #89
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:20
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, AppTermFailureEvent, Not available, 0, , , , , , , , , , , \r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp\r\n\\\\?\\C:\\Windows\\SystemTemp\\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERI
+
+Event #90
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:19
+Level:      Information
+Source:     Application
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 141
+P2: ffffc008701f2010
+P3: fffff8015a883280
+P4: 0
+P5: ffffc0086aced080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\SystemTemp\WER-24874687-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.bda2b3df-0130-464f-a
+
+Event #91
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:19
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #92
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:19:19
+Level:      Information
+Source:     Network
+Event ID:   1001
+Category:   driver
+Issue Type: System Crash/Blue Screen
+
+Message:
+<The description for Event ID ( 1001 ) in Source ( 'Windows Error Reporting' ) could not be found. It contains the following insertion string(s):', 0, LiveKernelEvent, Not available, 0, 141, ffffc008701f2010, fffff8015a883280, 0, ffffc0086aced080, 10_0_26100, 0_0, 256_1, , , \r\n\\\\?\\C:\\windows\\SystemTemp\\WER-24874687-0.sysdata.xml\r\n\\\\?\\C:\\ProgramData\\Microsoft\\Windows\\WER\\Temp\\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml\r\n\\\\?\\C:\\ProgramData\\Microso
+
+Event #93
+--------------------------------------------------------------------------------
+Time:       2026-01-25 21:18:44
+Level:      Error
+Source:     Driver
+Event ID:   11
+Category:   driver
+Issue Type: Disk Driver Error
+
+Message:
+The Distinguished Name in the subject field of your smart card logon certificate does not contain enough information to identify the appropriate domain on an non-domain joined computer. Contact your system administrator.
+
+
+Event #94
+--------------------------------------------------------------------------------
+Time:       2026-01-25 19:42:01
+Level:      Warning
+Source:     Driver
+Event ID:   225
+Category:   driver
+Issue Type: driver.*stop
+
+Message:
+The application \Device\HarddiskVolume3\Windows\System32\DriverStore\FileRepository\hpqkbsoftwarecompnent.inf_amd64_1445f3380129b4b6\HotKeyServiceUWP.exe with process id 7876 stopped the removal or ejection for the device PCI\VEN_8086&DEV_7703&SUBSYS_8D89103C&REV_00\3&11583659&0&F8.
+Process command line: C:\windows\System32\DriverStore\FileRepository\hpqkbsoftwarecompnent.inf_amd64_1445f3380129b4b6\HotKeyServiceUWP.exe
+List of affected devices:
+{A87C2E0F-9A46-46b8-8EC4-E33355FBE1F7}\KeyboardF
+
+================================================================================
+End of Driver & Hardware Issues
+Total Events Listed: 94
+================================================================================

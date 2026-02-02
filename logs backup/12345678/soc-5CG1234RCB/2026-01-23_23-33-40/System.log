@@ -1,0 +1,684 @@
+================================================================================
+WINDOWS EVENT LOGS - System
+================================================================================
+Generated: 2026-01-23 23:34:39
+Total Events: 50
+
+Summary:
+  Critical: 0
+  Errors: 0
+  Warnings: 15
+  Total: 50
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 23:33:34
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #2
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 23:21:31
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #3
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 23:17:25
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #4
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 23:05:20
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #5
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 23:01:14
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #6
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 22:49:08
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #7
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 22:45:02
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #8
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 22:32:57
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #9
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 22:28:50
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #10
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 22:16:46
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #11
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 22:12:40
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #12
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 22:00:34
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #13
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 21:56:28
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #14
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8033
+Time: 2026-01-23 21:56:08
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e63:45d
+
+Event #15
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8033
+Time: 2026-01-23 21:50:57
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e63:45d
+
+Event #16
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 2
+Time: 2026-01-23 21:48:11
+Message: Secure Trustlet Id 4 and Pid 34768 stopped with status 0.
+
+
+Event #17
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8033
+Time: 2026-01-23 21:45:46
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e63:45d
+
+Event #18
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 1014
+Time: 2026-01-23 21:45:46
+Message: Name resolution for the name soc-5CG5233YBT.clients.intel.com timed out after none of the configured DNS servers responded. Client PID 2404.
+
+
+Event #19
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 2
+Time: 2026-01-23 21:44:58
+Message: Secure Trustlet Id 5 and Pid 34040 stopped with status 0.
+
+
+Event #20
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 1
+Time: 2026-01-23 21:44:56
+Message: Secure Trustlet C:\windows\system32\FsIso.exe Id 5 and Pid 34040 started with status 0.
+
+
+Event #21
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 5
+Time: 2026-01-23 21:44:56
+Message: Secure Trustlet NULL Id 0 and Pid 0 started with status 0.
+
+
+Event #22
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 566
+Time: 2026-01-23 21:44:56
+Message: No message
+
+Event #23
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 507
+Time: 2026-01-23 21:44:56
+Message: No message
+
+Event #24
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 1
+Time: 2026-01-23 21:44:52
+Message: Secure Trustlet \??\C:\windows\system32\BioIso.exe Id 4 and Pid 34768 started with status 0.
+
+
+Event #25
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 5
+Time: 2026-01-23 21:44:52
+Message: Secure Trustlet NULL Id 0 and Pid 0 started with status 0.
+
+
+Event #26
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 506
+Time: 2026-01-23 21:44:50
+Message: No message
+
+Event #27
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 566
+Time: 2026-01-23 21:44:50
+Message: No message
+
+Event #28
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 21:44:19
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #29
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8020
+Time: 2026-01-23 21:40:55
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {18C95F8E-9E02-4C2A-92CF-4EFF8CB9A445}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.212.251
+
+The reason the system could not register these RRs during the update
+
+Event #30
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8020
+Time: 2026-01-23 21:40:52
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {18C95F8E-9E02-4C2A-92CF-4EFF8CB9A445}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.212.251
+
+The reason the system could not register these RRs during the update
+
+Event #31
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8038
+Time: 2026-01-23 21:40:35
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e63:45d
+
+Event #32
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8038
+Time: 2026-01-23 21:40:25
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e63:45d
+
+Event #33
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8020
+Time: 2026-01-23 21:40:23
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e63:45dd:d0a5:6c
+
+Event #34
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8020
+Time: 2026-01-23 21:40:22
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e63:45dd:d0a5:6c
+
+Event #35
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8020
+Time: 2026-01-23 21:40:21
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e63:45dd:d0a5:6c0a
+
+The reason the system cou
+
+Event #36
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7021
+Time: 2026-01-23 21:40:20
+Message: No message
+
+Event #37
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7021
+Time: 2026-01-23 21:40:15
+Message: No message
+
+Event #38
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 21:40:12
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #39
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 105
+Time: 2026-01-23 21:37:44
+Message: No message
+
+Event #40
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 21:28:08
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #41
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 21:24:02
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #42
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 21:11:59
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #43
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 21:07:53
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #44
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8033
+Time: 2026-01-23 21:01:03
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #45
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8033
+Time: 2026-01-23 20:55:52
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #46
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 20:55:48
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #47
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 7040
+Time: 2026-01-23 20:51:42
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #48
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 8033
+Time: 2026-01-23 20:50:41
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #49
+--------------------------------------------------------------------------------
+Level: Warning
+Source: System
+Event ID: 1014
+Time: 2026-01-23 20:50:41
+Message: Name resolution for the name soc-5CG5233YBT.clients.intel.com timed out after none of the configured DNS servers responded. Client PID 2404.
+
+
+Event #50
+--------------------------------------------------------------------------------
+Level: Information
+Source: System
+Event ID: 2
+Time: 2026-01-23 20:48:58
+Message: Secure Trustlet Id 4 and Pid 2140 stopped with status 0.
+
+

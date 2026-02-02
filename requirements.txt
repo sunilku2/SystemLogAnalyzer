@@ -1,0 +1,22 @@
+# Requirements for Log Analyzer
+
+# Core dependencies
+python-dateutil>=2.8.2
+requests>=2.31.0
+
+# Web API
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Optional: Windows Event Log (.evtx) parsing support
+# Uncomment or install separately for EVTX support:
+# libevtx-python (requires libevtx library)
+# Note: libevtx-python may not be available on all platforms
+# For Windows EVTX parsing, you can alternatively use:
+# - pyevtx: pip install pyevtx
+# - evtx (pure Python): pip install evtx
+
+# Future database support (uncomment when needed)
+# psycopg2-binary>=2.9.0  # PostgreSQL
+# pymysql>=1.0.0          # MySQL
+# sqlalchemy>=1.4.0       # ORM for database abstraction

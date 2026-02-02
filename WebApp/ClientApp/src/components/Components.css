@@ -1,0 +1,236 @@
+.issues-table-container,
+.analytics-container {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Table Controls */
+.table-controls {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.filter-group label {
+  font-weight: 500;
+  color: var(--text-primary);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.filter-group .form-select {
+  min-width: 180px;
+}
+
+/* Table */
+.table-responsive {
+  overflow-x: auto;
+}
+
+.issues-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.issues-table th,
+.issues-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.issues-table thead tr {
+  background: var(--bg-secondary);
+}
+
+.issues-table th {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.issues-table tbody tr:hover {
+  background: var(--bg-secondary);
+}
+
+.issues-table code {
+  background: var(--bg-secondary);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: 'Courier New', monospace;
+}
+
+.description-cell {
+  max-width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 4px 8px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.btn-icon:hover {
+  opacity: 1;
+}
+
+/* Chart Container */
+.chart-container {
+  padding: 8px 0;
+}
+
+.bar-chart-item {
+  display: grid;
+  grid-template-columns: 150px 1fr 60px;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.bar-label {
+  font-size: 13px;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.bar-wrapper {
+  background: var(--bg-secondary);
+  height: 24px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  border-radius: 12px;
+  transition: width 0.5s ease;
+}
+
+.bar-value {
+  text-align: right;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* User List */
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: var(--bg-secondary);
+  border-radius: 8px;
+}
+
+.user-rank {
+  background: var(--primary-color);
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.user-name {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.user-count {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+/* Severity Chart */
+.severity-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.severity-bar {
+  display: grid;
+  grid-template-columns: 150px 1fr 100px;
+  gap: 16px;
+  align-items: center;
+}
+
+.severity-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.severity-percentage {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.progress-bar {
+  background: var(--bg-secondary);
+  height: 32px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 16px;
+  transition: width 0.5s ease;
+}
+
+.progress-critical {
+  background: linear-gradient(90deg, #dc2626, #ef4444);
+}
+
+.progress-error {
+  background: linear-gradient(90deg, #ea580c, #f97316);
+}
+
+.progress-warning {
+  background: linear-gradient(90deg, #d97706, #f59e0b);
+}
+
+.progress-information {
+  background: linear-gradient(90deg, #0284c7, #0ea5e9);
+}
+
+.severity-count {
+  text-align: right;
+  font-weight: 600;
+  color: var(--text-primary);
+}

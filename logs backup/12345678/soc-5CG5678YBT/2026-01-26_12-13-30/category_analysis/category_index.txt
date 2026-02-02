@@ -1,0 +1,27 @@
+================================================================================
+CATEGORY ANALYSIS INDEX
+================================================================================
+Generated: 2026-01-26 12:14:45
+Total Categories: 3
+
+Available Category Logs:
+--------------------------------------------------------------------------------
+
+  ⚙️ System-Level Issues
+     File: system_analysis.log
+     Events: 32
+     Critical: 0, Errors: 7, Warnings: 25
+
+  🔧 Driver & Hardware Issues
+     File: driver_analysis.log
+     Events: 94
+     Critical: 0, Errors: 3, Warnings: 1
+
+  🌐 Network & Connectivity Issues
+     File: network_analysis.log
+     Events: 4
+     Critical: 0, Errors: 0, Warnings: 4
+
+================================================================================
+Use these logs for detailed analysis of specific issue categories.
+================================================================================

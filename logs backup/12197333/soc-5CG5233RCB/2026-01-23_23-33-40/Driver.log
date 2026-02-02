@@ -1,0 +1,284 @@
+================================================================================
+WINDOWS EVENT LOGS - Driver
+================================================================================
+Generated: 2026-01-23 23:34:39
+Total Events: 33
+
+Summary:
+  Critical: 0
+  Errors: 1
+  Warnings: 0
+  Total: 33
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 566
+Time: 2026-01-23 21:44:56
+Message: No message
+
+Event #2
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 507
+Time: 2026-01-23 21:44:56
+Message: No message
+
+Event #3
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 506
+Time: 2026-01-23 21:44:50
+Message: No message
+
+Event #4
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 566
+Time: 2026-01-23 21:44:50
+Message: No message
+
+Event #5
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 105
+Time: 2026-01-23 21:37:44
+Message: No message
+
+Event #6
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 33
+Time: 2026-01-23 20:45:49
+Message: The oldest shadow copy of volume C: was deleted to keep disk space usage for shadow copies of volume C: below the user defined limit.
+
+
+Event #7
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 33
+Time: 2026-01-23 20:45:49
+Message: The oldest shadow copy of volume C: was deleted to keep disk space usage for shadow copies of volume C: below the user defined limit.
+
+
+Event #8
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 105
+Time: 2026-01-23 20:45:34
+Message: No message
+
+Event #9
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 566
+Time: 2026-01-23 20:45:26
+Message: No message
+
+Event #10
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 507
+Time: 2026-01-23 20:45:26
+Message: No message
+
+Event #11
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 172
+Time: 2026-01-23 20:45:25
+Message: No message
+
+Event #12
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 172
+Time: 2026-01-23 20:20:30
+Message: No message
+
+Event #13
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 566
+Time: 2026-01-23 20:20:22
+Message: No message
+
+Event #14
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 506
+Time: 2026-01-23 20:20:17
+Message: No message
+
+Event #15
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 566
+Time: 2026-01-23 20:20:17
+Message: No message
+
+Event #16
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 507
+Time: 2026-01-23 20:20:17
+Message: No message
+
+Event #17
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 172
+Time: 2026-01-23 20:20:17
+Message: No message
+
+Event #18
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 172
+Time: 2026-01-23 20:18:55
+Message: No message
+
+Event #19
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 566
+Time: 2026-01-23 20:18:48
+Message: No message
+
+Event #20
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 506
+Time: 2026-01-23 20:18:43
+Message: No message
+
+Event #21
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 566
+Time: 2026-01-23 20:18:43
+Message: No message
+
+Event #22
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 507
+Time: 2026-01-23 20:18:43
+Message: No message
+
+Event #23
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 172
+Time: 2026-01-23 20:18:43
+Message: No message
+
+Event #24
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 172
+Time: 2026-01-23 20:11:09
+Message: No message
+
+Event #25
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 566
+Time: 2026-01-23 20:11:03
+Message: No message
+
+Event #26
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 506
+Time: 2026-01-23 20:11:03
+Message: No message
+
+Event #27
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 566
+Time: 2026-01-23 20:11:03
+Message: No message
+
+Event #28
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 16
+Time: 2026-01-23 20:08:05
+Message: No message
+
+Event #29
+--------------------------------------------------------------------------------
+Level: Error
+Source: Driver
+Event ID: 1801
+Time: 2026-01-23 19:52:17
+Message: Updated Secure Boot certificates are available on this device but have not yet been applied to the firmware. Review the published guidance to complete the update and maintain full protection. This device signature information is included here.
+DeviceAttributes: FirmwareManufacturer:HP;FirmwareVersion:X70 Ver. 01.02.04;OEMModelBaseBoard:8D89;OEMManufacturerName:HP;OSArchitecture:amd64;
+BucketId: dda5287036c4df161cd223edf69638a169026b0ca8b1825b999732d93daed77e
+BucketConfidenceLevel: 
+UpdateTyp
+
+Event #30
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 16
+Time: 2026-01-23 19:51:45
+Message: No message
+
+Event #31
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 16
+Time: 2026-01-23 19:51:44
+Message: No message
+
+Event #32
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 16
+Time: 2026-01-23 19:51:44
+Message: No message
+
+Event #33
+--------------------------------------------------------------------------------
+Level: Information
+Source: Driver
+Event ID: 16
+Time: 2026-01-23 19:51:44
+Message: No message
+

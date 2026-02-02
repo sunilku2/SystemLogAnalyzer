@@ -1,0 +1,575 @@
+================================================================================
+WINDOWS EVENT LOGS - Driver
+================================================================================
+Generated: 2026-01-26 12:13:30
+Total Events: 68
+
+Summary:
+  Errors: 2
+  Warnings: 1
+  Critical: 0
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-General
+Event ID: 16
+Time: 2026-01-26 11:51:47
+Message: No message
+
+Event #2
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 105
+Time: 2026-01-26 11:48:45
+Message: No message
+
+Event #3
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-TPM-WMI
+Event ID: 1038
+Time: 2026-01-26 11:40:08
+Message: Pre-attestation health checks confirm that the device is expected to pass attestation.
+ Please see C:\windows\Logs\MeasuredBoot\0000000033-0000000002.json for detailed information on what checks were made.
+
+
+Event #4
+--------------------------------------------------------------------------------
+Level: Error
+Source: Kerberos
+Event ID: 11
+Time: 2026-01-26 11:38:12
+Message: The Distinguished Name in the subject field of your smart card logon certificate does not contain enough information to identify the appropriate domain on an non-domain joined computer. Contact your system administrator.
+
+
+Event #5
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #6
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 507
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #7
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 506
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #8
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #9
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 272
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #10
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 32
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #11
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 18
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #12
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 247
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #13
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 27
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #14
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 25
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #15
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 30
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #16
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-BitLocker-Driver
+Event ID: 24711
+Time: 2026-01-26 11:37:57
+Message: A V2 TPM protector was used to start Windows.
+Binding ID: {e0f3b476-a73e-4425-805b-0c939f260e04}.
+
+
+Event #17
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-BitLocker-Driver
+Event ID: 24709
+Time: 2026-01-26 11:37:57
+Message: This event contains the boot-time final TPM PCR values and TCG log data.
+
+
+Event #18
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-General
+Event ID: 1
+Time: 2026-01-26 11:37:55
+Message: Possible detection of CVE: 2026-01-26T06:07:55.5000000Z
+Additional Information: 2026-01-25T18:04:21.4273078Z
+
+This Event is generated when an attempt to exploit a known vulnerability (2026-01-26T06:07:55.5000000Z) is detected.
+This Event is raised by a User mode process.
+
+
+
+Event #19
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 107
+Time: 2026-01-25 23:34:21
+Message: No message
+
+Event #20
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 42
+Time: 2026-01-25 23:34:19
+Message: No message
+
+Event #21
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 23:34:13
+Message: No message
+
+Event #22
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 507
+Time: 2026-01-25 23:34:13
+Message: No message
+
+Event #23
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 23:34:13
+Message: No message
+
+Event #24
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 22:55:42
+Message: No message
+
+Event #25
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:55:35
+Message: No message
+
+Event #26
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 506
+Time: 2026-01-25 22:55:27
+Message: No message
+
+Event #27
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:55:27
+Message: No message
+
+Event #28
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 507
+Time: 2026-01-25 22:55:27
+Message: No message
+
+Event #29
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 22:55:27
+Message: No message
+
+Event #30
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 22:44:41
+Message: No message
+
+Event #31
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:44:36
+Message: No message
+
+Event #32
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 506
+Time: 2026-01-25 22:44:36
+Message: No message
+
+Event #33
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:44:36
+Message: No message
+
+Event #34
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:37:46
+Message: No message
+
+Event #35
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 507
+Time: 2026-01-25 22:37:46
+Message: No message
+
+Event #36
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 22:37:46
+Message: No message
+
+Event #37
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 22:36:12
+Message: No message
+
+Event #38
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:36:05
+Message: No message
+
+Event #39
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 506
+Time: 2026-01-25 22:35:59
+Message: No message
+
+Event #40
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:35:59
+Message: No message
+
+Event #41
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 507
+Time: 2026-01-25 22:35:59
+Message: No message
+
+Event #42
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 22:35:59
+Message: No message
+
+Event #43
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 22:28:29
+Message: No message
+
+Event #44
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:28:22
+Message: No message
+
+Event #45
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 506
+Time: 2026-01-25 22:28:20
+Message: No message
+
+Event #46
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:28:20
+Message: No message
+
+Event #47
+--------------------------------------------------------------------------------
+Level: Error
+Source: Kerberos
+Event ID: 11
+Time: 2026-01-25 21:18:44
+Message: The Distinguished Name in the subject field of your smart card logon certificate does not contain enough information to identify the appropriate domain on an non-domain joined computer. Contact your system administrator.
+
+
+Event #48
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 21:18:42
+Message: No message
+
+Event #49
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 507
+Time: 2026-01-25 21:18:42
+Message: No message
+
+Event #50
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 21:18:42
+Message: No message
+
+Event #51
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 20:51:39
+Message: No message
+
+Event #52
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 20:51:31
+Message: No message
+
+Event #53
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 506
+Time: 2026-01-25 20:51:24
+Message: No message
+
+Event #54
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 20:51:24
+Message: No message
+
+Event #55
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 507
+Time: 2026-01-25 20:51:24
+Message: No message
+
+Event #56
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 20:51:24
+Message: No message
+
+Event #57
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 20:40:54
+Message: No message
+
+Event #58
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 20:40:49
+Message: No message
+
+Event #59
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 506
+Time: 2026-01-25 20:40:49
+Message: No message
+
+Event #60
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 20:40:49
+Message: No message
+
+Event #61
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 105
+Time: 2026-01-25 20:25:04
+Message: No message
+
+Event #62
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-General
+Event ID: 16
+Time: 2026-01-25 19:51:47
+Message: No message
+
+Event #63
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-General
+Event ID: 16
+Time: 2026-01-25 19:50:37
+Message: No message
+
+Event #64
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-General
+Event ID: 16
+Time: 2026-01-25 19:44:07
+Message: No message
+
+Event #65
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-General
+Event ID: 16
+Time: 2026-01-25 19:44:04
+Message: No message
+
+Event #66
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WindowsUpdateClient
+Event ID: 19
+Time: 2026-01-25 19:42:02
+Message: Installation Successful: Windows successfully installed the following update: INTEL Driver Update (10.1.57.6)
+
+
+Event #67
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-Kernel-PnP
+Event ID: 225
+Time: 2026-01-25 19:42:01
+Message: The application \Device\HarddiskVolume3\Windows\System32\DriverStore\FileRepository\hpqkbsoftwarecompnent.inf_amd64_1445f3380129b4b6\HotKeyServiceUWP.exe with process id 7876 stopped the removal or ejection for the device PCI\VEN_8086&DEV_7703&SUBSYS_8D89103C&REV_00\3&11583659&0&F8.
+Process command line: C:\windows\System32\DriverStore\FileRepository\hpqkbsoftwarecompnent.inf_amd64_1445f3380129b4b6\HotKeyServiceUWP.exe
+List of affected devices:
+{A87C2E0F-9A46-46b8-8EC4-E33355FBE1F7}\KeyboardF
+
+Event #68
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WindowsUpdateClient
+Event ID: 43
+Time: 2026-01-25 19:41:58
+Message: Installation Started: Windows has started installing the following update: INTEL Driver Update (10.1.57.6)
+
+

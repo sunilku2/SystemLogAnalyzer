@@ -1,0 +1,1281 @@
+================================================================================
+WINDOWS EVENT LOGS - System
+================================================================================
+Generated: 2026-01-26 12:13:30
+Total Events: 100
+
+Summary:
+  Errors: 2
+  Warnings: 29
+  Critical: 0
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Level: Information
+Source: Service Control Manager
+Event ID: 7040
+Time: 2026-01-26 12:05:36
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #2
+--------------------------------------------------------------------------------
+Level: Information
+Source: Service Control Manager
+Event ID: 7040
+Time: 2026-01-26 12:01:30
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #3
+--------------------------------------------------------------------------------
+Level: Information
+Source: EventLog
+Event ID: 6013
+Time: 2026-01-26 12:00:00
+Message: The system uptime is 231201 seconds.
+
+
+Event #4
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-01-26 11:55:45
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.29.209
+
+
+        The system could
+
+Event #5
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 2
+Time: 2026-01-26 11:52:10
+Message: Secure Trustlet Id 4 and Pid 36076 stopped with status 0.
+
+
+Event #6
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-General
+Event ID: 16
+Time: 2026-01-26 11:51:47
+Message: No message
+
+Event #7
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-01-26 11:50:33
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.29.209
+
+
+        The system could
+
+Event #8
+--------------------------------------------------------------------------------
+Level: Information
+Source: Service Control Manager
+Event ID: 7040
+Time: 2026-01-26 11:49:27
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #9
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 1
+Time: 2026-01-26 11:48:51
+Message: Secure Trustlet \??\C:\windows\system32\BioIso.exe Id 4 and Pid 36076 started with status 0.
+
+
+Event #10
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 5
+Time: 2026-01-26 11:48:51
+Message: Secure Trustlet NULL Id 0 and Pid 0 started with status 0.
+
+
+Event #11
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 105
+Time: 2026-01-26 11:48:45
+Message: No message
+
+Event #12
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-01-26 11:45:22
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.29.209
+
+
+        The system could
+
+Event #13
+--------------------------------------------------------------------------------
+Level: Information
+Source: Service Control Manager
+Event ID: 7040
+Time: 2026-01-26 11:45:20
+Message: The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+Event #14
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 2
+Time: 2026-01-26 11:41:29
+Message: Secure Trustlet Id 4 and Pid 41348 stopped with status 0.
+
+
+Event #15
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-01-26 11:40:15
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {18C95F8E-9E02-4C2A-92CF-4EFF8CB9A445}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.197.163
+
+The reason the system could not register these RRs during the update
+
+Event #16
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-01-26 11:40:12
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {18C95F8E-9E02-4C2A-92CF-4EFF8CB9A445}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.197.163
+
+The reason the system could not register these RRs during the update
+
+Event #17
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-01-26 11:40:11
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {18C95F8E-9E02-4C2A-92CF-4EFF8CB9A445}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.197.163
+
+The reason the system could not register these RRs during the update
+
+Event #18
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-01-26 11:40:11
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.29.209
+
+
+        The system could
+
+Event #19
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 1014
+Time: 2026-01-26 11:40:11
+Message: Name resolution for the name soc-5CG5233YBT.clients.intel.com timed out after none of the configured DNS servers responded. Client PID 2404.
+
+
+Event #20
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Iphlpsvc-Trace
+Event ID: 4071
+Time: 2026-01-26 11:40:09
+Message: Teredo connectivity ended by DoSvc
+
+
+Event #21
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-TPM-WMI
+Event ID: 1038
+Time: 2026-01-26 11:40:08
+Message: Pre-attestation health checks confirm that the device is expected to pass attestation.
+ Please see C:\windows\Logs\MeasuredBoot\0000000033-0000000002.json for detailed information on what checks were made.
+
+
+Event #22
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-TPM-WMI
+Event ID: 1041
+Time: 2026-01-26 11:40:08
+Message: Pre-attestation health check detailed information: {"Version":1,"HealthStatus":"Attestable","Required":[{"Field":"TpmPresent","Value":true,"DesiredValue":true},{"Field":"TpmMeetsMinimumVersion","Value":true,"DesiredValue":true},{"Field":"TpmIsResponsive","Value":true,"DesiredValue":true},{"Field":"EkCertIsAvailable","Value":true,"DesiredValue":true},{"Field":"TcgLogFound","Value":true,"DesiredValue":true}],"Expected":[{"Field":"PcrsMatchTcgLog","Value":true,"DesiredValue":true}],"Informational":
+
+Event #23
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-01-26 11:39:34
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {18C95F8E-9E02-4C2A-92CF-4EFF8CB9A445}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.197.163
+
+The reason the system could not register these RRs during the update
+
+Event #24
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-01-26 11:39:34
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.29.209
+
+
+        The system could
+
+Event #25
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 1014
+Time: 2026-01-26 11:39:34
+Message: Name resolution for the name soc-5CG5233YBT.clients.intel.com timed out after none of the configured DNS servers responded. Client PID 2404.
+
+
+Event #26
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-01-26 11:39:22
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {18C95F8E-9E02-4C2A-92CF-4EFF8CB9A445}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.197.163
+
+The reason the system could not register these RRs during the update
+
+Event #27
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Iphlpsvc-Trace
+Event ID: 4068
+Time: 2026-01-26 11:39:18
+Message: Teredo connectivity initiated by DoSvc
+
+
+Event #28
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-01-26 11:38:47
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {18C95F8E-9E02-4C2A-92CF-4EFF8CB9A445}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.197.163
+
+The reason the system could not register these RRs during the update
+
+Event #29
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-01-26 11:38:47
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.29.209
+
+
+        The system could
+
+Event #30
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 1014
+Time: 2026-01-26 11:38:47
+Message: Name resolution for the name soc-5CG5233YBT.clients.intel.com timed out after none of the configured DNS servers responded. Client PID 2404.
+
+
+Event #31
+--------------------------------------------------------------------------------
+Level: Error
+Source: Service Control Manager
+Event ID: 7011
+Time: 2026-01-26 11:38:43
+Message: A timeout (30000 milliseconds) was reached while waiting for a transaction response from the HotKeyServiceUWP service.
+
+
+Event #32
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8035
+Time: 2026-01-26 11:38:11
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1
+
+          Sent update to server : 192.55.52.33:53
+
+          IP Address(es) :
+
+            192.168.29.209
+
+The reason for
+
+Event #33
+--------------------------------------------------------------------------------
+Level: Error
+Source: Kerberos
+Event ID: 11
+Time: 2026-01-26 11:38:12
+Message: The Distinguished Name in the subject field of your smart card logon certificate does not contain enough information to identify the appropriate domain on an non-domain joined computer. Contact your system administrator.
+
+
+Event #34
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 2
+Time: 2026-01-26 11:38:10
+Message: Secure Trustlet Id 5 and Pid 32676 stopped with status 0.
+
+
+Event #35
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8017
+Time: 2026-01-26 11:38:09
+Message: The system failed to register host (A or AAAA) resource records for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1
+
+          Sent update to server : 192.55.52.33:53
+
+          IP Address(es) :
+
+            192.168.29.209
+
+Either the DNS server does no
+
+Event #36
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 1
+Time: 2026-01-26 11:38:07
+Message: Secure Trustlet C:\windows\system32\FsIso.exe Id 5 and Pid 32676 started with status 0.
+
+
+Event #37
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 5
+Time: 2026-01-26 11:38:07
+Message: Secure Trustlet NULL Id 0 and Pid 0 started with status 0.
+
+
+Event #38
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Power-Troubleshooter
+Event ID: 1
+Time: 2026-01-26 11:38:02
+Message: The system has returned from a low power state.
+
+Sleep Time: 2026-01-25T18:04:13.7226843Z
+Wake Time: 2026-01-26T06:07:58.3905492Z
+
+Wake Source: 0
+
+
+Event #39
+--------------------------------------------------------------------------------
+Level: Information
+Source: BTHUSB
+Event ID: 18
+Time: 2026-01-26 11:38:01
+Message: Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.
+
+
+Event #40
+--------------------------------------------------------------------------------
+Level: Information
+Source: Netwaw18
+Event ID: 7021
+Time: 2026-01-26 11:38:00
+Message: No message
+
+Event #41
+--------------------------------------------------------------------------------
+Level: Information
+Source: Intel-SST-OED
+Event ID: 28
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #42
+--------------------------------------------------------------------------------
+Level: Information
+Source: Intel-SST-OED
+Event ID: 28
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #43
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #44
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 507
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #45
+--------------------------------------------------------------------------------
+Level: Information
+Source: Intel-SST-OED
+Event ID: 28
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #46
+--------------------------------------------------------------------------------
+Level: Information
+Source: Intel-SST-OED
+Event ID: 28
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #47
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 506
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #48
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #49
+--------------------------------------------------------------------------------
+Level: Information
+Source: Intel-SST-OED
+Event ID: 28
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #50
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 272
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #51
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 32
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #52
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 18
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #53
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 247
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #54
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 27
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #55
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 25
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #56
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Boot
+Event ID: 30
+Time: 2026-01-26 11:37:58
+Message: No message
+
+Event #57
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-BitLocker-Driver
+Event ID: 24711
+Time: 2026-01-26 11:37:57
+Message: A V2 TPM protector was used to start Windows.
+Binding ID: {e0f3b476-a73e-4425-805b-0c939f260e04}.
+
+
+Event #58
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-BitLocker-Driver
+Event ID: 24709
+Time: 2026-01-26 11:37:57
+Message: This event contains the boot-time final TPM PCR values and TCG log data.
+
+
+Event #59
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Win32k
+Event ID: 701
+Time: 2026-01-26 11:37:57
+Message: Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)
+
+
+Event #60
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Win32k
+Event ID: 701
+Time: 2026-01-26 11:37:57
+Message: Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)
+
+
+Event #61
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-General
+Event ID: 1
+Time: 2026-01-26 11:37:55
+Message: Possible detection of CVE: 2026-01-26T06:07:55.5000000Z
+Additional Information: 2026-01-25T18:04:21.4273078Z
+
+This Event is generated when an attempt to exploit a known vulnerability (2026-01-26T06:07:55.5000000Z) is detected.
+This Event is raised by a User mode process.
+
+
+
+Event #62
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 107
+Time: 2026-01-25 23:34:21
+Message: No message
+
+Event #63
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 42
+Time: 2026-01-25 23:34:19
+Message: No message
+
+Event #64
+--------------------------------------------------------------------------------
+Level: Information
+Source: BTHUSB
+Event ID: 18
+Time: 2026-01-25 23:34:14
+Message: Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.
+
+
+Event #65
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 23:34:13
+Message: No message
+
+Event #66
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 507
+Time: 2026-01-25 23:34:13
+Message: No message
+
+Event #67
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 23:34:13
+Message: No message
+
+Event #68
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 22:55:42
+Message: No message
+
+Event #69
+--------------------------------------------------------------------------------
+Level: Information
+Source: BTHUSB
+Event ID: 18
+Time: 2026-01-25 22:55:41
+Message: Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.
+
+
+Event #70
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:55:35
+Message: No message
+
+Event #71
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 506
+Time: 2026-01-25 22:55:27
+Message: No message
+
+Event #72
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:55:27
+Message: No message
+
+Event #73
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 507
+Time: 2026-01-25 22:55:27
+Message: No message
+
+Event #74
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 22:55:27
+Message: No message
+
+Event #75
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-01-25 22:53:00
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #76
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-01-25 22:48:00
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #77
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 22:44:41
+Message: No message
+
+Event #78
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 1
+Time: 2026-01-25 22:44:41
+Message: Secure Trustlet \??\C:\windows\system32\BioIso.exe Id 4 and Pid 41348 started with status 0.
+
+
+Event #79
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 5
+Time: 2026-01-25 22:44:41
+Message: Secure Trustlet NULL Id 0 and Pid 0 started with status 0.
+
+
+Event #80
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:44:36
+Message: No message
+
+Event #81
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Win32k
+Event ID: 700
+Time: 2026-01-25 22:44:36
+Message: Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)
+
+
+Event #82
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Win32k
+Event ID: 700
+Time: 2026-01-25 22:44:36
+Message: Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)
+
+
+Event #83
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 506
+Time: 2026-01-25 22:44:36
+Message: No message
+
+Event #84
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:44:36
+Message: No message
+
+Event #85
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-01-25 22:43:00
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #86
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 1014
+Time: 2026-01-25 22:43:00
+Message: Name resolution for the name soc-5CG5233YBT.clients.intel.com timed out after none of the configured DNS servers responded. Client PID 2404.
+
+
+Event #87
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 2
+Time: 2026-01-25 22:41:02
+Message: Secure Trustlet Id 4 and Pid 35896 stopped with status 0.
+
+
+Event #88
+--------------------------------------------------------------------------------
+Level: Information
+Source: Service Control Manager
+Event ID: 7040
+Time: 2026-01-25 22:40:43
+Message: The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+Event #89
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-01-25 22:38:18
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {18C95F8E-9E02-4C2A-92CF-4EFF8CB9A445}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.185.159
+
+The reason the system could not register these RRs during the update
+
+Event #90
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-01-25 22:38:15
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {18C95F8E-9E02-4C2A-92CF-4EFF8CB9A445}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.185.159
+
+The reason the system could not register these RRs during the update
+
+Event #91
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 2
+Time: 2026-01-25 22:37:51
+Message: Secure Trustlet Id 5 and Pid 41516 stopped with status 0.
+
+
+Event #92
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8035
+Time: 2026-01-25 22:37:49
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : 192.55.52.33:53
+
+          IP Address(es) :
+
+            2
+
+Event #93
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8017
+Time: 2026-01-25 22:37:48
+Message: The system failed to register host (A or AAAA) resource records for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : 192.55.52.33:53
+
+          IP Address(es) :
+
+            2405:201:d037:20
+
+Event #94
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 1
+Time: 2026-01-25 22:37:47
+Message: Secure Trustlet C:\windows\system32\FsIso.exe Id 5 and Pid 41516 started with status 0.
+
+
+Event #95
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-IsolatedUserMode
+Event ID: 5
+Time: 2026-01-25 22:37:47
+Message: Secure Trustlet NULL Id 0 and Pid 0 started with status 0.
+
+
+Event #96
+--------------------------------------------------------------------------------
+Level: Information
+Source: Netwaw18
+Event ID: 7021
+Time: 2026-01-25 22:37:47
+Message: No message
+
+Event #97
+--------------------------------------------------------------------------------
+Level: Information
+Source: BTHUSB
+Event ID: 18
+Time: 2026-01-25 22:37:46
+Message: Windows cannot store Bluetooth authentication codes (link keys) on the local adapter. Bluetooth keyboards might not work in the system BIOS during startup.
+
+
+Event #98
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 566
+Time: 2026-01-25 22:37:46
+Message: No message
+
+Event #99
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 507
+Time: 2026-01-25 22:37:46
+Message: No message
+
+Event #100
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-Kernel-Power
+Event ID: 172
+Time: 2026-01-25 22:37:46
+Message: No message
+
