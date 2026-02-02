@@ -60,22 +60,22 @@ class EvtxParser:
             logger.warning(f"EVTX file not found: {file_path}")
             return log_entries
         
-        logger.debug(f"EvtxParser.parse_evtx_file called for {os.path.basename(file_path)}")
+        logger.info(f"EvtxParser.parse_evtx_file called for {os.path.basename(file_path)}")
         
         # Try pyevtx first if available
         if self.pyevtx_available:
             try:
-                logger.debug(f"Attempting pyevtx parsing for {os.path.basename(file_path)}")
+                logger.info(f"Attempting pyevtx parsing for {os.path.basename(file_path)}")
                 entries = self._parse_with_pyevtx(file_path, user_id, system_name, session_timestamp)
                 logger.info(f"pyevtx successfully parsed {len(entries)} entries")
                 return entries
             except Exception as e:
-                logger.debug(f"pyevtx parsing failed: {e}. Trying fallback parser...")
+                logger.info(f"pyevtx parsing failed: {e}. Trying fallback parser...")
         
         # Fall back to simple parser
         if self.simple_parser:
             try:
-                logger.debug(f"Attempting simple parser for {os.path.basename(file_path)}")
+                logger.info(f"Attempting simple parser for {os.path.basename(file_path)}")
                 entries = self.simple_parser.parse_evtx_file(file_path, user_id, system_name, session_timestamp)
                 logger.info(f"Simple parser returned {len(entries)} entries")
                 return entries

@@ -18,7 +18,7 @@ try:
 except ImportError:
     EVTX_SUPPORT = False
     EvtxParser = None
-    logger.debug('EVTX support not available')
+    logger.info('EVTX support not available')
 
 
 class LogParser:
@@ -53,41 +53,42 @@ class LogParser:
     
     def parse_log_file(self, file_path: str, user_id: str, system_name: str, session_timestamp: str) -> List[LogEntry]:
         """Parse a single log file and extract all events (supports both .log and .evtx formats)"""
-        logger.debug(f'Parsing log file: {file_path}')
+        logger.info(f'Parsing log file: {file_path}')
         
         # Check file extension and route to appropriate parser
         if file_path.lower().endswith('.evtx'):
             if self.evtx_parser:
-                logger.debug(f'Using EVTX parser for {file_path}')
+                logger.info(f'Using EVTX parser for {file_path}')
                 return self.evtx_parser.parse_evtx_file(file_path, user_id, system_name, session_timestamp)
             else:
                 logger.warning(f'EVTX format not supported for {file_path}. Install pyevtx: pip install libevtx-python')
                 return []
         else:
             # Parse as text-based log file
-            logger.debug(f'Using text parser for {file_path}')
+            logger.info(f'Using text parser for {file_path}')
             return self._parse_text_log_file(file_path, user_id, system_name, session_timestamp)
     
     def _parse_text_log_file(self, file_path: str, user_id: str, system_name: str, session_timestamp: str) -> List[LogEntry]:
         """Parse text-based log files (.log format)"""
         log_entries = []
         log_type = os.path.basename(file_path).replace(".log", "").replace(".txt", "")
-        logger.debug(f'Parsing text log file: {file_path} (type: {log_type})')
+        logger.info(f'Parsing text log file: {file_path} (type: {log_type})')
         
         try:
+            logger.info(f'Reading log file: {file_path}')
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
                 content = f.read()
             
-            logger.debug(f'Read {len(content)} characters from text log file')
+            logger.info(f'Read {len(content)} characters from text log file')
             
             # Try actual format first (Time, Level, Source, Event ID, Category)
             matches = list(self.event_pattern_actual.finditer(content))
-            logger.debug(f'Actual format pattern found {len(matches)} matches')
+            logger.info(f'Actual format pattern found {len(matches)} matches')
             
             # If no matches, try multi-line format
             if len(matches) == 0:
                 matches = list(self.event_pattern_multiline.finditer(content))
-                logger.debug(f'Multi-line format pattern found {len(matches)} matches')
+                logger.info(f'Multi-line format pattern found {len(matches)} matches')
                 format_used = "multiline"
             else:
                 format_used = "actual"
@@ -95,10 +96,10 @@ class LogParser:
             # If still no matches, try single-line format
             if len(matches) == 0:
                 matches = list(self.event_pattern_inline.finditer(content))
-                logger.debug(f'Single-line format pattern found {len(matches)} matches')
+                logger.info(f'Single-line format pattern found {len(matches)} matches')
                 format_used = "inline"
             
-            logger.debug(f'Using format: {format_used}')
+            logger.info(f'Using format: {format_used}')
             
             for match in matches:
                 try:
@@ -143,10 +144,10 @@ class LogParser:
                         session_timestamp=session_timestamp
                     )
                     log_entries.append(log_entry)
-                    logger.debug(f'Event {event_num} parsed: Level={level}, Source={source}')
+                    logger.info(f'Event {event_num} parsed: Level={level}, Source={source}')
                     
                 except Exception as e:
-                    logger.debug(f"Error parsing event in {file_path}: {e}", exc_info=True)
+                    logger.info(f"Error parsing event in {file_path}: {e}", exc_info=True)
                     continue
                     
         except Exception as e:
@@ -254,6 +255,7 @@ class LogParser:
                 logger.debug(f"  - Is file: {os.path.isfile(log_file_path)}")
                 
                 if os.path.exists(log_file_path):
+                    logger.info(f"Found log file: {log_file_path}")
                     logger.info(f"Found log file: {log_file_path}")
                     entries = self.parse_log_file(log_file_path, user_id, system_name, session_timestamp)
                     all_entries.extend(entries)

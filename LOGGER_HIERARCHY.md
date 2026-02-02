@@ -324,7 +324,7 @@ from logging.handlers import QueueHandler, QueueListener
 ### Verify Setup
 ```python
 # Add to api_server.py after logger setup
-logger.debug('DEBUG message')
+logger.info('DEBUG message')
 logger.info('INFO message')
 logger.warning('WARNING message')
 logger.error('ERROR message')

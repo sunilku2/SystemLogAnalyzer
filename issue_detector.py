@@ -193,7 +193,7 @@ class IssueDetector:
             issue_signature = self._get_issue_signature(entry)
             issue_groups[issue_signature].append(entry)
         
-        logger.debug(f'Grouped entries into {len(issue_groups)} unique issue signatures')
+        logger.info(f'Grouped entries into {len(issue_groups)} unique issue signatures')
         
         # Create Issue objects
         issues = []
@@ -201,7 +201,7 @@ class IssueDetector:
             issue = self._create_issue_from_entries(signature, entries)
             if issue:
                 issues.append(issue)
-                logger.debug(f'Created issue: category={issue.category}, severity={issue.severity}, count={len(entries)}')
+                logger.info(f'Created issue: category={issue.category}, severity={issue.severity}, count={len(entries)}')
         return issues
     
     def _get_issue_signature(self, entry: LogEntry) -> str:
