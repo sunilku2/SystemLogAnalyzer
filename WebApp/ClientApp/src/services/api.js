@@ -37,8 +37,13 @@ export const runAnalysis = async (settings) => {
 };
 
 export const fetchLatestReport = async () => {
-  const response = await api.get('/reports/latest');
-  return response.data;
+  try {
+    const response = await api.get('/reports/latest');
+    return response.data;
+  } catch (error) {
+    // Handle error gracefully - return empty success response
+    return { success: false, error: 'No report available' };
+  }
 };
 
 export const fetchAnalysisState = async () => {

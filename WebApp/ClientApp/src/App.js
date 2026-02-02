@@ -35,7 +35,7 @@ function App() {
     const pollLatestReport = async () => {
       try {
         const latest = await fetchLatestReport();
-        if (latest && latest.success) {
+        if (latest && latest.success !== false && latest.issues) {
           setAnalysisResult(latest);
         }
       } catch (err) {
@@ -60,7 +60,7 @@ function App() {
       // Try to load latest report
       try {
         const latestReport = await fetchLatestReport();
-        if (latestReport && latestReport.success) {
+        if (latestReport && latestReport.success !== false && latestReport.issues) {
           setAnalysisResult(latestReport);
         }
       } catch (err) {

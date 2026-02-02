@@ -406,7 +406,7 @@ def get_latest_report():
         return jsonify({
             'success': False,
             'error': 'No analysis has been run yet'
-        }), 404
+        }), 200
 
 
 def generate_report_data(full_data, report_type):
