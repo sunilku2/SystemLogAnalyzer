@@ -1,5 +1,12 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './Admin.css';
+import { API_BASE_URL } from '../services/api';
+
+// Helper function to construct full API URLs
+const getApiUrl = (endpoint) => {
+  const baseUrl = API_BASE_URL.replace(/\/api$/, ''); // Remove /api suffix if present
+  return `${baseUrl}/api${endpoint}`;
+};
 
 export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisAction }) {
   const [llmModel, setLlmModel] = useState('');
@@ -21,6 +28,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
   const [modelToDownload, setModelToDownload] = useState('');
   const [ollamaInstalled, setOllamaInstalled] = useState({ is_installed: false });
   const [isStartingOllama, setIsStartingOllama] = useState(false);
+  const [isInstallingOllama, setIsInstallingOllama] = useState(false);
 
   // Initialize from config
   useEffect(() => {
@@ -38,7 +46,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
 
   const loadModels = useCallback(async (provider) => {
     try {
-      const response = await fetch(`/api/models/available?provider=${encodeURIComponent(provider)}`);
+      const response = await fetch(getApiUrl(`/models/available?provider=${encodeURIComponent(provider)}`));
       if (response.ok) {
         const data = await response.json();
         setAvailableModels(data.models || []);
@@ -64,7 +72,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
   // Fetch analyzer status (initial + refresh)
   const fetchAnalyzerStatus = async () => {
     try {
-      const response = await fetch('/api/analyzer/status');
+      const response = await fetch(getApiUrl('/analyzer/status'));
       if (response.ok) {
         const data = await response.json();
         const status = data.status || (data.is_running ? 'running' : 'stopped');
@@ -86,7 +94,15 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
 
   const fetchOllamaStatus = async () => {
     try {
-      const response = await fetch('/api/ollama/status');
+      const response = await fetch(getApiUrl('/ollama/status'));
+      const contentType = response.headers.get('content-type');
+      
+      if (!contentType || !contentType.includes('application/json')) {
+        console.error('Non-JSON response from /api/ollama/status');
+        setOllamaStatus({ is_running: false, error: 'Server returned invalid response' });
+        return;
+      }
+      
       if (response.ok) {
         const data = await response.json();
         setOllamaStatus(data);
@@ -101,7 +117,15 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
 
   const checkOllamaInstalled = async () => {
     try {
-      const response = await fetch('/api/ollama/check-installed');
+      const response = await fetch(getApiUrl('/ollama/check-installed'));
+      const contentType = response.headers.get('content-type');
+      
+      if (!contentType || !contentType.includes('application/json')) {
+        console.error('Non-JSON response from /api/ollama/check-installed');
+        setOllamaInstalled({ is_installed: false, error: 'Server returned invalid response' });
+        return;
+      }
+      
       if (response.ok) {
         const data = await response.json();
         setOllamaInstalled(data);
@@ -122,7 +146,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     setErrorMessage('');
     setSuccessMessage('');
     try {
-      const response = await fetch('/api/config', {
+      const response = await fetch(getApiUrl('/config'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -157,7 +181,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     setAnalyzerStatus('processing');
 
     try {
-      const response = await fetch(`/api/analyzer/${action}`, {
+      const response = await fetch(getApiUrl(`/analyzer/${action}`), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
       });
@@ -193,7 +217,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     setErrorMessage('');
     setSuccessMessage('');
     try {
-      const response = await fetch('/api/test-llm', {
+      const response = await fetch(getApiUrl('/test-llm'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -253,7 +277,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     setIsDownloading(true);
 
     try {
-      const response = await fetch('/api/ollama/pull', {
+      const response = await fetch(getApiUrl('/ollama/pull'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ model: modelToDownload }),
@@ -283,7 +307,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     setIsStartingOllama(true);
 
     try {
-      const response = await fetch('/api/ollama/start', {
+      const response = await fetch(getApiUrl('/ollama/start'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
       });
@@ -309,6 +333,49 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
       setErrorMessage(`❌ ${error.message || 'Failed to start Ollama.'}`);
     } finally {
       setIsStartingOllama(false);
+    }
+  };
+
+  const handleInstallOllama = async () => {
+    setErrorMessage('');
+    setSuccessMessage('');
+    setIsInstallingOllama(true);
+
+    try {
+      const response = await fetch(getApiUrl('/ollama/install'), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+      });
+
+      // Check if response is JSON
+      const contentType = response.headers.get('content-type');
+      if (!contentType || !contentType.includes('application/json')) {
+        const text = await response.text();
+        console.error('Non-JSON response:', text);
+        setErrorMessage(`❌ Server error: ${text.substring(0, 100)}`);
+        setIsInstallingOllama(false);
+        return;
+      }
+
+      const data = await response.json();
+
+      if (data.is_installed) {
+        setSuccessMessage('✅ Ollama installed successfully! Now click "Start Ollama" to run it.');
+        setTimeout(() => setSuccessMessage(''), 5000);
+        // Refresh installation status
+        setTimeout(() => {
+          checkOllamaInstalled();
+        }, 2000);
+      } else if (data.installing) {
+        setSuccessMessage('⏳ Ollama installation started. A window will open to complete setup. Please close it when done and click "Refresh Status".');
+      } else {
+        setErrorMessage(`❌ ${data.error || 'Failed to install Ollama'}`);
+      }
+    } catch (error) {
+      console.error('Installation error:', error);
+      setErrorMessage(`❌ ${error.message || 'Failed to install Ollama.'}`);
+    } finally {
+      setIsInstallingOllama(false);
     }
   };
 
@@ -467,17 +534,15 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
                   <div className="alert alert-error">
                     <span>❌ Ollama is not installed on this system.</span>
                   </div>
-                  <a 
-                    href="https://ollama.ai" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
+                  <button 
                     className="btn btn-primary w-full"
-                    style={{ display: 'inline-block', textAlign: 'center', textDecoration: 'none' }}
+                    onClick={handleInstallOllama}
+                    disabled={isInstallingOllama}
                   >
-                    📥 Download & Install Ollama
-                  </a>
+                    {isInstallingOllama ? '⏳ Installing...' : '📥 Download & Install Ollama'}
+                  </button>
                   <p className="installation-note">
-                    After installation, restart this application and click "Start Ollama" button.
+                    Ollama will be downloaded and installed automatically. The installer window will open when ready.
                   </p>
                 </>
               )}

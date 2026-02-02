@@ -11,6 +11,8 @@ import sys
 import threading
 import time
 import subprocess
+import tempfile
+import requests
 
 # Add parent directory to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -1484,6 +1486,151 @@ def check_ollama_installed():
         }), 200
 
 
+@app.route('/api/ollama/install', methods=['POST'])
+def install_ollama():
+    """Download and install Ollama automatically"""
+    try:
+        
+        # Check if already installed
+        try:
+            result = subprocess.run(
+                ['ollama', '--version'],
+                capture_output=True,
+                text=True,
+                timeout=5
+            )
+            if result.returncode == 0:
+                return jsonify({
+                    'success': True,
+                    'message': 'Ollama is already installed',
+                    'is_installed': True,
+                    'version': result.stdout.strip()
+                })
+        except (FileNotFoundError, subprocess.TimeoutExpired):
+            pass
+        except Exception as check_error:
+            print(f"Error checking Ollama installation: {check_error}")
+        
+        # Download Ollama installer
+        print("Downloading Ollama installer...")
+        try:
+            # Use the direct download URL from Ollama
+            installer_url = 'https://ollama.ai/download/OllamaSetup.exe'
+            temp_dir = tempfile.gettempdir()
+            installer_path = os.path.join(temp_dir, 'OllamaSetup.exe')
+            
+            print(f"Downloading from: {installer_url}")
+            print(f"Saving to: {installer_path}")
+            
+            # Download the file with proper headers
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            }
+            response = requests.get(installer_url, timeout=120, stream=True, headers=headers)
+            response.raise_for_status()
+            
+            total_size = int(response.headers.get('content-length', 0))
+            downloaded = 0
+            
+            with open(installer_path, 'wb') as f:
+                for chunk in response.iter_content(chunk_size=8192):
+                    if chunk:
+                        f.write(chunk)
+                        downloaded += len(chunk)
+                        if total_size > 0:
+                            progress = (downloaded / total_size * 100)
+                            print(f"Download progress: {progress:.1f}%")
+            
+            print(f"Installer downloaded successfully to: {installer_path}")
+            print(f"File size: {os.path.getsize(installer_path)} bytes")
+            
+            # Run the installer
+            print("Running Ollama installer...")
+            result = subprocess.Popen(
+                [installer_path],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                creationflags=subprocess.CREATE_NEW_CONSOLE if sys.platform == 'win32' else 0
+            )
+            
+            # Wait for installer to complete (with timeout)
+            try:
+                stdout, stderr = result.communicate(timeout=300)  # 5 minute timeout
+                print(f"Installer completed with return code: {result.returncode}")
+                
+                if result.returncode == 0:
+                    # Verify installation
+                    time.sleep(2)
+                    try:
+                        verify_result = subprocess.run(
+                            ['ollama', '--version'],
+                            capture_output=True,
+                            text=True,
+                            timeout=5
+                        )
+                        if verify_result.returncode == 0:
+                            return jsonify({
+                                'success': True,
+                                'message': 'Ollama installed successfully!',
+                                'is_installed': True,
+                                'version': verify_result.stdout.strip()
+                            })
+                        else:
+                            return jsonify({
+                                'success': False,
+                                'error': 'Installation completed but verification failed. Please restart the application.',
+                                'is_installed': False
+                            }), 500
+                    except subprocess.TimeoutExpired:
+                        return jsonify({
+                            'success': False,
+                            'error': 'Installation completed but verification timed out. Please restart the application.',
+                            'is_installed': False
+                        }), 500
+                else:
+                    error_msg = stderr.decode('utf-8', errors='ignore') if stderr else 'Unknown error'
+                    print(f"Installer error: {error_msg}")
+                    return jsonify({
+                        'success': False,
+                        'error': f'Installer failed. Please try downloading from https://ollama.ai manually.',
+                        'is_installed': False
+                    }), 500
+            except subprocess.TimeoutExpired:
+                # Installer is still running, which is fine
+                return jsonify({
+                    'success': True,
+                    'message': 'Ollama installation started. Please wait for the installer to complete.',
+                    'is_installed': False,
+                    'installing': True
+                })
+            
+        except requests.exceptions.RequestException as e:
+            print(f"Download error: {e}")
+            return jsonify({
+                'success': False,
+                'error': f'Failed to download Ollama. Please visit https://ollama.ai to download manually.',
+                'is_installed': False,
+                'download_url': 'https://ollama.ai'
+            }), 500
+        except IOError as io_error:
+            print(f"File I/O error: {io_error}")
+            return jsonify({
+                'success': False,
+                'error': f'Failed to save installer file. Check disk space.',
+                'is_installed': False
+            }), 500
+        
+    except Exception as e:
+        print(f"Error installing Ollama: {e}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({
+            'success': False,
+            'error': f'Installation error: {str(e)}',
+            'is_installed': False
+        }), 500
+
+
 if __name__ == '__main__':
     print("=" * 80)
     print("Log Analyzer REST API Server")
@@ -1509,6 +1656,12 @@ if __name__ == '__main__':
     print("    POST /api/analyzer/stop")
     print("    POST /api/analyzer/restart")
     print("    GET  /api/analyzer/status")
+    print("\n  Ollama Control (Admin):")
+    print("    GET  /api/ollama/status")
+    print("    GET  /api/ollama/check-installed")
+    print("    POST /api/ollama/start")
+    print("    POST /api/ollama/pull")
+    print("    POST /api/ollama/install")
     print("\n  Data:")
     print("    GET  /api/logs/sessions")
     print(f"\nServer running on: http://localhost:5000")
