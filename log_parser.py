@@ -25,11 +25,18 @@ class LogParser:
     """Parses Windows Event Log files (both .log and .evtx formats)"""
     
     def __init__(self):
-        # Pattern for format: Time, Level, Source, Event ID, Category (actual format in logs)
-        # Message can be on same line or next line
+        # Pattern for actual format: Event #, Time, Level, Source, Event ID, Category, Message
+        # Use [^\n]+ for fields to match everything on a line
         self.event_pattern_actual = re.compile(
-            r"Event #(\d+)\s*\n-+\s*\n(?:Time:\s*([\d\-:]+)\s*\n)?(?:Level:\s*(\w+)\s*\n)?(?:Source:\s*(.*?)\s*\n)?(?:Event ID:\s*(\d+)\s*\n)?(?:Category:\s*(.*?)\s*\n)?Message:\s*\n?(.*?)(?=\n\n=+|\nEvent #|\Z)",
-            re.DOTALL | re.MULTILINE
+            r"Event #(\d+)\s*\n-+\s*\n"
+            r"Time:\s*([^\n]+)\s*\n"
+            r"Level:\s*([^\n]+)\s*\n"
+            r"Source:\s*([^\n]+)\s*\n"
+            r"Event ID:\s*([^\n]+)\s*\n"
+            r"Category:\s*([^\n]+)\s*\n"
+            r"Message:\s*\n"
+            r"([^\n]*(?:\n(?!\n).[^\n]*)*)",  # Message until double newline
+            re.MULTILINE
         )
         # Pattern for multi-line format (Level, Source, Event ID, Time order)
         self.event_pattern_multiline = re.compile(
@@ -173,27 +180,52 @@ class LogParser:
         discovered = []
         
         if not os.path.exists(base_logs_dir):
+            logger.warning(f"Logs directory not found: {base_logs_dir}")
             print(f"Warning: Logs directory not found: {base_logs_dir}")
             return discovered
         
+        logger.debug(f"Starting log discovery in: {base_logs_dir}")
+        logger.debug(f"Base directory exists: {os.path.exists(base_logs_dir)}")
+        logger.debug(f"Base directory is dir: {os.path.isdir(base_logs_dir)}")
+        
         # Walk through userid/systemname/timestamp structure
-        for user_id in os.listdir(base_logs_dir):
+        user_ids = os.listdir(base_logs_dir)
+        logger.debug(f"Found {len(user_ids)} items in base directory: {user_ids}")
+        
+        for user_id in user_ids:
             user_path = os.path.join(base_logs_dir, user_id)
+            logger.debug(f"Checking user_path: {user_path} (exists: {os.path.exists(user_path)}, isdir: {os.path.isdir(user_path)})")
+            
             if not os.path.isdir(user_path):
+                logger.debug(f"Skipping user_path (not a directory): {user_path}")
                 continue
             
-            for system_name in os.listdir(user_path):
+            system_names = os.listdir(user_path)
+            logger.debug(f"User {user_id} has {len(system_names)} system entries: {system_names}")
+            
+            for system_name in system_names:
                 system_path = os.path.join(user_path, system_name)
+                logger.debug(f"Checking system_path: {system_path} (exists: {os.path.exists(system_path)}, isdir: {os.path.isdir(system_path)})")
+                
                 if not os.path.isdir(system_path):
+                    logger.debug(f"Skipping system_path (not a directory): {system_path}")
                     continue
                 
-                for session_timestamp in os.listdir(system_path):
+                session_timestamps = os.listdir(system_path)
+                logger.debug(f"System {system_name} has {len(session_timestamps)} session entries: {session_timestamps}")
+                
+                for session_timestamp in session_timestamps:
                     session_path = os.path.join(system_path, session_timestamp)
+                    logger.debug(f"Checking session_path: {session_path} (exists: {os.path.exists(session_path)}, isdir: {os.path.isdir(session_path)})")
+                    
                     if not os.path.isdir(session_path):
+                        logger.debug(f"Skipping session_path (not a directory): {session_path}")
                         continue
                     
+                    logger.info(f"Found valid session: user={user_id}, system={system_name}, session={session_timestamp}, path={session_path}")
                     discovered.append((user_id, system_name, session_timestamp, session_path))
         
+        logger.info(f"Log discovery complete: found {len(discovered)} valid sessions")
         return discovered
     
     def parse_all_logs(self, base_logs_dir: str, log_types: List[str]) -> List[LogEntry]:
@@ -205,32 +237,55 @@ class LogParser:
         print(f"Discovered {len(discovered_logs)} log sessions")
         
         for user_id, system_name, session_timestamp, session_path in discovered_logs:
-            logger.debug(f"Processing session: User={user_id}, System={system_name}, Session={session_timestamp}, Path={session_path}")
+            logger.debug(f"Processing session: User={user_id}, System={system_name}, Session={session_timestamp}")
+            logger.debug(f"Session path: {session_path}")
+            logger.debug(f"Session path exists: {os.path.exists(session_path)}")
+            logger.debug(f"Session path is dir: {os.path.isdir(session_path)}")
+            
             print(f"Parsing logs for User: {user_id}, System: {system_name}, Session: {session_timestamp}")
             
             # First, parse configured log types (.log files)
+            logger.debug(f"Looking for configured log types: {log_types}")
             for log_type in log_types:
                 log_file_path = os.path.join(session_path, log_type)
+                logger.debug(f"Checking for log file: {log_file_path}")
+                logger.debug(f"  - Path string: {repr(log_file_path)}")
+                logger.debug(f"  - Exists: {os.path.exists(log_file_path)}")
+                logger.debug(f"  - Is file: {os.path.isfile(log_file_path)}")
+                
                 if os.path.exists(log_file_path):
-                    logger.debug(f"Found log file: {log_file_path}")
+                    logger.info(f"Found log file: {log_file_path}")
                     entries = self.parse_log_file(log_file_path, user_id, system_name, session_timestamp)
                     all_entries.extend(entries)
                     print(f"  - Parsed {len(entries)} entries from {log_type}")
                     logger.info(f"Parsed {len(entries)} entries from {log_type} in session {session_timestamp}")
                 else:
                     logger.debug(f"Log file not found: {log_file_path}")
+                    # List what files ARE in the directory
+                    try:
+                        session_files = os.listdir(session_path)
+                        logger.debug(f"Files in session directory: {session_files}")
+                    except Exception as e:
+                        logger.error(f"Could not list session directory: {e}")
             
             # Also scan for any .evtx files in the session directory
             if os.path.isdir(session_path):
                 logger.debug(f"Scanning {session_path} for EVTX files")
-                for filename in os.listdir(session_path):
-                    if filename.lower().endswith('.evtx'):
-                        evtx_file_path = os.path.join(session_path, filename)
-                        logger.debug(f"Found EVTX file: {evtx_file_path}")
-                        entries = self.parse_log_file(evtx_file_path, user_id, system_name, session_timestamp)
-                        all_entries.extend(entries)
-                        print(f"  - Parsed {len(entries)} entries from {filename} (EVTX)")
-                        logger.info(f"Parsed {len(entries)} entries from {filename} (EVTX)")
+                try:
+                    all_files = os.listdir(session_path)
+                    logger.debug(f"Found {len(all_files)} files in session directory")
+                    
+                    for filename in all_files:
+                        logger.debug(f"Checking file: {filename}")
+                        if filename.lower().endswith('.evtx'):
+                            evtx_file_path = os.path.join(session_path, filename)
+                            logger.debug(f"Found EVTX file: {evtx_file_path}")
+                            entries = self.parse_log_file(evtx_file_path, user_id, system_name, session_timestamp)
+                            all_entries.extend(entries)
+                            print(f"  - Parsed {len(entries)} entries from {filename} (EVTX)")
+                            logger.info(f"Parsed {len(entries)} entries from {filename} (EVTX)")
+                except Exception as e:
+                    logger.error(f"Error scanning EVTX files in {session_path}: {e}", exc_info=True)
         
         logger.info(f"Total log parsing complete: {len(all_entries)} entries parsed from all sources")
         print(f"\nTotal entries parsed: {len(all_entries)}")
