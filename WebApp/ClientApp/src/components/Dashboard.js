@@ -265,7 +265,7 @@ function Dashboard({ analysisResult, sessions, isAnalyzing, onNavigate }) {
           <div className="hero-text">
             <p className="eyebrow">Employee Device Fleet</p>
             <h2>Fleet Health & Status</h2>
-            <p className="subhead">Generated {new Date(analysis.generated_at).toLocaleString()} • Model {analysis.model_used}</p>
+            <p className="subhead">Generated {typeof analysis.generated_at === 'string' ? new Date(analysis.generated_at).toLocaleString() : analysis.generated_at.toLocaleString()} • Model {analysis.model_used}</p>
           </div>
           <div className="hero-badges">
             <span className="pill">Devices {analysis.total_systems_analyzed.toLocaleString()}</span>

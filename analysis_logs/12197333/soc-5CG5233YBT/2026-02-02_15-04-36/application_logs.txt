@@ -1,0 +1,943 @@
+================================================================================
+APPLICATION LOGS - CAPTURED 2026-02-02_15-04-36
+================================================================================
+
+STATISTICS
+--------------------------------------------------------------------------------
+Total Events:        50
+Critical Events:     0
+Error Events:        0
+Warning Events:      0
+Information Events:  50
+
+EVENT SOURCES
+--------------------------------------------------------------------------------
+  Software Protection Platform Service: 16 events
+  HotKeyServiceUWP: 13 events
+  Windows Error Reporting: 12 events
+  IT Cloud Service: 4 events
+  Updater Utility Service Components Controller: 4 events
+  WecClientCertMaint: 1 events
+
+DETAILED EVENT LOG
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Time:       2026-02-02 15:04:28
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16384
+Category:   Application
+
+Message:
+Successfully scheduled Software Protection service for re-start at 2126-01-09T09:34:28Z. Reason: RulesEngine.
+
+
+================================================================================
+
+Event #2
+--------------------------------------------------------------------------------
+Time:       2026-02-02 15:03:36
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16394
+Category:   Application
+
+Message:
+Offline downlevel migration succeeded.
+
+
+================================================================================
+
+Event #3
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:59:10
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffa5846721d010
+P3: fffff8002bf92b20
+P4: 0
+P5: ffffa5842f36b080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20260127-0928.dmp
+\\?\C:\windows\SystemTemp\WER-308503875-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2b9a54c1-4ba9-4c1b-afd6-5b532ee5b7b6.tmp.WERInternalMetadata.xml
+
+================================================================================
+
+Event #4
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:59:09
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffca0ccff792e0
+P3: fffff80178e32b20
+P4: 0
+P5: ffffca0c8f179080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20260107-1116.dmp
+\\?\C:\windows\SystemTemp\WER-1630784890-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.0c562836-be45-4a12-8240-d178b31a2d61.tmp.WERInternalMetadata.xml
+
+================================================================================
+
+Event #5
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:59:09
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+================================================================================
+
+Event #6
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:59:09
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffae0ff9789010
+P3: fffff80146b42b20
+P4: 0
+P5: ffffae0fe6107080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20251211-1044.dmp
+\\?\C:\windows\SystemTemp\WER-1478140437-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2fa5fe41-6670-4424-969c-1862f21aa52f.tmp.WERInternalMetadata.xml
+
+================================================================================
+
+Event #7
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:59:09
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+================================================================================
+
+Event #8
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:59:08
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 141
+P2: ffffc008701f2010
+P3: fffff8015a883280
+P4: 0
+P5: ffffc0086aced080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\SystemTemp\WER-24874687-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.bda2b3df-0130-464f-a
+
+================================================================================
+
+Event #9
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:59:05
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'HP Audio Analytics Service (8.10.50.393) in OnStart'.>
+
+================================================================================
+
+Event #10
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:59:05
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'HP Audio Analytics Service in OnStop'.>
+
+================================================================================
+
+Event #11
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:59:03
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x8'.>
+
+================================================================================
+
+Event #12
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:59:03
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x8'.>
+
+================================================================================
+
+Event #13
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:56:32
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16384
+Category:   Application
+
+Message:
+Successfully scheduled Software Protection service for re-start at 2126-01-09T09:26:32Z. Reason: RulesEngine.
+
+
+================================================================================
+
+Event #14
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:56:02
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16394
+Category:   Application
+
+Message:
+Offline downlevel migration succeeded.
+
+
+================================================================================
+
+Event #15
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:55:32
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x7'.>
+
+================================================================================
+
+Event #16
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:55:32
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'OnSessionChange - Type = 0x7'.>
+
+================================================================================
+
+Event #17
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:55:14
+Level:      Information
+Source:     WecClientCertMaint
+Event ID:   42040
+Category:   Application
+
+Message:
+Found WEC client certificate and confirmed permissions already granted. Subject:CN=SOC-5CG5233YBT.clients.intel.com, O=Intel Corporation, S=California, C=US Thumbprint:46BE7C110235DB2DF2A788AD6FC2C55A403E2309 Path:C:\ProgramData\Application Data\Microsoft\Crypto\Keys\bb9ee996bae80270c378f559b6af7e17_979350a3-9d5e-47a7-8412-c198b17a6be4
+
+
+================================================================================
+
+Event #18
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:35:24
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16384
+Category:   Application
+
+Message:
+Successfully scheduled Software Protection service for re-start at 2126-01-09T09:05:24Z. Reason: RulesEngine.
+
+
+================================================================================
+
+Event #19
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:34:54
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16394
+Category:   Application
+
+Message:
+Offline downlevel migration succeeded.
+
+
+================================================================================
+
+Event #20
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:04:02
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16384
+Category:   Application
+
+Message:
+Successfully scheduled Software Protection service for re-start at 2126-01-09T08:34:02Z. Reason: RulesEngine.
+
+
+================================================================================
+
+Event #21
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:03:08
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16394
+Category:   Application
+
+Message:
+Offline downlevel migration succeeded.
+
+
+================================================================================
+
+Event #22
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:56:52
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16384
+Category:   Application
+
+Message:
+Successfully scheduled Software Protection service for re-start at 2126-01-09T08:26:52Z. Reason: RulesEngine.
+
+
+================================================================================
+
+Event #23
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:55:55
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16394
+Category:   Application
+
+Message:
+Offline downlevel migration succeeded.
+
+
+================================================================================
+
+Event #24
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:40:19
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16384
+Category:   Application
+
+Message:
+Successfully scheduled Software Protection service for re-start at 2126-01-09T08:10:19Z. Reason: RulesEngine.
+
+
+================================================================================
+
+Event #25
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:39:48
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16394
+Category:   Application
+
+Message:
+Offline downlevel migration succeeded.
+
+
+================================================================================
+
+Event #26
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:38:54
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16384
+Category:   Application
+
+Message:
+Successfully scheduled Software Protection service for re-start at 2126-01-09T08:08:54Z. Reason: RulesEngine.
+
+
+================================================================================
+
+Event #27
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:38:23
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16394
+Category:   Application
+
+Message:
+Offline downlevel migration succeeded.
+
+
+================================================================================
+
+Event #28
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:37:32
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffa5846721d010
+P3: fffff8002bf92b20
+P4: 0
+P5: ffffa5842f36b080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20260127-0928.dmp
+\\?\C:\windows\SystemTemp\WER-308503875-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2b9a54c1-4ba9-4c1b-afd6-5b532ee5b7b6.tmp.WERInternalMetadata.xml
+
+================================================================================
+
+Event #29
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:37:32
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffca0ccff792e0
+P3: fffff80178e32b20
+P4: 0
+P5: ffffca0c8f179080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20260107-1116.dmp
+\\?\C:\windows\SystemTemp\WER-1630784890-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.0c562836-be45-4a12-8240-d178b31a2d61.tmp.WERInternalMetadata.xml
+
+================================================================================
+
+Event #30
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:37:32
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.7e69ca9e-1930-41fb-9a98-e358b14627c3.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.70052fc3-2a71-4f21-b805-6ca35adcc532.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a3d1dd9b-5141-43c1-8013-6bd64ccb9677.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+================================================================================
+
+Event #31
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:37:31
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 117
+P2: ffffae0ff9789010
+P3: fffff80146b42b20
+P4: 0
+P5: ffffae0fe6107080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\LiveKernelReports\WATCHDOG\WATCHDOG-20251211-1044.dmp
+\\?\C:\windows\SystemTemp\WER-1478140437-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2fa5fe41-6670-4424-969c-1862f21aa52f.tmp.WERInternalMetadata.xml
+
+================================================================================
+
+Event #32
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:37:31
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: AppTermFailureEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 
+P2: 
+P3: 
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\SystemTemp\WER.d728db0b-9bfa-479c-9b15-3aa13ca6f999.tmpatk.kdmp
+\\?\C:\Windows\SystemTemp\WER.52091f09-1fc6-4b16-bb27-5a54b7858176.tmp.appcompat.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1d4f772e-251d-41eb-bd2a-fd6b39a0bf21.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Micro
+
+================================================================================
+
+Event #33
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:37:31
+Level:      Information
+Source:     Windows Error Reporting
+Event ID:   1001
+Category:   Application
+
+Message:
+Fault bucket , type 0
+Event Name: LiveKernelEvent
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 141
+P2: ffffc008701f2010
+P3: fffff8015a883280
+P4: 0
+P5: ffffc0086aced080
+P6: 10_0_26100
+P7: 0_0
+P8: 256_1
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\windows\SystemTemp\WER-24874687-0.sysdata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.48f29511-bc19-4b61-b449-9fb3d0605cf8.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.bda2b3df-0130-464f-a
+
+================================================================================
+
+Event #34
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:35:17
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16384
+Category:   Application
+
+Message:
+Successfully scheduled Software Protection service for re-start at 2126-01-09T08:04:17Z. Reason: RulesEngine.
+
+
+================================================================================
+
+Event #35
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:46
+Level:      Information
+Source:     Software Protection Platform Service
+Event ID:   16394
+Category:   Application
+
+Message:
+Offline downlevel migration succeeded.
+
+
+================================================================================
+
+Event #36
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:22
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+================================================================================
+
+Event #37
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:22
+Level:      Information
+Source:     IT Cloud Service
+Event ID:   0
+Category:   Application
+
+Message:
+PowerEvent handled successfully by the service.
+
+
+================================================================================
+
+Event #38
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:22
+Level:      Information
+Source:     Updater Utility Service Components Controller
+Event ID:   0
+Category:   Application
+
+Message:
+PowerEvent handled successfully by the service.
+
+
+================================================================================
+
+Event #39
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:22
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+================================================================================
+
+Event #40
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:20
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+================================================================================
+
+Event #41
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:20
+Level:      Information
+Source:     IT Cloud Service
+Event ID:   0
+Category:   Application
+
+Message:
+PowerEvent handled successfully by the service.
+
+
+================================================================================
+
+Event #42
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:20
+Level:      Information
+Source:     Updater Utility Service Components Controller
+Event ID:   0
+Category:   Application
+
+Message:
+PowerEvent handled successfully by the service.
+
+
+================================================================================
+
+Event #43
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:20
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+================================================================================
+
+Event #44
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:19
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+================================================================================
+
+Event #45
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:19
+Level:      Information
+Source:     Updater Utility Service Components Controller
+Event ID:   0
+Category:   Application
+
+Message:
+PowerEvent handled successfully by the service.
+
+
+================================================================================
+
+Event #46
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:19
+Level:      Information
+Source:     IT Cloud Service
+Event ID:   0
+Category:   Application
+
+Message:
+PowerEvent handled successfully by the service.
+
+
+================================================================================
+
+Event #47
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:19
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+================================================================================
+
+Event #48
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:13
+Level:      Information
+Source:     HotKeyServiceUWP
+Event ID:   0
+Category:   Application
+
+Message:
+<The description for Event ID ( 0 ) in Source ( 'HotKeyServiceUWP' ) could not be found. It contains the following insertion string(s):'PowerEvent-default - 0xa'.>
+
+================================================================================
+
+Event #49
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:13
+Level:      Information
+Source:     IT Cloud Service
+Event ID:   0
+Category:   Application
+
+Message:
+PowerEvent handled successfully by the service.
+
+
+================================================================================
+
+Event #50
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:34:13
+Level:      Information
+Source:     Updater Utility Service Components Controller
+Event ID:   0
+Category:   Application
+
+Message:
+PowerEvent handled successfully by the service.
+
+
+================================================================================
+

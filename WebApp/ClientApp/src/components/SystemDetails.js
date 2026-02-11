@@ -5,7 +5,7 @@ function SystemDetails({ analysisResult, sessions }) {
   const [selectedSystem, setSelectedSystem] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
   const [healthFilter, setHealthFilter] = useState('all');
-  const [viewMode, setViewMode] = useState('grid'); // grid, table, or detail
+  const [viewMode, setViewMode] = useState('table'); // grid, table, or detail
   const [sortBy, setSortBy] = useState('name'); // name, health, issues, users, activity
   const [sortOrder, setSortOrder] = useState('asc'); // asc or desc
   const [currentPage, setCurrentPage] = useState(1);
@@ -15,7 +15,7 @@ function SystemDetails({ analysisResult, sessions }) {
   const formatDate = (dateValue) => {
     if (!dateValue) return 'No data';
     const date = new Date(dateValue);
-    if (isNaN(date.getTime())) return dateValue;
+    if (isNaN(date.getTime())) return 'Invalid date';
     const day = date.getDate().toString().padStart(2, '0');
     const month = date.toLocaleString('en-US', { month: 'short' });
     const year = date.getFullYear();
@@ -26,7 +26,7 @@ function SystemDetails({ analysisResult, sessions }) {
   const formatDateTime = (dateValue) => {
     if (!dateValue) return 'Unknown time';
     const date = new Date(dateValue);
-    if (isNaN(date.getTime())) return dateValue;
+    if (isNaN(date.getTime())) return 'Invalid date';
     const day = date.getDate().toString().padStart(2, '0');
     const month = date.toLocaleString('en-US', { month: 'short' });
     const year = date.getFullYear();
@@ -352,50 +352,52 @@ function SystemDetails({ analysisResult, sessions }) {
             ) : (
               paginatedDevices.map(device => (
                 <div
-                  key={device.systemName}
+                  key={device?.systemName || 'unknown'}
                   className="device-card"
                   onClick={() => {
-                    setSelectedSystem(device.systemName);
-                    setViewMode('detail');
+                    if (device?.systemName) {
+                      setSelectedSystem(device.systemName);
+                      setViewMode('detail');
+                    }
                   }}
                 >
                   {/* Health Badge */}
-                  <div className={`health-badge health-${device.health.toLowerCase()}`}>
-                    {device.health === 'Healthy' && '✅'}
-                    {device.health === 'Warning' && '⚠️'}
-                    {device.health === 'Error' && '🔴'}
-                    {device.health === 'Critical' && '🛑'}
+                  <div className={`health-badge health-${(device?.health || 'unknown').toLowerCase()}`}>
+                    {device?.health === 'Healthy' && '✅'}
+                    {device?.health === 'Warning' && '⚠️'}
+                    {device?.health === 'Error' && '🔴'}
+                    {device?.health === 'Critical' && '🛑'}
                   </div>
 
                   {/* Device Name */}
                   <div className="device-name">
                     <span className="device-icon">💻</span>
-                    <h4>{device.systemName}</h4>
+                    <h4>{device?.systemName || 'Unknown'}</h4>
                   </div>
 
                   {/* Metrics Grid */}
                   <div className="metrics-mini-grid">
                     <div className="metric-item">
                       <span className="metric-value" style={{ color: '#1e40af' }}>
-                        {device.userCount}
+                        {device?.userCount ?? 0}
                       </span>
                       <span className="metric-label">Users</span>
                     </div>
                     <div className="metric-item">
                       <span className="metric-value" style={{ color: '#8b5cf6' }}>
-                        {device.issueCount}
+                        {device?.issueCount ?? 0}
                       </span>
                       <span className="metric-label">Issues</span>
                     </div>
                     <div className="metric-item">
                       <span className="metric-value" style={{ color: '#10b981' }}>
-                        {device.sessionCount}
+                        {device?.sessionCount ?? 0}
                       </span>
                       <span className="metric-label">Sessions</span>
                     </div>
                     <div className="metric-item">
                       <span className="metric-value" style={{ color: '#f59e0b' }}>
-                        {device.totalOccurrences}
+                        {device?.totalOccurrences ?? 0}
                       </span>
                       <span className="metric-label">Events</span>
                     </div>
@@ -403,8 +405,8 @@ function SystemDetails({ analysisResult, sessions }) {
 
                   {/* Last Activity */}
                   <div className="device-last-activity">
-                    {device.lastActivity ? (
-                      <small>Last active: {formatDate(device.lastActivity)}</small>
+                    {device?.lastActivity ? (
+                      <small>Last active: {formatDate(device?.lastActivity)}</small>
                     ) : (
                       <small>No activity recorded</small>
                     )}
@@ -479,47 +481,49 @@ function SystemDetails({ analysisResult, sessions }) {
                 <tbody>
                   {paginatedDevices.map((device) => (
                     <tr
-                      key={device.systemName}
+                      key={device?.systemName || 'unknown'}
                       className="table-row-clickable"
                       onClick={() => {
-                        setSelectedSystem(device.systemName);
-                        setViewMode('detail');
+                        if (device?.systemName) {
+                          setSelectedSystem(device.systemName);
+                          setViewMode('detail');
+                        }
                       }}
                     >
                       <td className="device-name-cell">
                         <span className="device-icon">💻</span>
-                        {device.systemName}
+                        {device?.systemName || 'Unknown'}
                       </td>
                       <td>
-                        <span className={`health-badge-small health-${device.health.toLowerCase()}`}>
-                          {device.health === 'Healthy' && '✅ Healthy'}
-                          {device.health === 'Warning' && '⚠️ Warning'}
-                          {device.health === 'Error' && '🔴 Error'}
-                          {device.health === 'Critical' && '🛑 Critical'}
+                        <span className={`health-badge-small health-${(device?.health || 'unknown').toLowerCase()}`}>
+                          {device?.health === 'Healthy' && '✅ Healthy'}
+                          {device?.health === 'Warning' && '⚠️ Warning'}
+                          {device?.health === 'Error' && '🔴 Error'}
+                          {device?.health === 'Critical' && '🛑 Critical'}
                         </span>
                       </td>
                       <td>
                         <span className="metric-badge" style={{ backgroundColor: '#eff6ff', color: '#1e40af' }}>
-                          {device.userCount}
+                          {device?.userCount ?? 0}
                         </span>
                       </td>
                       <td>
                         <span className="metric-badge" style={{ backgroundColor: '#faf5ff', color: '#8b5cf6' }}>
-                          {device.issueCount}
+                          {device?.issueCount ?? 0}
                         </span>
                       </td>
                       <td>
                         <span className="metric-badge" style={{ backgroundColor: '#f0fdf4', color: '#10b981' }}>
-                          {device.sessionCount}
+                          {device?.sessionCount ?? 0}
                         </span>
                       </td>
                       <td>
                         <span className="metric-badge" style={{ backgroundColor: '#fffbeb', color: '#f59e0b' }}>
-                          {device.totalOccurrences}
+                          {device?.totalOccurrences ?? 0}
                         </span>
                       </td>
                       <td>
-                        {formatDate(device.lastActivity)}
+                        {formatDate(device?.lastActivity)}
                       </td>
                     </tr>
                   ))}

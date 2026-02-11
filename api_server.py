@@ -226,7 +226,11 @@ def _execute_analysis(use_llm: bool, model_name: str, provider: str, source: str
                         {
                             'timestamp': le.timestamp.isoformat(),
                             'system': le.system_name,
-                            'user': le.user_id
+                            'user': le.user_id,
+                            'message': le.message,
+                            'source': le.source,
+                            'eventId': le.event_id,
+                            'logType': le.log_type
                         }
                         for le in (issue.log_entries[:5] if issue.log_entries else [])
                     ]
@@ -327,8 +331,8 @@ def _watcher_loop():
 
             if changed or run_due:
                 print("[Watcher] Detected log change or interval elapsed. Running analysis...")
-                # Use pattern-based analysis in the watcher to avoid LLM latency/timeouts
-                _execute_analysis(False, LLM_MODEL, LLM_PROVIDER, source="watcher")
+                # Use configured LLM setting from config.py
+                _execute_analysis(LLM_ENABLED, LLM_MODEL, LLM_PROVIDER, source="watcher")
                 last_signature = current_signature
 
         except Exception as e:
