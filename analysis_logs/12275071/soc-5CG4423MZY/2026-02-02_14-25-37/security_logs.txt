@@ -1,0 +1,787 @@
+================================================================================
+SECURITY LOGS - CAPTURED 2026-02-02_14-25-37
+================================================================================
+
+STATISTICS
+--------------------------------------------------------------------------------
+Total Events:        48
+Critical Events:     0
+Error Events:        0
+Warning Events:      0
+Information Events:  0
+
+EVENT SOURCES
+--------------------------------------------------------------------------------
+  Microsoft-Windows-Security-Auditing: 48 events
+
+DETAILED EVENT LOG
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:35
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #2
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:35
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #3
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:35
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #4
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:33
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #5
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:33
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #6
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:32
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #7
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:30
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #8
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:30
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #9
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:30
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #10
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:28
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #11
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:28
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #12
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:28
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #13
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:26
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #14
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:26
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #15
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:26
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #16
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:24
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #17
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:24
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #18
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:24
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #19
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:22
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #20
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:22
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #21
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:22
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #22
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:20
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #23
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:20
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #24
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:19
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #25
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:17
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #26
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:17
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #27
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:17
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #28
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:15
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #29
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:15
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #30
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:15
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #31
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:13
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #32
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:13
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #33
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:13
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #34
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:11
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #35
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:11
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #36
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:11
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #37
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:09
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #38
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:09
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #39
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:09
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #40
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:06
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #41
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:06
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #42
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:06
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #43
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:04
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #44
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:04
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #45
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:04
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #46
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:02
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #47
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:02
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+
+Event #48
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:25:02
+Level:      Audit Failure
+Source:     Microsoft-Windows-Security-Auditing
+Event ID:   5038
+Category:   Security
+
+Message:
+Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+
+File Name:	\Device\HarddiskVolume3\Windows\System32\ScriptControl64_20309.dll	
+
+
+================================================================================
+

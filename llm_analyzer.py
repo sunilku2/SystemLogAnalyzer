@@ -38,7 +38,7 @@ class LLMAnalyzer:
             "azure": "https://your-resource.openai.azure.com"
         }
         url = urls.get(self.provider, urls["ollama"])
-        logger.debug(f'Base URL for {self.provider}: {url}')
+        logger.info(f'Base URL for {self.provider}: {url}')
         return url
     
     def get_available_models(self) -> List[Dict]:
@@ -53,13 +53,13 @@ class LLMAnalyzer:
             
             if self.provider == "ollama":
                 url = f"{self.base_url}/api/tags"
-                logger.debug(f'Querying Ollama endpoint: {url}')
+                logger.info(f'Querying Ollama endpoint: {url}')
                 response = requests.get(
                     url, 
                     timeout=5,
                     proxies=proxies
                 )
-                logger.debug(f'Ollama response status: {response.status_code}')
+                logger.info(f'Ollama response status: {response.status_code}')
                 if response.status_code == 200:
                     data = response.json()
                     models = [{"name": model["name"], "size": model.get("size", 0)} 
@@ -73,13 +73,13 @@ class LLMAnalyzer:
                     return self._get_default_ollama_models()
             elif self.provider == "lmstudio":
                 url = f"{self.base_url}/v1/models"
-                logger.debug(f'Querying LM Studio endpoint: {url}')
+                logger.info(f'Querying LM Studio endpoint: {url}')
                 response = requests.get(
                     url, 
                     timeout=5,
                     proxies=proxies
                 )
-                logger.debug(f'LM Studio response status: {response.status_code}')
+                logger.info(f'LM Studio response status: {response.status_code}')
                 if response.status_code == 200:
                     data = response.json()
                     models = [{"name": model["id"], "size": 0} 

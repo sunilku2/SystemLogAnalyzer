@@ -1,0 +1,126 @@
+================================================================================
+DRIVER LOGS - CAPTURED 2026-02-02_14-25-37
+================================================================================
+
+STATISTICS
+--------------------------------------------------------------------------------
+Total Events:        8
+Critical Events:     0
+Error Events:        0
+Warning Events:      0
+Information Events:  8
+
+EVENT SOURCES
+--------------------------------------------------------------------------------
+  Microsoft-Windows-Kernel-Power: 6 events
+  volsnap: 2 events
+
+DETAILED EVENT LOG
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Time:       2026-02-02 14:05:59
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   105
+Category:   Driver
+
+Message:
+No message
+
+================================================================================
+
+Event #2
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:50:15
+Level:      Information
+Source:     volsnap
+Event ID:   33
+Category:   Driver
+
+Message:
+The oldest shadow copy of volume C: was deleted to keep disk space usage for shadow copies of volume C: below the user defined limit.
+
+
+================================================================================
+
+Event #3
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:50:14
+Level:      Information
+Source:     volsnap
+Event ID:   33
+Category:   Driver
+
+Message:
+The oldest shadow copy of volume C: was deleted to keep disk space usage for shadow copies of volume C: below the user defined limit.
+
+
+================================================================================
+
+Event #4
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:18:33
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   566
+Category:   Driver
+
+Message:
+No message
+
+================================================================================
+
+Event #5
+--------------------------------------------------------------------------------
+Time:       2026-02-02 13:18:33
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   507
+Category:   Driver
+
+Message:
+No message
+
+================================================================================
+
+Event #6
+--------------------------------------------------------------------------------
+Time:       2026-02-02 12:38:20
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   566
+Category:   Driver
+
+Message:
+No message
+
+================================================================================
+
+Event #7
+--------------------------------------------------------------------------------
+Time:       2026-02-02 12:18:37
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   506
+Category:   Driver
+
+Message:
+No message
+
+================================================================================
+
+Event #8
+--------------------------------------------------------------------------------
+Time:       2026-02-02 12:18:37
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   566
+Category:   Driver
+
+Message:
+No message
+
+================================================================================
+
