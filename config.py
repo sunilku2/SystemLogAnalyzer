@@ -39,7 +39,7 @@ MIN_USER_THRESHOLD = 1  # Minimum users affected to report an issue
 # LLM Configuration
 LLM_ENABLED = True  # Enable/disable LLM analysis
 LLM_PROVIDER = "ollama"  # Options: "ollama", "lmstudio", "openai", "azure"
-LLM_MODEL = "llama3.2:3b"  # Default model (can be changed at runtime)
+LLM_MODEL = "llama3.1:70b"  # Default model - best accuracy for Windows log analysis (can be changed at runtime)
 LLM_FALLBACK_TO_PATTERNS = True  # Use pattern matching if LLM fails
 
 # Available LLM Providers
@@ -47,7 +47,7 @@ LLM_PROVIDERS = {
     "ollama": {
         "name": "Ollama (Local)",
         "url": "http://localhost:11434",
-        "models": ["llama3.2:3b", "llama3.2:1b", "mistral", "phi3", "gemma2"]
+        "models": ["llama3.1:70b", "llama3.1:8b", "mistral:large", "llama3.2:11b", "neural-chat"]
     },
     "lmstudio": {
         "name": "LM Studio (Local)",

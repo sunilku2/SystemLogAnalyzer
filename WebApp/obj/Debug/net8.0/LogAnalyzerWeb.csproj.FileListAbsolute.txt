@@ -1,0 +1,9 @@
+C:\Work\SystemLogAnalyzer\SystemLogAnalyzer\WebApp\obj\Debug\net8.0\LogAnalyzerWeb.csproj.AssemblyReference.cache
+C:\Work\SystemLogAnalyzer\SystemLogAnalyzer\WebApp\obj\Debug\net8.0\spa.proxy.json
+C:\Work\SystemLogAnalyzer\SystemLogAnalyzer\WebApp\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Work\SystemLogAnalyzer\SystemLogAnalyzer\WebApp\obj\Debug\net8.0\LogAnalyzerWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\SystemLogAnalyzer\SystemLogAnalyzer\WebApp\obj\Debug\net8.0\LogAnalyzerWeb.AssemblyInfoInputs.cache
+C:\Work\SystemLogAnalyzer\SystemLogAnalyzer\WebApp\obj\Debug\net8.0\LogAnalyzerWeb.AssemblyInfo.cs
+C:\Work\SystemLogAnalyzer\SystemLogAnalyzer\WebApp\obj\Debug\net8.0\LogAnalyzerWeb.csproj.CoreCompileInputs.cache
+C:\Work\SystemLogAnalyzer\SystemLogAnalyzer\WebApp\obj\Debug\net8.0\LogAnalyzerWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Work\SystemLogAnalyzer\SystemLogAnalyzer\WebApp\obj\Debug\net8.0\LogAnalyzerWeb.sourcelink.json

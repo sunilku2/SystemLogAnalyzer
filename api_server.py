@@ -89,7 +89,7 @@ analysis_lock = threading.Lock()
 
 def _compute_logs_signature():
     """Return a lightweight signature of current logs (max mtime, file count) - includes .log and .evtx files."""
-    logger.info(f'Computing logs signature from {LOGS_DIR}')
+    logger.debug(f'Computing logs signature from {LOGS_DIR}')
     latest_mtime = 0
     file_count = 0
     try:
@@ -101,7 +101,7 @@ def _compute_logs_signature():
                     file_count += 1
                     mtime = os.path.getmtime(path)
                     latest_mtime = max(latest_mtime, mtime)
-                    logger.info(f'Found log file: {path}')
+                    logger.debug(f'Found log file: {path}')
             
             # Also check for .evtx files
             for filename in files:
@@ -110,10 +110,10 @@ def _compute_logs_signature():
                     file_count += 1
                     mtime = os.path.getmtime(path)
                     latest_mtime = max(latest_mtime, mtime)
-                    logger.info(f'Found EVTX file: {path}')
+                    logger.debug(f'Found EVTX file: {path}')
         
         signature = (latest_mtime, file_count)
-        logger.info(f'Logs signature: {file_count} files, latest mtime: {latest_mtime}')
+        logger.debug(f'Logs signature: {file_count} files, latest mtime: {latest_mtime}')
         return signature
     except Exception as e:
         logger.error(f'Error computing logs signature: {str(e)}', exc_info=True)
@@ -131,52 +131,15 @@ def _execute_analysis(use_llm: bool, model_name: str, provider: str, source: str
 
         # Step 1: Load logs
         print("[API] Loading logs...")
-        print(f"[API] LOGS_DIR: {LOGS_DIR}")
-        print(f"[API] LOGS_DIR (absolute): {os.path.abspath(LOGS_DIR)}")
-        print(f"[API] LOGS_DIR exists: {os.path.exists(LOGS_DIR)}")
-        print(f"[API] LOG_TYPES: {LOG_TYPES}")
-        
-        print("[API] Creating LogParser...")
         parser = LogParser()
-        print(f"[API] LogParser created: {parser}")
-        
-        print("[API] Creating DataSource...")
-        print(f"[API]   - Type: filesystem")
-        print(f"[API]   - base_logs_dir: {LOGS_DIR}")
-        print(f"[API]   - log_types: {LOG_TYPES}")
         data_source = DataSourceFactory.create_data_source(
             "filesystem",
             log_parser=parser,
             base_logs_dir=LOGS_DIR,
             log_types=LOG_TYPES
         )
-        print(f"[API] DataSource created: {data_source}")
-        
-        print("[API] Calling get_log_entries()...")
         log_entries = data_source.get_log_entries()
-        print(f"[API] Loaded {len(log_entries)} log entries.")
-        
-        if log_entries:
-            print(f"[API] Sample log entries:")
-            for i, entry in enumerate(log_entries[:5]):
-                print(f"  [{i}] {entry}")
-        else:
-            print("[API] WARNING: No log entries found!")
-            print(f"[API] Check if logs exist in: {os.path.abspath(LOGS_DIR)}")
-            # List directory contents for debugging
-            if os.path.exists(LOGS_DIR):
-                try:
-                    items = os.listdir(LOGS_DIR)
-                    print(f"[API] Directory contents ({len(items)} items):")
-                    for item in items[:10]:
-                        item_path = os.path.join(LOGS_DIR, item)
-                        is_dir = os.path.isdir(item_path)
-                        print(f"  - {item} {'[DIR]' if is_dir else '[FILE]'}")
-                    if len(items) > 10:
-                        print(f"  ... and {len(items) - 10} more items")
-                except Exception as e:
-                    print(f"[API] Error listing directory: {e}")
-            
+
         if not log_entries:
             raise Exception('No log entries found')
 
@@ -1268,7 +1231,7 @@ def get_available_models():
                 models.extend(installed_models)
 
         # Add default models as suggestions
-        defaults = ['llama3.2:3b', 'llama2', 'neural-chat', 'mistral']
+        defaults = ['llama3.1:70b', 'llama3.2:3b', 'llama2', 'mistral:large']
         for model in defaults:
             if model not in models:
                 models.append(model)

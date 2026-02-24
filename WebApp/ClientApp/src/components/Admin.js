@@ -24,6 +24,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [isDownloading, setIsDownloading] = useState(false);
+  const [isDownloading70b, setIsDownloading70b] = useState(false);
   const [ollamaStatus, setOllamaStatus] = useState({ is_running: false });
   const [modelToDownload, setModelToDownload] = useState('');
   const [ollamaInstalled, setOllamaInstalled] = useState({ is_installed: false });
@@ -33,7 +34,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
   // Initialize from config
   useEffect(() => {
     if (config) {
-      setLlmModel(config.llm_model || 'llama3.2:3b');
+      setLlmModel(config.llm_model || 'llama3.1:70b');
       setLlmProvider(config.llm_provider || 'ollama');
       setLlmEnabled(config.llm_enabled !== false);
       setLlmTemperature(config.llm_temperature || 0.7);
@@ -301,6 +302,36 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     }
   };
 
+  const handleDownload70bModel = async () => {
+    setErrorMessage('');
+    setSuccessMessage('');
+    setIsDownloading70b(true);
+
+    try {
+      const response = await fetch(getApiUrl('/ollama/pull'), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ model: 'llama3.1:70b' }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setSuccessMessage('✅ llama3.1:70b downloaded successfully! Best model for Windows log analysis. Now set it as your default model above.');
+        setTimeout(() => setSuccessMessage(''), 5000);
+        setLlmModel('llama3.1:70b'); // Auto-select after download
+        fetchOllamaStatus();
+        loadModels(llmProvider);
+      } else {
+        setErrorMessage(`❌ ${data.error || 'Failed to download llama3.1:70b'}`);
+      }
+    } catch (error) {
+      setErrorMessage(`❌ ${error.message || 'Failed to download model.'}`);
+    } finally {
+      setIsDownloading70b(false);
+    }
+  };
+
   const handleStartOllama = async () => {
     setErrorMessage('');
     setSuccessMessage('');
@@ -454,12 +485,14 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
                 className="form-input"
               >
                 <option value="">Select a model...</option>
+                <option value="llama3.1:70b">⭐ llama3.1:70b (Recommended - Best Accuracy)</option>
+                <option value="llama3.2:3b">llama3.2:3b (default)</option>
+                <option value="mistral">mistral</option>
                 {availableModels.map((model) => (
                   <option key={model} value={model}>
                     {model}
                   </option>
                 ))}
-                <option value="llama3.2:3b">llama3.2:3b (default)</option>
               </select>
             </div>
 
@@ -579,6 +612,21 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
 
                   <div className="form-group">
                     <label>Download Model</label>
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: '8px', marginBottom: '16px' }}>
+                      <button
+                        className="btn btn-success"
+                        onClick={handleDownload70bModel}
+                        disabled={isDownloading70b || !ollamaStatus.is_running}
+                        style={{ gridColumn: '1 / -1' }}
+                      >
+                        {isDownloading70b ? '⬇️ Downloading llama3.1:70b...' : '⚡ Download llama3.1:70b (Recommended)'}
+                      </button>
+                    </div>
+                    <small style={{ display: 'block', marginBottom: '12px', color: '#10b981' }}>
+                      ✅ Best accuracy for Windows log analysis (requires ~45GB disk space)
+                    </small>
+                    
+                    <label style={{ marginTop: '12px' }}>Or Download Other Model</label>
                     <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', gap: '8px' }}>
                       <input
                         type="text"
