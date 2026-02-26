@@ -1,0 +1,4521 @@
+================================================================================
+NETWORK EVENTS - DNS
+================================================================================
+Generated: 2026-02-25 15:24:07
+Total Events: 162
+
+Summary:
+  Errors: 0
+  Warnings: 162
+  Information: 0
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 15:24:03
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #2
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 15:23:50
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #3
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 15:20:37
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #4
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 15:15:36
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #5
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 15:10:36
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #6
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 15:05:36
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #7
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 15:05:35
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #8
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 15:04:22
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #9
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 15:04:18
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #10
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:54:28
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #11
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:49:28
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #12
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:44:28
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #13
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:39:28
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #14
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 14:39:26
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #15
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:38:15
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #16
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 14:35:44
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #17
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:34:15
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #18
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:29:15
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #19
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:24:15
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #20
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:19:15
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #21
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:14:14
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #22
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 14:13:08
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #23
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 14:13:07
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #24
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:12:00
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #25
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 14:07:00
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #26
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 14:01:55
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #27
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:57:17
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #28
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:57:14
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #29
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:56:05
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #30
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:56:01
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #31
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:54:58
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #32
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:53:56
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #33
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:50:53
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #34
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:50:49
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #35
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:50:36
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #36
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:49:42
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #37
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:49:35
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #38
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:47:23
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #39
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:42:22
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #40
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:37:22
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #41
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:32:22
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #42
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:27:22
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #43
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:27:22
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #44
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:27:19
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #45
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:22:43
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #46
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:22:33
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #47
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:22:31
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #48
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:17:49
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #49
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:12:49
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #50
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:11:43
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #51
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:11:39
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #52
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:11:34
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #53
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:10:35
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #54
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 13:10:29
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #55
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:09:49
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #56
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 13:04:49
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #57
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:59:49
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #58
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:54:49
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #59
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 12:54:45
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #60
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 12:54:42
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #61
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 12:53:52
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #62
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:53:41
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #63
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 12:53:39
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #64
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:50:27
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #65
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:45:27
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #66
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:40:27
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #67
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:35:27
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #68
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:30:27
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #69
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:25:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #70
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:20:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #71
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:15:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #72
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:10:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #73
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:05:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #74
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 12:00:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #75
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 11:55:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #76
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 11:50:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #77
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 11:45:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #78
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 11:45:20
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #79
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 11:44:15
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #80
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 11:44:15
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #81
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 11:44:02
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #82
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 11:40:35
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #83
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 11:35:35
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #84
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 11:35:29
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #85
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 11:33:43
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #86
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 11:28:43
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #87
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 11:23:43
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #88
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 11:18:43
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #89
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 11:14:10
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #90
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 11:12:57
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #91
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 11:12:24
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #92
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 11:11:18
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #93
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 11:08:14
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #94
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 11:08:13
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #95
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 10:58:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #96
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 10:53:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #97
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 10:48:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #98
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 10:43:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #99
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 10:38:26
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #100
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 10:35:55
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #101
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 10:35:50
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #102
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 10:34:09
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #103
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 10:30:56
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #104
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 10:30:32
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #105
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 10:07:22
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #106
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 10:06:36
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #107
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 10:05:50
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #108
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-02-25 10:05:50
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #109
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-02-25 10:03:48
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #110
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-02-25 09:58:37
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #111
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-25 00:10:00
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #112
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-25 00:10:00
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e6
+
+Event #113
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:56:52
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #114
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:56:49
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #115
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:56:19
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #116
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:56:16
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #117
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:56:13
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #118
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8017
+Time: 2026-02-24 22:56:03
+Message: The system failed to register host (A or AAAA) resource records for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : 192.55.52.33:53
+
+          IP Address(es) :
+
+            2405:201:d037:20
+
+Event #119
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8017
+Time: 2026-02-24 22:56:02
+Message: The system failed to register host (A or AAAA) resource records for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : 192.55.52.33:53
+
+          IP Address(es) :
+
+            2405:201:d037:20
+
+Event #120
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 22:55:46
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #121
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:55:45
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e6
+
+Event #122
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 22:37:13
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #123
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:33:08
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #124
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:33:05
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #125
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:32:36
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #126
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:32:33
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #127
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:32:30
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #128
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 22:32:12
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #129
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:32:11
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e6
+
+Event #130
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 22:10:51
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #131
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 21:40:27
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #132
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 21:40:24
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #133
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 21:39:30
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #134
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 21:39:27
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #135
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 21:39:24
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #136
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 21:39:19
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : [2001:503:a83e::2:30]:53
+
+          IP Address(es) :
+
+            2
+
+Event #137
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 19:25:27
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+The reason the update request failed was because of a syste
+
+Event #138
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 19:20:27
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+The reason the update request failed was because of a syste
+
+Event #139
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-02-24 19:15:27
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+
+        The system could not remove these host (A or AAAA
+
+Event #140
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 19:10:54
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #141
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 19:10:51
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #142
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 19:10:15
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #143
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-02-24 19:10:15
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+
+        The system could not remove these host (A or AAAA
+
+Event #144
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 19:09:12
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+The reason the update request failed was because of a syste
+
+Event #145
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 19:09:11
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+The reason the system could not register these RRs during the update
+
+Event #146
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 19:09:02
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+The reason the system could not register these RRs during the update
+
+Event #147
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8033
+Time: 2026-02-24 16:53:14
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	fec0:0:0:ffff::1, fec0:0:0:ffff::2, fec0:0:0:ffff::3
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2401:4900:16ea:1cee:5407:86:9a18:fc
+
+Event #148
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 16:13:02
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	fec0:0:0:ffff::1, fec0:0:0:ffff::2, fec0:0:0:ffff::3
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2401:4900:16ea:1cee:5407:86:9a18:fc
+
+Event #149
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 16:12:50
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	fec0:0:0:ffff::1, fec0:0:0:ffff::2, fec0:0:0:ffff::3
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2401:4900:16ea:1cee:5407:86:9a18:fcdc
+
+The
+
+Event #150
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 15:55:43
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #151
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 15:55:14
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #152
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 15:50:21
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #153
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 15:50:05
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #154
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 15:50:02
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #155
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 15:49:58
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #156
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 15:49:25
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #157
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 15:44:25
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #158
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 15:44:22
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #159
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 15:41:42
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #160
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8038
+Time: 2026-02-24 15:36:42
+Message: The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #161
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 15:33:02
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #162
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-DNS-Client
+Event ID: 8020
+Time: 2026-02-24 15:24:13
+Message: The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+

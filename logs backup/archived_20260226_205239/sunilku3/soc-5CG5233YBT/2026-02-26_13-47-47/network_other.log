@@ -1,0 +1,149 @@
+================================================================================
+NETWORK OTHER LOGS - CAPTURED 2026-02-26_13-47-47
+================================================================================
+
+Total Events: 11 (2 errors, 0 warnings, 9 info)
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Time:       /Date(1772039310996
+Level:      Error
+Source:     Microsoft-Windows-NlaSvc
+Event ID:   4205
+
+Message:
+Gateway resolution failed on interface {6816806e-718c-43de-8da7-d6812368c850} for 192.168.29.1 with error: 0x43
+
+================================================================================
+
+Event #2
+--------------------------------------------------------------------------------
+Time:       /Date(1772039307853
+Level:      Error
+Source:     Microsoft-Windows-NlaSvc
+Event ID:   4205
+
+Message:
+Gateway resolution failed on interface {6816806e-718c-43de-8da7-d6812368c850} for 192.168.29.1 with error: 0x43
+
+================================================================================
+
+Event #3
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:28:17
+Level:      Information
+Source:     Microsoft-Windows-Iphlpsvc-Trace
+Event ID:   4068
+
+Message:
+Teredo connectivity initiated by DoSvc
+
+
+================================================================================
+
+Event #4
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:23:12
+Level:      Information
+Source:     Microsoft-Windows-Iphlpsvc-Trace
+Event ID:   4071
+
+Message:
+Teredo connectivity ended by DoSvc
+
+
+================================================================================
+
+Event #5
+--------------------------------------------------------------------------------
+Time:       2026-02-26 11:22:07
+Level:      Information
+Source:     Microsoft-Windows-Iphlpsvc-Trace
+Event ID:   4068
+
+Message:
+Teredo connectivity initiated by DoSvc
+
+
+================================================================================
+
+Event #6
+--------------------------------------------------------------------------------
+Time:       2026-02-26 10:34:05
+Level:      Information
+Source:     Microsoft-Windows-Iphlpsvc-Trace
+Event ID:   4071
+
+Message:
+Teredo connectivity ended by DoSvc
+
+
+================================================================================
+
+Event #7
+--------------------------------------------------------------------------------
+Time:       2026-02-26 10:26:07
+Level:      Information
+Source:     Microsoft-Windows-Iphlpsvc-Trace
+Event ID:   4068
+
+Message:
+Teredo connectivity initiated by DoSvc
+
+
+================================================================================
+
+Event #8
+--------------------------------------------------------------------------------
+Time:       2026-02-26 09:58:10
+Level:      Information
+Source:     Microsoft-Windows-Iphlpsvc-Trace
+Event ID:   4071
+
+Message:
+Teredo connectivity ended by DoSvc
+
+
+================================================================================
+
+Event #9
+--------------------------------------------------------------------------------
+Time:       2026-02-26 09:57:21
+Level:      Information
+Source:     Microsoft-Windows-Iphlpsvc-Trace
+Event ID:   4068
+
+Message:
+Teredo connectivity initiated by DoSvc
+
+
+================================================================================
+
+Event #10
+--------------------------------------------------------------------------------
+Time:       2026-02-26 09:51:58
+Level:      Information
+Source:     Microsoft-Windows-Iphlpsvc-Trace
+Event ID:   4071
+
+Message:
+Teredo connectivity ended by DoSvc
+
+
+================================================================================
+
+Event #11
+--------------------------------------------------------------------------------
+Time:       2026-02-26 08:33:03
+Level:      Information
+Source:     Microsoft-Windows-Iphlpsvc-Trace
+Event ID:   4068
+
+Message:
+Teredo connectivity initiated by DoSvc
+
+
+================================================================================
+

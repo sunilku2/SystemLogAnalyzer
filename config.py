@@ -7,13 +7,34 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LOGS_DIR = os.path.join(BASE_DIR, "analysis_logs")
 
+# Analysis scope
+ANALYSIS_SCOPE = os.environ.get("LOG_ANALYZER_SCOPE", "network").lower()  # Options: "network", "all"
+NETWORK_ANALYSIS_ONLY = ANALYSIS_SCOPE == "network"
+
 # Log types to analyze
 LOG_TYPES = [
-    "system_logs.txt",
-    "application_logs.txt",
+    "Network.log",
     "network_logs.txt",
-    "driver_logs.txt",
-    "security_logs.txt"
+    "network_dhcp.log",
+    "network_dns.log",
+    "network_firewall.log",
+    "network_ncsi.log",
+    "network_networkprofile.log",
+    "network_other.log",
+    "network_tcpip.log",
+    "network_wlan.log"
+]
+
+NETWORK_LOG_KEYWORDS = [
+    "network",
+    "ncsi",
+    "wlan",
+    "dns",
+    "dhcp",
+    "tcpip",
+    "firewall",
+    "nla",
+    "connectivity"
 ]
 
 # Data source configuration (for future DB integration)
@@ -39,8 +60,10 @@ MIN_USER_THRESHOLD = 1  # Minimum users affected to report an issue
 # LLM Configuration
 LLM_ENABLED = True  # Enable/disable LLM analysis
 LLM_PROVIDER = "ollama"  # Options: "ollama", "lmstudio", "openai", "azure"
-LLM_MODEL = "llama3.1:70b"  # Default model - best accuracy for Windows log analysis (can be changed at runtime)
+LLM_MODEL = "llama3.2:3b"  # Default model aligned with requested Ollama 3b model
 LLM_FALLBACK_TO_PATTERNS = True  # Use pattern matching if LLM fails
+LLM_REQUEST_TIMEOUT_SECONDS = int(os.environ.get("LOG_ANALYZER_LLM_TIMEOUT", "180"))
+LLM_MAX_RETRIES = int(os.environ.get("LOG_ANALYZER_LLM_RETRIES", "3"))
 
 # Available LLM Providers
 LLM_PROVIDERS = {

@@ -8,6 +8,7 @@ from typing import List, Dict
 from collections import defaultdict
 from difflib import SequenceMatcher
 from models import LogEntry, Issue
+from config import NETWORK_ANALYSIS_ONLY, NETWORK_LOG_KEYWORDS
 
 logger = logging.getLogger('log_analyzer.detector')
 
@@ -24,7 +25,7 @@ class IssueDetector:
         Define patterns for known issues with root causes and solutions
         This can be extended or loaded from a database in the future
         """
-        return [
+        network_patterns = [
             # Network Connectivity Patterns (based on NetworkConnectivity-Analysis-Instructions.md)
             {
                 "category": "Network Connectivity",
@@ -97,7 +98,13 @@ class IssueDetector:
                 "keywords": ["arp", "gateway", "layer 2", "reachability", "duplicate ip"],
                 "root_cause": "Layer 2 (ARP) probe failed indicating reachability issues with gateway or next hop. This suggests WiFi instability, duplicate IP addresses, or network infrastructure problems.",
                 "solution": "Check WiFi signal strength and roaming, release and renew IP address (ipconfig /release /renew), check for duplicate IP addresses on network, restart WiFi router, check for WiFi interference"
-            },
+            }
+        ]
+
+        if NETWORK_ANALYSIS_ONLY:
+            return network_patterns
+
+        return network_patterns + [
 
             # Original patterns (non-network specific)
             {
@@ -177,6 +184,11 @@ class IssueDetector:
     def detect_issues(self, log_entries: List[LogEntry]) -> List[Issue]:
         """Detect and group issues from log entries"""
         logger.info(f'Starting issue detection on {len(log_entries)} log entries')
+
+        if NETWORK_ANALYSIS_ONLY:
+            before_count = len(log_entries)
+            log_entries = [entry for entry in log_entries if self._is_network_entry(entry)]
+            logger.info(f'Network-only mode enabled: filtered log entries from {before_count} to {len(log_entries)}')
         
         # Filter for warnings, errors, and critical entries
         significant_entries = [
@@ -203,6 +215,19 @@ class IssueDetector:
                 issues.append(issue)
                 logger.info(f'Created issue: category={issue.category}, severity={issue.severity}, count={len(entries)}')
         return issues
+
+    def _is_network_entry(self, entry: LogEntry) -> bool:
+        """Return True if an entry should be included in network-only analysis."""
+        log_type_lower = (entry.log_type or "").lower()
+        source_lower = (entry.source or "").lower()
+        message_lower = (entry.message or "").lower()
+
+        return any(
+            keyword in log_type_lower
+            or keyword in source_lower
+            or keyword in message_lower
+            for keyword in NETWORK_LOG_KEYWORDS
+        )
     
     def _get_issue_signature(self, entry: LogEntry) -> str:
         """Generate a signature for an issue to group similar issues"""
@@ -314,6 +339,14 @@ class IssueDetector:
                     pattern_def.get("severity")
                 )
         
+        if NETWORK_ANALYSIS_ONLY:
+            return (
+                "Network Connectivity",
+                "Network telemetry indicates connectivity instability or network-path degradation requiring further investigation.",
+                "Correlate DNS, NCSI, WLAN, DHCP, and firewall events in the same timeframe; validate adapter health, signal quality, and gateway reachability.",
+                None
+            )
+
         # Default categorization based on log type and source
         category_map = {
             "System": "System Configuration",

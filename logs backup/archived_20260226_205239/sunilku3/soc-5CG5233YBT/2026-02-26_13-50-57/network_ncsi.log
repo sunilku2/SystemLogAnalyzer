@@ -1,0 +1,533 @@
+================================================================================
+NETWORK EVENTS - NCSI
+================================================================================
+Generated: 2026-02-26 13:51:13
+Total Events: 65
+
+Summary:
+  Errors: 0
+  Warnings: 0
+  Information: 65
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772093519165
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #2
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772093464676
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #3
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772092768470
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #4
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772092699672
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #5
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772088165349
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #6
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772088110851
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #7
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772085201198
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #8
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772085141133
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #9
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772081844897
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #10
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772081782637
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #11
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772078368385
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #12
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772078299361
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #13
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772076433170
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #14
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772076379369
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #15
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772075143067
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #16
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772075074362
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #17
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772075054777
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #18
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772074999368
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #19
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772074924431
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Internet ChangeReason: PassivePacketHops)
+
+Event #20
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772074905943
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: None ChangeReason: CapabilityReset)
+
+Event #21
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772074894361
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Internet ChangeReason: PassivePacketHops)
+
+Event #22
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772074879585
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #23
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772038835467
+Message: Capability change on {f83b3653-c278-4660-8e58-af8fdcf1b18c} (0x6008006000000 Family: V4 Capability: None ChangeReason: CapabilityReset)
+
+Event #24
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772038817240
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #25
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772038817240
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: None ChangeReason: CapabilityReset)
+
+Event #26
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772038791150
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Internet ChangeReason: PassivePacketHops)
+
+Event #27
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772037423355
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Local ChangeReason: SuspectDnsProbeFailed)
+
+Event #28
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772037321153
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Internet ChangeReason: PassivePacketHops)
+
+Event #29
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772036924579
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Local ChangeReason: SuspectDnsProbeFailed)
+
+Event #30
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772034666156
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Internet ChangeReason: PassivePacketHops)
+
+Event #31
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772034656756
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Local ChangeReason: SuspectDnsProbeFailed)
+
+Event #32
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772034486159
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Internet ChangeReason: PassivePacketHops)
+
+Event #33
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772034479832
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Local ChangeReason: SuspectDnsProbeFailed)
+
+Event #34
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772033946158
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Internet ChangeReason: PassivePacketHops)
+
+Event #35
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772033940988
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Local ChangeReason: SuspectDnsProbeFailed)
+
+Event #36
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032926159
+Message: Capability change on {f83b3653-c278-4660-8e58-af8fdcf1b18c} (0x6008006000000 Family: V4 Capability: Internet ChangeReason: PassivePacketHops)
+
+Event #37
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032907133
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Internet ChangeReason: ActiveHttpProbeSucceeded)
+
+Event #38
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032905898
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V6 Capability: Internet ChangeReason: ActiveHttpProbeSucceeded)
+
+Event #39
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032899452
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V6 Capability: Local ChangeReason: NoGlobalAddress)
+
+Event #40
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032896553
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V6 Capability: Internet ChangeReason: ActiveHttpProbeSucceeded)
+
+Event #41
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032887120
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #42
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032887120
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: None ChangeReason: CapabilityReset)
+
+Event #43
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032887120
+Message: Capability change on {f83b3653-c278-4660-8e58-af8fdcf1b18c} (0x6008006000000 Family: V4 Capability: None ChangeReason: CapabilityReset)
+
+Event #44
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032731157
+Message: Capability change on {f83b3653-c278-4660-8e58-af8fdcf1b18c} (0x6008006000000 Family: V4 Capability: Internet ChangeReason: PassivePacketHops)
+
+Event #45
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032716164
+Message: Capability change on {f83b3653-c278-4660-8e58-af8fdcf1b18c} (0x6008006000000 Family: V4 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #46
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032674992
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #47
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032671340
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #48
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032653318
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Internet ChangeReason: ActiveHttpProbeSucceeded)
+
+Event #49
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032652936
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V6 Capability: Internet ChangeReason: ActiveHttpProbeSucceeded)
+
+Event #50
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032644742
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #51
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772032644742
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: None ChangeReason: CapabilityReset)
+
+Event #52
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772017457643
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Internet ChangeReason: ActiveHttpProbeSucceeded)
+
+Event #53
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772017455522
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V6 Capability: Internet ChangeReason: ActiveHttpProbeSucceeded)
+
+Event #54
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772014627748
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: None ChangeReason: CapabilityReset)
+
+Event #55
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772013693214
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #56
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772013623897
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #57
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772013422334
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #58
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772013353883
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #59
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772012183895
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Internet ChangeReason: PassivePacketHops)
+
+Event #60
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772012064016
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #61
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772011519719
+Message: Capability change on {6816806e-718c-43de-8da7-d6812368c850} (0x47008000000000 Family: V4 Capability: None ChangeReason: CapabilityReset)
+
+Event #62
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772008269133
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #63
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772008200964
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+
+Event #64
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772007895131
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: None ChangeReason: CapabilityReset)
+
+Event #65
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NCSI
+Event ID: 4042
+Time: /Date(1772007840970
+Message: Capability change on {93123211-9629-4e04-82f0-ea2e4f221468} (0x83007F00000000 Family: V6 Capability: Local ChangeReason: PassivePacketHops)
+

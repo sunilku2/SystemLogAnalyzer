@@ -1,0 +1,60 @@
+================================================================================
+SECURITY LOGS - CAPTURED 2026-02-26_13-47-47
+================================================================================
+
+STATISTICS
+--------------------------------------------------------------------------------
+Total Events:        3
+Critical Events:     0
+Error Events:        3
+Warning Events:      0
+Information Events:  0
+
+EVENT SOURCES
+--------------------------------------------------------------------------------
+  Service Control Manager: 1 events
+  Microsoft-Windows-Kernel-Power: 1 events
+  Application Error: 1 events
+
+DETAILED EVENT LOG
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Time:       2026-02-26 11:47:30
+Level:      Error
+Source:     Service Control Manager
+Event ID:   7001
+Category:   Security
+
+Message:
+The Windows Update service terminated with the following error: The system cannot find the file specified.
+
+================================================================================
+
+Event #2
+--------------------------------------------------------------------------------
+Time:       2026-02-26 08:47:30
+Level:      Error
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   41
+Category:   Security
+
+Message:
+The system has rebooted without cleanly shutting down first.
+
+================================================================================
+
+Event #3
+--------------------------------------------------------------------------------
+Time:       2026-02-26 12:47:30
+Level:      Error
+Source:     Application Error
+Event ID:   1000
+Category:   Security
+
+Message:
+Faulting application name: explorer.exe, version: 10.0.19041.1, time stamp: 0x5c91a6a9
+
+================================================================================
+

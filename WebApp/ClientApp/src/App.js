@@ -37,6 +37,8 @@ function App() {
         const latest = await fetchLatestReport();
         if (latest && latest.success !== false && latest.issues) {
           setAnalysisResult(latest);
+        } else {
+          setAnalysisResult(null);
         }
       } catch (err) {
         // Ignore polling errors to avoid noisy UI; next interval will retry
@@ -62,9 +64,12 @@ function App() {
         const latestReport = await fetchLatestReport();
         if (latestReport && latestReport.success !== false && latestReport.issues) {
           setAnalysisResult(latestReport);
+        } else {
+          setAnalysisResult(null);
         }
       } catch (err) {
         // No latest report available
+        setAnalysisResult(null);
       }
     } catch (err) {
       setError('Failed to load initial data: ' + err.message);
@@ -85,6 +90,25 @@ function App() {
       throw err;
     } finally {
       setIsAnalyzing(false);
+    }
+  };
+
+  const handleInMemoryDataCleared = async () => {
+    setError(null);
+    setAnalysisResult(null);
+
+    try {
+      const sessionsData = await fetchSessions();
+      setSessions(sessionsData);
+
+      const latestReport = await fetchLatestReport();
+      if (latestReport && latestReport.success !== false && latestReport.issues) {
+        setAnalysisResult(latestReport);
+      } else {
+        setAnalysisResult(null);
+      }
+    } catch (err) {
+      setError('Failed to refresh dashboard data: ' + err.message);
     }
   };
 
@@ -196,6 +220,7 @@ function App() {
                 onConfigUpdate={setConfig}
                 isAnalyzing={isAnalyzing}
                 onAnalysisAction={handleRunAnalysis}
+                onInMemoryDataCleared={handleInMemoryDataCleared}
               />
             </div>
           )}

@@ -1,0 +1,5412 @@
+================================================================================
+NETWORK EVENTS - WLAN
+================================================================================
+Generated: 2026-02-25 15:24:07
+Total Events: 322
+
+Summary:
+  Errors: 3
+  Warnings: 2
+  Information: 317
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772012135528
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #2
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772012135258
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #3
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772012135218
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #4
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8001
+Time: /Date(1772012057366
+Message: WLAN AutoConfig service has successfully connected to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+PHY Type: 802.11ax
+Authentication: WPA2-Enterprise
+Encryption: AES-CCMP
+802.1x Enabled: Yes
+Hidden: true
+
+
+Event #5
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772012057338
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #6
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772012057312
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #7
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772012051897
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Peer Initiated
+
+
+Event #8
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772012049211
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #9
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772012048816
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #10
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11001
+Time: /Date(1772012048816
+Message: Wireless network association succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Management Frame Protection Enabled: 0x300000000
+
+
+Event #11
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11000
+Time: /Date(1772012048667
+Message: Wireless network association started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+802.1X Enabled: Yes
+
+
+Event #12
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1772012048651
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #13
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8011
+Time: /Date(1772012048091
+Message: Connect to last good network 
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+ Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS type: infrastructure
+
+
+Event #14
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8003
+Time: /Date(1772011519970
+Message: WLAN AutoConfig service has successfully disconnected from a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Reason: The network is disconnected due to a policy disabling auto connect on this interface.
+
+
+Event #15
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772011519927
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #16
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772010566895
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #17
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772010566522
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #18
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772010566480
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #19
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772010344518
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #20
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772010344374
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #21
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772010344321
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #22
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772008987754
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #23
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772008987650
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #24
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772008987613
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #25
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772008315966
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #26
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772008315463
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #27
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772008315418
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #28
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772008034656
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #29
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772008034268
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #30
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772008034224
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #31
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772007960847
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #32
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772007960513
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #33
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772007960476
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #34
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772007835959
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #35
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772007835796
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #36
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772007835761
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #37
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772007652912
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #38
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772007652888
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #39
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772007649336
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #40
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772007649336
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #41
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772007649198
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #42
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772007649160
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #43
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772007582124
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #44
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772007581983
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #45
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772007581935
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #46
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772007574991
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #47
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772007574991
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #48
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772007574947
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #49
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772007574910
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #50
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772006245328
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #51
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772006245296
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #52
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772006242009
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #53
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772006242009
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #54
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772006241780
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #55
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772006241687
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #56
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772005963091
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #57
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772005963076
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #58
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772005959930
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #59
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772005959929
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #60
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772005959892
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #61
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772005959845
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #62
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772005956544
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #63
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772005956523
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #64
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772005951494
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #65
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772005951494
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #66
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772005951431
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #67
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772005951392
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #68
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772005302495
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #69
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772005302474
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #70
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772005294381
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #71
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772005294381
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #72
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772005294299
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #73
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772005294249
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #74
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772005234796
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #75
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772005234774
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #76
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772005229589
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #77
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772005229589
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #78
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772005229509
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #79
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772005229472
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #80
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772004284690
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #81
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772004284662
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #82
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772004281185
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #83
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772004281185
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #84
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772004281083
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #85
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772004281040
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #86
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772004231232
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #87
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772004231221
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #88
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772004228276
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #89
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772004228247
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Peer Initiated
+
+
+Event #90
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772004228066
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #91
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772004227981
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #92
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772004224937
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #93
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772004224892
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #94
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772004219312
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #95
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772004219312
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #96
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772004219230
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #97
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772004219137
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #98
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772000125726
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #99
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772000125711
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #100
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772000120717
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #101
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772000120717
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #102
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772000120291
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #103
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772000120251
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #104
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772000054610
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #105
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772000054599
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #106
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772000051581
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #107
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772000051581
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Peer Initiated
+
+
+Event #108
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772000051447
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #109
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772000051388
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #110
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1772000048256
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #111
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1772000048243
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #112
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1772000042605
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #113
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1772000042605
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #114
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1772000042514
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #115
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1772000042477
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #116
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771999535011
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #117
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1771999534987
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #118
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1771999528506
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #119
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1771999528506
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #120
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771999528441
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #121
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771999528405
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #122
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771998249658
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #123
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771998249574
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #124
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771998249499
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #125
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771998143776
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #126
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771998143548
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #127
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771998142463
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #128
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771998078028
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #129
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771998077864
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #130
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771998077817
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #131
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771997893753
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #132
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771997893607
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #133
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771997893562
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #134
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8001
+Time: /Date(1771997358401
+Message: WLAN AutoConfig service has successfully connected to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+PHY Type: 802.11ax
+Authentication: WPA2-Enterprise
+Encryption: AES-CCMP
+802.1x Enabled: Yes
+Hidden: true
+
+
+Event #135
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771997358377
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #136
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1771997358334
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #137
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1771997354285
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Peer Initiated
+
+
+Event #138
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1771997353644
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #139
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771997350921
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #140
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11001
+Time: /Date(1771997350921
+Message: Wireless network association succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Management Frame Protection Enabled: 0x200000000
+
+
+Event #141
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11000
+Time: /Date(1771997347878
+Message: Wireless network association started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+802.1X Enabled: Yes
+
+
+Event #142
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771997346843
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #143
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8011
+Time: /Date(1771997345441
+Message: Connect to last good network 
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+ Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS type: infrastructure
+
+
+Event #144
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8003
+Time: /Date(1771997322790
+Message: WLAN AutoConfig service has successfully disconnected from a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Reason: The network is disconnected due to a policy disabling auto connect on this interface.
+
+
+Event #145
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771997322752
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #146
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771997322138
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #147
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771997322082
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #148
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771997306511
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #149
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771997306177
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #150
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771997306173
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #151
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771995955969
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #152
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771995954987
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #153
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771995954896
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #154
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771995950038
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #155
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771995949876
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #156
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771995949800
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #157
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771995849418
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #158
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771995849090
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #159
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771995849046
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #160
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771995656134
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #161
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771995655815
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #162
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771995655767
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #163
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771995631975
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #164
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771995631755
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #165
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771995631715
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #166
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771994242512
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #167
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771994242323
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #168
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771994242277
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #169
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771994196987
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #170
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771994196566
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #171
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771994196528
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #172
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771994139436
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #173
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771994139384
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #174
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771994139347
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #175
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771993955153
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #176
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771993954704
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #177
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771993954648
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #178
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771993731646
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #179
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771993729268
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #180
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771993729074
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #181
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8001
+Time: /Date(1771993700930
+Message: WLAN AutoConfig service has successfully connected to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+PHY Type: 802.11ax
+Authentication: WPA2-Enterprise
+Encryption: AES-CCMP
+802.1x Enabled: Yes
+Hidden: true
+
+
+Event #182
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771993700818
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #183
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1771993700673
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #184
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1771993694371
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Peer Initiated
+
+
+Event #185
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1771993693530
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #186
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771993692892
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #187
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11001
+Time: /Date(1771993692892
+Message: Wireless network association succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Management Frame Protection Enabled: 0x100000000
+
+
+Event #188
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11000
+Time: /Date(1771993692789
+Message: Wireless network association started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+802.1X Enabled: Yes
+
+
+Event #189
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771993692536
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #190
+--------------------------------------------------------------------------------
+Level: Error
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8002
+Time: /Date(1771993672975
+Message: WLAN AutoConfig service failed to connect to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+Failure Reason:Failed for an unknown reason.
+RSSI: 255
+
+
+Event #191
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771993672892
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #192
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8011
+Time: /Date(1771993672603
+Message: Connect to last good network 
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+ Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS type: infrastructure
+
+
+Event #193
+--------------------------------------------------------------------------------
+Level: Error
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8002
+Time: /Date(1771993672599
+Message: WLAN AutoConfig service failed to connect to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: On Connect v2.3
+SSID: TSNOfficeWLAN
+BSS Type: Infrastructure
+Failure Reason:Failed for an unknown reason.
+RSSI: 255
+
+
+Event #194
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771993672523
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: On Connect v2.3
+SSID: TSNOfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #195
+--------------------------------------------------------------------------------
+Level: Error
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8002
+Time: /Date(1771993672428
+Message: WLAN AutoConfig service failed to connect to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Failure Reason:The driver disconnected.
+RSSI: 255
+
+
+Event #196
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771993671814
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #197
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1771993664800
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Peer Initiated
+
+
+Event #198
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1771993664162
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #199
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771993661910
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #200
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11001
+Time: /Date(1771993661910
+Message: Wireless network association succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Management Frame Protection Enabled: 0x1400000000
+
+
+Event #201
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11000
+Time: /Date(1771993661849
+Message: Wireless network association started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+802.1X Enabled: Yes
+
+
+Event #202
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771993660959
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #203
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8003
+Time: /Date(1771993658272
+Message: WLAN AutoConfig service has successfully disconnected from a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+Reason: The network is disconnected by the driver.
+
+
+Event #204
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771958409337
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #205
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8001
+Time: /Date(1771958399854
+Message: WLAN AutoConfig service has successfully connected to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+PHY Type: 802.11ac
+Authentication: WPA2-Personal
+Encryption: AES-CCMP
+802.1x Enabled: No
+Hidden: false
+
+
+Event #206
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771958399713
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #207
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771958399464
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+FIPS Mode: Disabled
+802.1x Enabled: No
+
+
+Event #208
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11001
+Time: /Date(1771958399464
+Message: Wireless network association succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Management Frame Protection Enabled: 0x1300000000
+
+
+Event #209
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11000
+Time: /Date(1771958399333
+Message: Wireless network association started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+802.1X Enabled: No
+
+
+Event #210
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771958399250
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #211
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8011
+Time: /Date(1771958398965
+Message: Connect to last good network 
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+ Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS type: infrastructure
+
+
+Event #212
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8003
+Time: /Date(1771956295851
+Message: WLAN AutoConfig service has successfully disconnected from a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+Reason: The network is disconnected due to a policy disabling auto connect on this interface.
+
+
+Event #213
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771956295838
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #214
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771953961828
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #215
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771953961508
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+FIPS Mode: Disabled
+802.1x Enabled: No
+
+
+Event #216
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771953961268
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #217
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8001
+Time: /Date(1771953945182
+Message: WLAN AutoConfig service has successfully connected to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+PHY Type: 802.11ac
+Authentication: WPA2-Personal
+Encryption: AES-CCMP
+802.1x Enabled: No
+Hidden: false
+
+
+Event #218
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771953945166
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #219
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771953944796
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+FIPS Mode: Disabled
+802.1x Enabled: No
+
+
+Event #220
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11001
+Time: /Date(1771953944796
+Message: Wireless network association succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Management Frame Protection Enabled: 0x1200000000
+
+
+Event #221
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11000
+Time: /Date(1771953944216
+Message: Wireless network association started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+802.1X Enabled: No
+
+
+Event #222
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771953943548
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #223
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8011
+Time: /Date(1771953943479
+Message: Connect to last good network 
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+ Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS type: infrastructure
+
+
+Event #224
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8003
+Time: /Date(1771952954968
+Message: WLAN AutoConfig service has successfully disconnected from a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+Reason: The network is disconnected due to a policy disabling auto connect on this interface.
+
+
+Event #225
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771952954946
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #226
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771952531451
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #227
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771952531230
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+FIPS Mode: Disabled
+802.1x Enabled: No
+
+
+Event #228
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771952531192
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #229
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771949334237
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #230
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771949330888
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+FIPS Mode: Disabled
+802.1x Enabled: No
+
+
+Event #231
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771943888928
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #232
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8001
+Time: /Date(1771943882280
+Message: WLAN AutoConfig service has successfully connected to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+PHY Type: 802.11ac
+Authentication: WPA2-Personal
+Encryption: AES-CCMP
+802.1x Enabled: No
+Hidden: false
+
+
+Event #233
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771943882239
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #234
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771943881775
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+FIPS Mode: Disabled
+802.1x Enabled: No
+
+
+Event #235
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11001
+Time: /Date(1771943881775
+Message: Wireless network association succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Management Frame Protection Enabled: 0x1100000000
+
+
+Event #236
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11000
+Time: /Date(1771943881730
+Message: Wireless network association started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+802.1X Enabled: No
+
+
+Event #237
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771943881715
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #238
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8011
+Time: /Date(1771943881369
+Message: Connect to last good network 
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+ Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS type: infrastructure
+
+
+Event #239
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8003
+Time: /Date(1771941451610
+Message: WLAN AutoConfig service has successfully disconnected from a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+Reason: The network is disconnected due to a policy disabling auto connect on this interface.
+
+
+Event #240
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771941451598
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #241
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8001
+Time: /Date(1771940352364
+Message: WLAN AutoConfig service has successfully connected to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+PHY Type: 802.11ac
+Authentication: WPA2-Personal
+Encryption: AES-CCMP
+802.1x Enabled: No
+Hidden: false
+
+
+Event #242
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771940350686
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #243
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771940350371
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+FIPS Mode: Disabled
+802.1x Enabled: No
+
+
+Event #244
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11001
+Time: /Date(1771940350371
+Message: Wireless network association succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Management Frame Protection Enabled: 0x1000000000
+
+
+Event #245
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11000
+Time: /Date(1771940350310
+Message: Wireless network association started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: Sunil 5G
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+802.1X Enabled: No
+
+
+Event #246
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771940350147
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+
+
+Event #247
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8003
+Time: /Date(1771940347627
+Message: WLAN AutoConfig service has successfully disconnected from a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: ECO-216
+SSID: ECO-216
+BSS Type: Infrastructure
+Reason: The network is disconnected by the driver.
+
+
+Event #248
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8012
+Time: /Date(1771940347235
+Message: NLO discovery Network Adapter: Interface GUID: {6816806e-718c-43de-8da7-d6812368c850} Intel(R) Wi-Fi 7 BE201 320MHz
+
+Event #249
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771932194644
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: ECO-216
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #250
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8001
+Time: /Date(1771932182421
+Message: WLAN AutoConfig service has successfully connected to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: ECO-216
+SSID: ECO-216
+BSS Type: Infrastructure
+PHY Type: 802.11ac
+Authentication: WPA2-Personal
+Encryption: AES-CCMP
+802.1x Enabled: No
+Hidden: false
+
+
+Event #251
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771932182370
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: ECO-216
+BSS Type: Infrastructure
+
+
+Event #252
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771932182016
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: ECO-216
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+FIPS Mode: Disabled
+802.1x Enabled: No
+
+
+Event #253
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11001
+Time: /Date(1771932182016
+Message: Wireless network association succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: ECO-216
+BSS Type: Infrastructure
+Management Frame Protection Enabled: 0xf00000000
+
+
+Event #254
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11000
+Time: /Date(1771932181831
+Message: Wireless network association started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: ECO-216
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+802.1X Enabled: No
+
+
+Event #255
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771932181822
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: ECO-216
+SSID: ECO-216
+BSS Type: Infrastructure
+
+
+Event #256
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8011
+Time: /Date(1771932181554
+Message: Connect to last good network 
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+ Profile Name: ECO-216
+SSID: ECO-216
+BSS type: infrastructure
+
+
+Event #257
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8003
+Time: /Date(1771929780951
+Message: WLAN AutoConfig service has successfully disconnected from a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: ECO-216
+SSID: ECO-216
+BSS Type: Infrastructure
+Reason: The network is disconnected due to a policy disabling auto connect on this interface.
+
+
+Event #258
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771929780936
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: ECO-216
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #259
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8001
+Time: /Date(1771929769946
+Message: WLAN AutoConfig service has successfully connected to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: ECO-216
+SSID: ECO-216
+BSS Type: Infrastructure
+PHY Type: 802.11ac
+Authentication: WPA2-Personal
+Encryption: AES-CCMP
+802.1x Enabled: No
+Hidden: false
+
+
+Event #260
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771929769880
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: ECO-216
+BSS Type: Infrastructure
+
+
+Event #261
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771929769686
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: ECO-216
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+FIPS Mode: Disabled
+802.1x Enabled: No
+
+
+Event #262
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11001
+Time: /Date(1771929769686
+Message: Wireless network association succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: ECO-216
+BSS Type: Infrastructure
+Management Frame Protection Enabled: 0xe00000000
+
+
+Event #263
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11000
+Time: /Date(1771929769594
+Message: Wireless network association started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: ECO-216
+BSS Type: Infrastructure
+Authentication: WPA3-Personal
+Encryption: AES-GCMP-256
+802.1X Enabled: No
+
+
+Event #264
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771929769563
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: ECO-216
+SSID: ECO-216
+BSS Type: Infrastructure
+
+
+Event #265
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8003
+Time: /Date(1771928751857
+Message: WLAN AutoConfig service has successfully disconnected from a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Reason: The network is disconnected by the driver.
+
+
+Event #266
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928746724
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #267
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771928743629
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #268
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771928743468
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #269
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928741108
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #270
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771928714273
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #271
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771928714115
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #272
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928714059
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #273
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771928699559
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #274
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771928699300
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #275
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928699245
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #276
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8001
+Time: /Date(1771928398107
+Message: WLAN AutoConfig service has successfully connected to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+PHY Type: 802.11ax
+Authentication: WPA2-Enterprise
+Encryption: AES-CCMP
+802.1x Enabled: Yes
+Hidden: true
+
+
+Event #277
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771928398066
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #278
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12012
+Time: /Date(1771928398051
+Message: Wireless 802.1x authentication succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Identity: host/83f04808-4e5f-45e2-90e7-203e4f2ea3ca
+User: 
+Domain: 
+
+
+Event #279
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1771928394201
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Peer Initiated
+
+
+Event #280
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1771928394132
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Msm Initiated
+
+
+Event #281
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1771928394132
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #282
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771928394047
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #283
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928393469
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #284
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12014
+Time: /Date(1771928384824
+Message: Wireless 802.1x authentication was restarted.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+Restart Reason: Peer Initiated
+
+
+Event #285
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 12011
+Time: /Date(1771928384630
+Message: Wireless 802.1x authentication started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Eap Information: Type 13, Vendor ID 0, Vendor Type 0, Author ID 0
+
+
+Event #286
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771928384434
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #287
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11001
+Time: /Date(1771928384434
+Message: Wireless network association succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Management Frame Protection Enabled: 0xd00000000
+
+
+Event #288
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11000
+Time: /Date(1771928382834
+Message: Wireless network association started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+802.1X Enabled: Yes
+
+
+Event #289
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8000
+Time: /Date(1771928382785
+Message: WLAN AutoConfig service started a connection to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #290
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8012
+Time: /Date(1771928382751
+Message: NLO discovery Network Adapter: Interface GUID: {6816806e-718c-43de-8da7-d6812368c850} Intel(R) Wi-Fi 7 BE201 320MHz
+
+Event #291
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 8003
+Time: /Date(1771928081877
+Message: WLAN AutoConfig service has successfully disconnected from a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Reason: The network is disconnected by the driver.
+
+
+Event #292
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928069344
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #293
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771928065358
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #294
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771928065179
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #295
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928065139
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #296
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771928062553
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #297
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771928062289
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #298
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928062234
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #299
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771928052568
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #300
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771928052413
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #301
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928052358
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #302
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771928046864
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #303
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771928046637
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #304
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928046590
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #305
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771928040565
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #306
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771928040434
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #307
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928040385
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #308
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771928031668
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #309
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771928031406
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #310
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771928031351
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #311
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771927382616
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #312
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771927382329
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #313
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771927382294
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #314
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771926917019
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #315
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771926916769
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #316
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771926916732
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #317
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11005
+Time: /Date(1771926853649
+Message: Wireless security succeeded.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+
+
+Event #318
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11010
+Time: /Date(1771926853533
+Message: Wireless security started.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Authentication: WPA2-Enterprise
+Encryption: AES-GCMP-128
+FIPS Mode: Disabled
+802.1x Enabled: Yes
+
+
+Event #319
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 11004
+Time: /Date(1771926853496
+Message: Wireless security stopped.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Local MAC Address: D0:57:7E:0C:60:CF
+Network SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Security Hint: The operation was successful.
+
+
+Event #320
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 10001
+Time: 2026-02-25 09:58:06
+Message: WLAN Extensibility Module has successfully started.
+
+Module Path: C:\windows\System32\DriverStore\FileRepository\netwtw6e.inf_amd64_ee761166daec7794\IntelIHVRouter18.dll
+
+
+
+Event #321
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 10002
+Time: 2026-02-25 09:58:00
+Message: WLAN Extensibility Module has stopped.
+
+Module Path: C:\windows\System32\DriverStore\FileRepository\netwtw6e.inf_amd64_ee761166daec7794\IntelIHVRouter18.dll
+
+
+
+Event #322
+--------------------------------------------------------------------------------
+Level: Warning
+Source: Microsoft-Windows-WLAN-AutoConfig
+Event ID: 4003
+Time: 2026-02-25 09:57:38
+Message: WLAN AutoConfig detected limited connectivity, attempting automatic recovery.
+
+Recovery Type: 4
+Error Code: 0x0
+Trigger Reason: 5
+IP Family: 0
+
+
+

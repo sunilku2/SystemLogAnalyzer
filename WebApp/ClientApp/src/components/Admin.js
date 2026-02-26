@@ -8,7 +8,7 @@ const getApiUrl = (endpoint) => {
   return `${baseUrl}/api${endpoint}`;
 };
 
-export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisAction }) {
+export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisAction, onInMemoryDataCleared }) {
   const [llmModel, setLlmModel] = useState('');
   const [llmProvider, setLlmProvider] = useState('');
   const [llmEnabled, setLlmEnabled] = useState(false);
@@ -30,6 +30,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
   const [ollamaInstalled, setOllamaInstalled] = useState({ is_installed: false });
   const [isStartingOllama, setIsStartingOllama] = useState(false);
   const [isInstallingOllama, setIsInstallingOllama] = useState(false);
+  const [isClearingMemory, setIsClearingMemory] = useState(false);
 
   // Initialize from config
   useEffect(() => {
@@ -211,6 +212,37 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     } catch (error) {
       setAnalyzerStatus('error');
       setErrorMessage(`❌ Error: ${error.message}`);
+    }
+  };
+
+  const handleClearInMemoryData = async () => {
+    setErrorMessage('');
+    setSuccessMessage('');
+    setIsClearingMemory(true);
+
+    try {
+      const response = await fetch(getApiUrl('/analyzer/clear-memory'), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+      });
+
+      const data = await response.json().catch(() => ({}));
+
+      if (response.ok && data.success) {
+        setSuccessMessage('✅ In-memory analysis data cleared. Dashboard will refresh with current backend state.');
+        if (onInMemoryDataCleared) {
+          await onInMemoryDataCleared();
+        }
+        setTimeout(() => setSuccessMessage(''), 4000);
+      } else {
+        setErrorMessage(`❌ ${data.error || 'Failed to clear in-memory data'}`);
+      }
+
+      fetchAnalyzerStatus();
+    } catch (error) {
+      setErrorMessage(`❌ Error: ${error.message}`);
+    } finally {
+      setIsClearingMemory(false);
     }
   };
 
@@ -684,6 +716,15 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
                 🔄 Restart Analyzer
               </button>
             </div>
+
+            <button
+              className="btn btn-warning w-full"
+              onClick={handleClearInMemoryData}
+              disabled={isClearingMemory}
+              style={{ marginBottom: '16px' }}
+            >
+              {isClearingMemory ? '🧹 Clearing In-Memory Data...' : '🧹 Clear Stale In-Memory Data'}
+            </button>
 
             <div className="form-group">
               <label>Current Status</label>

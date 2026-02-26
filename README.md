@@ -27,12 +27,13 @@ UserSystemLogAnalyzer/
 ├── analysis_logs/         # Log files directory
 │   └── {user_id}/
 │       └── {system_name}/
-│           └── {timestamp}/
-│               ├── System.log
-│               ├── Application.log
-│               ├── Network.log
-│               ├── Driver.log
-│               └── ...
+│           ├── {timestamp}/   # Optional session folder
+│           │   ├── System.log
+│           │   ├── Application.log
+│           │   ├── Network.log
+│           │   ├── Driver.log
+│           │   └── ...
+│           └── (or logs directly under system_name)
 └── reports/               # Generated reports (HTML/JSON)
 ```
 
@@ -47,7 +48,9 @@ UserSystemLogAnalyzer/
 
 3. **Verify log structure**: Ensure your logs follow the structure:
    ```
-   analysis_logs/{user_id}/{system_name}/{timestamp}/
+  analysis_logs/{user_id}/{system_name}/{timestamp}/
+  # or
+  analysis_logs/{user_id}/{system_name}/
    ```
 
 ## Usage

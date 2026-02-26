@@ -1,0 +1,1316 @@
+================================================================================
+NETWORK FIREWALL LOGS - CAPTURED 2026-02-26_13-47-47
+================================================================================
+
+Total Events: 50 (0 errors, 0 warnings, 50 info)
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Time:       /Date(1772093855197
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{3E6843C0-577F-4447-A7F1-DD75261EFA8E}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	Er
+
+================================================================================
+
+Event #2
+--------------------------------------------------------------------------------
+Time:       /Date(1772093855184
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{3E6843C0-577F-4447-A7F1-DD75261EFA8E}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	0
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	
+
+================================================================================
+
+Event #3
+--------------------------------------------------------------------------------
+Time:       /Date(1772093855171
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{66F11D8C-EEAF-477C-8500-8430B87DD301}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+
+================================================================================
+
+Event #4
+--------------------------------------------------------------------------------
+Time:       /Date(1772093855150
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{66F11D8C-EEAF-477C-8500-8430B87DD301}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	0
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId
+
+================================================================================
+
+Event #5
+--------------------------------------------------------------------------------
+Time:       /Date(1772093855132
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{4FAFD096-8907-4555-A661-B302DE566019}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #6
+--------------------------------------------------------------------------------
+Time:       /Date(1772093855092
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{26E336BB-7D94-47AE-B039-CC2FDDAABF1B}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #7
+--------------------------------------------------------------------------------
+Time:       /Date(1772093455590
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{4FAFD096-8907-4555-A661-B302DE566019}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	Er
+
+================================================================================
+
+Event #8
+--------------------------------------------------------------------------------
+Time:       /Date(1772093455575
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{4FAFD096-8907-4555-A661-B302DE566019}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	0
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	
+
+================================================================================
+
+Event #9
+--------------------------------------------------------------------------------
+Time:       /Date(1772093455554
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{26E336BB-7D94-47AE-B039-CC2FDDAABF1B}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+
+================================================================================
+
+Event #10
+--------------------------------------------------------------------------------
+Time:       /Date(1772093455531
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{26E336BB-7D94-47AE-B039-CC2FDDAABF1B}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	0
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId
+
+================================================================================
+
+Event #11
+--------------------------------------------------------------------------------
+Time:       /Date(1772093455510
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{7CF81BE2-9B10-4A87-A400-8E109A03DD74}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #12
+--------------------------------------------------------------------------------
+Time:       /Date(1772093455459
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{251BE99D-C5DB-440F-8201-3D49EC1B6111}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #13
+--------------------------------------------------------------------------------
+Time:       /Date(1772093082486
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{7CF81BE2-9B10-4A87-A400-8E109A03DD74}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	Er
+
+================================================================================
+
+Event #14
+--------------------------------------------------------------------------------
+Time:       /Date(1772093082474
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{7CF81BE2-9B10-4A87-A400-8E109A03DD74}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	0
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	
+
+================================================================================
+
+Event #15
+--------------------------------------------------------------------------------
+Time:       /Date(1772093082439
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{251BE99D-C5DB-440F-8201-3D49EC1B6111}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+
+================================================================================
+
+Event #16
+--------------------------------------------------------------------------------
+Time:       /Date(1772093082427
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{251BE99D-C5DB-440F-8201-3D49EC1B6111}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	0
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId
+
+================================================================================
+
+Event #17
+--------------------------------------------------------------------------------
+Time:       /Date(1772093082371
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{ECD208B7-C937-4F62-B7A5-6BDCA2E1A073}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #18
+--------------------------------------------------------------------------------
+Time:       /Date(1772093082293
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{B4734B0E-3AE1-440C-A352-CEC1453263F2}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #19
+--------------------------------------------------------------------------------
+Time:       /Date(1772092704560
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{ECD208B7-C937-4F62-B7A5-6BDCA2E1A073}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	Er
+
+================================================================================
+
+Event #20
+--------------------------------------------------------------------------------
+Time:       /Date(1772092704535
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{ECD208B7-C937-4F62-B7A5-6BDCA2E1A073}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	0
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	
+
+================================================================================
+
+Event #21
+--------------------------------------------------------------------------------
+Time:       /Date(1772092704502
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{B4734B0E-3AE1-440C-A352-CEC1453263F2}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+
+================================================================================
+
+Event #22
+--------------------------------------------------------------------------------
+Time:       /Date(1772092704491
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{B4734B0E-3AE1-440C-A352-CEC1453263F2}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	0
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId
+
+================================================================================
+
+Event #23
+--------------------------------------------------------------------------------
+Time:       /Date(1772092704464
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{53AAAB4E-806E-4034-941A-11A8D1AABA98}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #24
+--------------------------------------------------------------------------------
+Time:       /Date(1772092704433
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{AF840CEB-5E0F-4435-9D7B-BBFD25C4D7F1}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #25
+--------------------------------------------------------------------------------
+Time:       /Date(1772091991512
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{53AAAB4E-806E-4034-941A-11A8D1AABA98}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	Er
+
+================================================================================
+
+Event #26
+--------------------------------------------------------------------------------
+Time:       /Date(1772091991498
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{53AAAB4E-806E-4034-941A-11A8D1AABA98}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	0
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	
+
+================================================================================
+
+Event #27
+--------------------------------------------------------------------------------
+Time:       /Date(1772091991488
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{AF840CEB-5E0F-4435-9D7B-BBFD25C4D7F1}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+
+================================================================================
+
+Event #28
+--------------------------------------------------------------------------------
+Time:       /Date(1772091991476
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{AF840CEB-5E0F-4435-9D7B-BBFD25C4D7F1}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	0
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId
+
+================================================================================
+
+Event #29
+--------------------------------------------------------------------------------
+Time:       /Date(1772091991464
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{0C61B44F-31CD-4E93-A5DB-07DEB0CC76A6}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #30
+--------------------------------------------------------------------------------
+Time:       /Date(1772091991440
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{06AF9CBC-5AAD-44C7-A4EE-4FF5944F7F38}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #31
+--------------------------------------------------------------------------------
+Time:       /Date(1772091800142
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{0C61B44F-31CD-4E93-A5DB-07DEB0CC76A6}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	Er
+
+================================================================================
+
+Event #32
+--------------------------------------------------------------------------------
+Time:       /Date(1772091800130
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{0C61B44F-31CD-4E93-A5DB-07DEB0CC76A6}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	0
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	
+
+================================================================================
+
+Event #33
+--------------------------------------------------------------------------------
+Time:       /Date(1772091800120
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{06AF9CBC-5AAD-44C7-A4EE-4FF5944F7F38}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+
+================================================================================
+
+Event #34
+--------------------------------------------------------------------------------
+Time:       /Date(1772091800108
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{06AF9CBC-5AAD-44C7-A4EE-4FF5944F7F38}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	0
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId
+
+================================================================================
+
+Event #35
+--------------------------------------------------------------------------------
+Time:       /Date(1772091800096
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{661E8DD1-85BA-4C0A-A41E-8C8569C6B8B3}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #36
+--------------------------------------------------------------------------------
+Time:       /Date(1772091800068
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{59673468-8AEE-43B7-B6D8-56FFC5BFF863}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #37
+--------------------------------------------------------------------------------
+Time:       /Date(1772091640983
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{661E8DD1-85BA-4C0A-A41E-8C8569C6B8B3}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	Er
+
+================================================================================
+
+Event #38
+--------------------------------------------------------------------------------
+Time:       /Date(1772091640926
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{661E8DD1-85BA-4C0A-A41E-8C8569C6B8B3}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	0
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	
+
+================================================================================
+
+Event #39
+--------------------------------------------------------------------------------
+Time:       /Date(1772091640919
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{59673468-8AEE-43B7-B6D8-56FFC5BFF863}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+
+================================================================================
+
+Event #40
+--------------------------------------------------------------------------------
+Time:       /Date(1772091640909
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{59673468-8AEE-43B7-B6D8-56FFC5BFF863}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	0
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId
+
+================================================================================
+
+Event #41
+--------------------------------------------------------------------------------
+Time:       /Date(1772091640902
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{111B815A-1B1D-4B5A-8E70-0E39CEECAC2F}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #42
+--------------------------------------------------------------------------------
+Time:       /Date(1772091640885
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{6787D5DD-A662-4845-908F-E6ABACAC14CE}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #43
+--------------------------------------------------------------------------------
+Time:       /Date(1772091535693
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{111B815A-1B1D-4B5A-8E70-0E39CEECAC2F}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	Er
+
+================================================================================
+
+Event #44
+--------------------------------------------------------------------------------
+Time:       /Date(1772091535679
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{111B815A-1B1D-4B5A-8E70-0E39CEECAC2F}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	0
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	
+
+================================================================================
+
+Event #45
+--------------------------------------------------------------------------------
+Time:       /Date(1772091535668
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{6787D5DD-A662-4845-908F-E6ABACAC14CE}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+
+================================================================================
+
+Event #46
+--------------------------------------------------------------------------------
+Time:       /Date(1772091535654
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{6787D5DD-A662-4845-908F-E6ABACAC14CE}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Origin:	0
+	Active:	Yes
+	Direction:	Inbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	System
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	Allow
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId
+
+================================================================================
+
+Event #47
+--------------------------------------------------------------------------------
+Time:       /Date(1772091535642
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{AC7972DD-1C2B-45B1-8EA7-AD700F0206F5}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #48
+--------------------------------------------------------------------------------
+Time:       /Date(1772091535607
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2052
+
+Message:
+A rule has been deleted in the Windows Defender Firewall exception list.
+
+Deleted Rule:
+	Rule ID:	{9331D07E-5157-45CA-B059-37FB57861EDD}
+	Rule Name:	Core Networking - Teredo (ICMPv6-In)
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	Error Code:	0
+
+================================================================================
+
+Event #49
+--------------------------------------------------------------------------------
+Time:       /Date(1772091444169
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2097
+
+Message:
+A rule has been added to the Windows Defender Firewall exception list.
+
+Added Rule:
+	Rule ID:	{AC7972DD-1C2B-45B1-8EA7-AD700F0206F5}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	Local
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	Er
+
+================================================================================
+
+Event #50
+--------------------------------------------------------------------------------
+Time:       /Date(1772091444159
+Level:      Information
+Source:     Microsoft-Windows-Windows Firewall With Advanced Security
+Event ID:   2099
+
+Message:
+A rule has been modified in the Windows Defender Firewall exception list.
+
+Modified Rule:
+	Rule ID:	{AC7972DD-1C2B-45B1-8EA7-AD700F0206F5}
+	Rule Name:	Core Networking - Teredo (ICMPv6-Out)
+	Origin:	0
+	Active:	Yes
+	Direction:	Outbound
+	Profiles:	Private,Domain, Public
+	Action:	Allow
+	Application Path:	
+	Service Name:	
+	Protocol:	ICMP V6
+	Security Options:	None
+	Edge Traversal:	None
+	Modifying User:	S-1-5-18
+	Modifying Application:	C:\Windows\System32\svchost.exe
+	PolicyAppId:	
+	
+
+================================================================================
+

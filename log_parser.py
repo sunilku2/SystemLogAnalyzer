@@ -5,8 +5,9 @@ import os
 import re
 import logging
 from datetime import datetime
-from typing import List, Dict, Tuple
+from typing import List, Dict, Tuple, Optional
 from models import LogEntry
+from config import NETWORK_ANALYSIS_ONLY, NETWORK_LOG_KEYWORDS
 
 logger = logging.getLogger('log_analyzer.parser')
 
@@ -50,6 +51,7 @@ class LogParser:
         )
         # Initialize EVTX parser if available
         self.evtx_parser = EvtxParser() if EVTX_SUPPORT else None
+        self.session_timestamp_pattern = re.compile(r"^\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}$")
     
     def parse_log_file(self, file_path: str, user_id: str, system_name: str, session_timestamp: str) -> List[LogEntry]:
         """Parse a single log file and extract all events (supports both .log and .evtx formats)"""
@@ -118,13 +120,9 @@ class LogParser:
                         # Multiline: event_num, level, source, event_id, time, message
                         # Inline: event_num, level, source, event_id, time, message
                         event_num = int(groups[0])
-                        if format_used == "actual":
-                            timestamp_str = (groups[1] or "").strip()
-                            level = (groups[2] or "Information").strip()
-                        else:
-                            level = (groups[1] or "Information").strip()
-                            timestamp_str = (groups[4] if len(groups) > 4 else "").strip()
-                        source = (groups[2] if len(groups) > 2 else "Unknown").strip()
+                        level = ((groups[1] if len(groups) > 1 else None) or "Information").strip()
+                        timestamp_str = ((groups[4] if len(groups) > 4 else None) or "").strip()
+                        source = ((groups[2] if len(groups) > 2 else None) or "Unknown").strip()
                         event_id = int(groups[3]) if len(groups) > 3 and groups[3] else 0
                         message = (groups[5] if len(groups) > 5 else groups[-1] or "").strip()
                     
@@ -172,6 +170,78 @@ class LogParser:
         
         # Default to current time if parsing fails
         return datetime.now()
+
+    def _is_supported_log_filename(self, filename: str, configured_log_types: Optional[List[str]] = None) -> bool:
+        """Return True if a filename should be parsed as a log file."""
+        lower_name = filename.lower()
+
+        if lower_name in {'index.txt'}:
+            return False
+
+        if lower_name.endswith('_analysis.log') or lower_name.endswith('_analysis.txt'):
+            return False
+
+        if NETWORK_ANALYSIS_ONLY:
+            if configured_log_types and filename in configured_log_types:
+                return True
+
+            if any(keyword in lower_name for keyword in NETWORK_LOG_KEYWORDS):
+                return lower_name.endswith('.log') or lower_name.endswith('.txt') or lower_name.endswith('.evtx')
+
+            return False
+
+        if configured_log_types and filename in configured_log_types:
+            return True
+
+        if lower_name.endswith('.evtx') or lower_name.endswith('.log'):
+            return True
+
+        # Include text logs that follow the common *_log*.txt naming pattern
+        if lower_name.endswith('.txt') and 'log' in lower_name:
+            return True
+
+        return False
+
+    def _find_log_files_in_directory(self, directory_path: str, configured_log_types: Optional[List[str]] = None) -> List[str]:
+        """Return all parsable log filenames in a directory."""
+        try:
+            files = os.listdir(directory_path)
+        except Exception as e:
+            logger.error(f"Could not list directory {directory_path}: {e}")
+            return []
+
+        log_files = [
+            file_name
+            for file_name in files
+            if os.path.isfile(os.path.join(directory_path, file_name))
+            and self._is_supported_log_filename(file_name, configured_log_types)
+        ]
+
+        return sorted(set(log_files))
+
+    def _extract_session_metadata(self, relative_parts: List[str]) -> Tuple[str, str, str]:
+        """Infer user/system/session metadata from a relative path."""
+        user_id = relative_parts[0] if len(relative_parts) >= 1 else "unknown-user"
+
+        system_name = "unknown-system"
+        for part in relative_parts:
+            if part.lower().startswith("soc-"):
+                system_name = part
+                break
+
+        if system_name == "unknown-system" and len(relative_parts) >= 2:
+            system_name = relative_parts[1]
+
+        session_timestamp = "current"
+        for part in reversed(relative_parts):
+            if self.session_timestamp_pattern.match(part):
+                session_timestamp = part
+                break
+
+        if session_timestamp == "current" and len(relative_parts) >= 3:
+            session_timestamp = relative_parts[-1]
+
+        return user_id, system_name, session_timestamp
     
     def discover_logs(self, base_logs_dir: str) -> List[Tuple[str, str, str, str]]:
         """
@@ -188,43 +258,30 @@ class LogParser:
         logger.debug(f"Starting log discovery in: {base_logs_dir}")
         logger.debug(f"Base directory exists: {os.path.exists(base_logs_dir)}")
         logger.debug(f"Base directory is dir: {os.path.isdir(base_logs_dir)}")
-        
-        # Walk through userid/systemname/timestamp structure
-        user_ids = os.listdir(base_logs_dir)
-        logger.debug(f"Found {len(user_ids)} items in base directory: {user_ids}")
-        
-        for user_id in user_ids:
-            user_path = os.path.join(base_logs_dir, user_id)
-            logger.debug(f"Checking user_path: {user_path} (exists: {os.path.exists(user_path)}, isdir: {os.path.isdir(user_path)})")
-            
-            if not os.path.isdir(user_path):
-                logger.debug(f"Skipping user_path (not a directory): {user_path}")
+
+        seen_paths = set()
+        for current_dir, _subdirs, _files in os.walk(base_logs_dir):
+            if current_dir == base_logs_dir:
                 continue
-            
-            system_names = os.listdir(user_path)
-            logger.debug(f"User {user_id} has {len(system_names)} system entries: {system_names}")
-            
-            for system_name in system_names:
-                system_path = os.path.join(user_path, system_name)
-                logger.debug(f"Checking system_path: {system_path} (exists: {os.path.exists(system_path)}, isdir: {os.path.isdir(system_path)})")
-                
-                if not os.path.isdir(system_path):
-                    logger.debug(f"Skipping system_path (not a directory): {system_path}")
-                    continue
-                
-                session_timestamps = os.listdir(system_path)
-                logger.debug(f"System {system_name} has {len(session_timestamps)} session entries: {session_timestamps}")
-                
-                for session_timestamp in session_timestamps:
-                    session_path = os.path.join(system_path, session_timestamp)
-                    logger.debug(f"Checking session_path: {session_path} (exists: {os.path.exists(session_path)}, isdir: {os.path.isdir(session_path)})")
-                    
-                    if not os.path.isdir(session_path):
-                        logger.debug(f"Skipping session_path (not a directory): {session_path}")
-                        continue
-                    
-                    logger.info(f"Found valid session: user={user_id}, system={system_name}, session={session_timestamp}, path={session_path}")
-                    discovered.append((user_id, system_name, session_timestamp, session_path))
+
+            log_files = self._find_log_files_in_directory(current_dir)
+            if not log_files:
+                continue
+
+            relative_path = os.path.relpath(current_dir, base_logs_dir)
+            relative_parts = [part for part in relative_path.split(os.sep) if part and part != '.']
+            user_id, system_name, session_timestamp = self._extract_session_metadata(relative_parts)
+
+            normalized_path = os.path.normpath(current_dir)
+            if normalized_path in seen_paths:
+                continue
+
+            seen_paths.add(normalized_path)
+            logger.info(
+                f"Found valid session: user={user_id}, system={system_name}, "
+                f"session={session_timestamp}, path={current_dir}, files={len(log_files)}"
+            )
+            discovered.append((user_id, system_name, session_timestamp, current_dir))
         
         logger.info(f"Log discovery complete: found {len(discovered)} valid sessions")
         return discovered
@@ -245,49 +302,18 @@ class LogParser:
             
             print(f"Parsing logs for User: {user_id}, System: {system_name}, Session: {session_timestamp}")
             
-            # First, parse configured log types (.log files)
-            logger.debug(f"Looking for configured log types: {log_types}")
-            for log_type in log_types:
-                log_file_path = os.path.join(session_path, log_type)
-                logger.debug(f"Checking for log file: {log_file_path}")
-                logger.debug(f"  - Path string: {repr(log_file_path)}")
-                logger.debug(f"  - Exists: {os.path.exists(log_file_path)}")
-                logger.debug(f"  - Is file: {os.path.isfile(log_file_path)}")
-                
-                if os.path.exists(log_file_path):
-                    logger.info(f"Found log file: {log_file_path}")
-                    logger.info(f"Found log file: {log_file_path}")
-                    entries = self.parse_log_file(log_file_path, user_id, system_name, session_timestamp)
-                    all_entries.extend(entries)
-                    print(f"  - Parsed {len(entries)} entries from {log_type}")
-                    logger.info(f"Parsed {len(entries)} entries from {log_type} in session {session_timestamp}")
-                else:
-                    logger.debug(f"Log file not found: {log_file_path}")
-                    # List what files ARE in the directory
-                    try:
-                        session_files = os.listdir(session_path)
-                        logger.debug(f"Files in session directory: {session_files}")
-                    except Exception as e:
-                        logger.error(f"Could not list session directory: {e}")
-            
-            # Also scan for any .evtx files in the session directory
-            if os.path.isdir(session_path):
-                logger.debug(f"Scanning {session_path} for EVTX files")
-                try:
-                    all_files = os.listdir(session_path)
-                    logger.debug(f"Found {len(all_files)} files in session directory")
-                    
-                    for filename in all_files:
-                        logger.debug(f"Checking file: {filename}")
-                        if filename.lower().endswith('.evtx'):
-                            evtx_file_path = os.path.join(session_path, filename)
-                            logger.debug(f"Found EVTX file: {evtx_file_path}")
-                            entries = self.parse_log_file(evtx_file_path, user_id, system_name, session_timestamp)
-                            all_entries.extend(entries)
-                            print(f"  - Parsed {len(entries)} entries from {filename} (EVTX)")
-                            logger.info(f"Parsed {len(entries)} entries from {filename} (EVTX)")
-                except Exception as e:
-                    logger.error(f"Error scanning EVTX files in {session_path}: {e}", exc_info=True)
+            session_log_files = self._find_log_files_in_directory(session_path, configured_log_types=log_types)
+            if not session_log_files:
+                logger.debug(f"No supported log files found in {session_path}")
+                continue
+
+            logger.debug(f"Found {len(session_log_files)} supported log files in session directory: {session_log_files}")
+            for filename in session_log_files:
+                log_file_path = os.path.join(session_path, filename)
+                entries = self.parse_log_file(log_file_path, user_id, system_name, session_timestamp)
+                all_entries.extend(entries)
+                print(f"  - Parsed {len(entries)} entries from {filename}")
+                logger.info(f"Parsed {len(entries)} entries from {filename} in session {session_timestamp}")
         
         logger.info(f"Total log parsing complete: {len(all_entries)} entries parsed from all sources")
         print(f"\nTotal entries parsed: {len(all_entries)}")

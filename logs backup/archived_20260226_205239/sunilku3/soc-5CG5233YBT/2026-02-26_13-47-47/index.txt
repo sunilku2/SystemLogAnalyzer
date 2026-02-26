@@ -1,0 +1,41 @@
+================================================================================
+WINDOWS LOGS CAPTURE INDEX - 2026-02-26_13-47-47
+================================================================================
+
+Total Logs Captured: 443
+Capture Date: 2026-02-26 13:47:47
+Time Range: Last 24 hours
+
+CATEGORY BREAKDOWN
+--------------------------------------------------------------------------------
+  System: 50 events → system_logs.txt
+  Application: 50 events → application_logs.txt
+  Driver: 29 events → driver_logs.txt
+  Security: 3 events → security_logs.txt
+  Network: 311 events → network_logs.txt
+
+  Network Subcategories:
+    • NCSI: 50 events → network_ncsi.log
+    • WLAN: 50 events → network_wlan.log
+    • NetworkProfile: 50 events → network_networkprofile.log
+    • DHCP: 50 events → network_dhcp.log
+    • DNS: 50 events → network_dns.log
+    • Firewall: 50 events → network_firewall.log
+    • Other: 11 events → network_other.log
+
+================================================================================
+FILES IN THIS CAPTURE:
+--------------------------------------------------------------------------------
+  • system_logs.txt
+  • application_logs.txt
+  • driver_logs.txt
+  • security_logs.txt
+  • network_logs.txt
+  • network_ncsi.log
+  • network_wlan.log
+  • network_networkprofile.log
+  • network_dhcp.log
+  • network_dns.log
+  • network_firewall.log
+  • network_other.log
+  • index.txt (this file)

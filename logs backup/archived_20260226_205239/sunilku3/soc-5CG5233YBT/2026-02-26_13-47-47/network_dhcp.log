@@ -1,0 +1,608 @@
+================================================================================
+NETWORK DHCP LOGS - CAPTURED 2026-02-26_13-47-47
+================================================================================
+
+Total Events: 50 (0 errors, 0 warnings, 50 info)
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Time:       /Date(1772093327895
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #2
+--------------------------------------------------------------------------------
+Time:       /Date(1772093327895
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #3
+--------------------------------------------------------------------------------
+Time:       /Date(1772093079868
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #4
+--------------------------------------------------------------------------------
+Time:       /Date(1772093079868
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #5
+--------------------------------------------------------------------------------
+Time:       /Date(1772091505642
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #6
+--------------------------------------------------------------------------------
+Time:       /Date(1772091505641
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #7
+--------------------------------------------------------------------------------
+Time:       /Date(1772091475966
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #8
+--------------------------------------------------------------------------------
+Time:       /Date(1772091475966
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #9
+--------------------------------------------------------------------------------
+Time:       /Date(1772091459813
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #10
+--------------------------------------------------------------------------------
+Time:       /Date(1772091459813
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #11
+--------------------------------------------------------------------------------
+Time:       /Date(1772091454184
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #12
+--------------------------------------------------------------------------------
+Time:       /Date(1772091454184
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #13
+--------------------------------------------------------------------------------
+Time:       /Date(1772091439764
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #14
+--------------------------------------------------------------------------------
+Time:       /Date(1772091439764
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #15
+--------------------------------------------------------------------------------
+Time:       /Date(1772091177986
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #16
+--------------------------------------------------------------------------------
+Time:       /Date(1772091177986
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #17
+--------------------------------------------------------------------------------
+Time:       /Date(1772088117604
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #18
+--------------------------------------------------------------------------------
+Time:       /Date(1772088117604
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #19
+--------------------------------------------------------------------------------
+Time:       /Date(1772088035676
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #20
+--------------------------------------------------------------------------------
+Time:       /Date(1772088035676
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #21
+--------------------------------------------------------------------------------
+Time:       /Date(1772087731532
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #22
+--------------------------------------------------------------------------------
+Time:       /Date(1772087731532
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #23
+--------------------------------------------------------------------------------
+Time:       /Date(1772087655161
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #24
+--------------------------------------------------------------------------------
+Time:       /Date(1772087655161
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #25
+--------------------------------------------------------------------------------
+Time:       /Date(1772086202955
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #26
+--------------------------------------------------------------------------------
+Time:       /Date(1772086202955
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #27
+--------------------------------------------------------------------------------
+Time:       /Date(1772086018290
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #28
+--------------------------------------------------------------------------------
+Time:       /Date(1772086018290
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #29
+--------------------------------------------------------------------------------
+Time:       /Date(1772085130549
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #30
+--------------------------------------------------------------------------------
+Time:       /Date(1772085130549
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #31
+--------------------------------------------------------------------------------
+Time:       /Date(1772085097445
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #32
+--------------------------------------------------------------------------------
+Time:       /Date(1772085097445
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #33
+--------------------------------------------------------------------------------
+Time:       /Date(1772084977634
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #34
+--------------------------------------------------------------------------------
+Time:       /Date(1772084977634
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #35
+--------------------------------------------------------------------------------
+Time:       /Date(1772084955470
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #36
+--------------------------------------------------------------------------------
+Time:       /Date(1772084955470
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #37
+--------------------------------------------------------------------------------
+Time:       /Date(1772084704164
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #38
+--------------------------------------------------------------------------------
+Time:       /Date(1772084704164
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #39
+--------------------------------------------------------------------------------
+Time:       /Date(1772084445334
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #40
+--------------------------------------------------------------------------------
+Time:       /Date(1772084445334
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #41
+--------------------------------------------------------------------------------
+Time:       /Date(1772084416774
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #42
+--------------------------------------------------------------------------------
+Time:       /Date(1772084416774
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #43
+--------------------------------------------------------------------------------
+Time:       /Date(1772083990107
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #44
+--------------------------------------------------------------------------------
+Time:       /Date(1772083990107
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #45
+--------------------------------------------------------------------------------
+Time:       /Date(1772083956937
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #46
+--------------------------------------------------------------------------------
+Time:       /Date(1772083956937
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #47
+--------------------------------------------------------------------------------
+Time:       /Date(1772083829479
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #48
+--------------------------------------------------------------------------------
+Time:       /Date(1772083829479
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #49
+--------------------------------------------------------------------------------
+Time:       /Date(1772083782640
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50065
+
+Message:
+DHCP has found a match in the cache for Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+
+Event #50
+--------------------------------------------------------------------------------
+Time:       /Date(1772083782640
+Level:      Information
+Source:     Microsoft-Windows-Dhcp-Client
+Event ID:   50067
+
+Message:
+DHCP has received a Service Set Identifier(SSID) RSN2OfficeWLAN(Hexadecimal value of SSID: 2535E423F4666696365675C414E4) for the Network Card with the network address 0xD0577E0C60CF
+
+================================================================================
+

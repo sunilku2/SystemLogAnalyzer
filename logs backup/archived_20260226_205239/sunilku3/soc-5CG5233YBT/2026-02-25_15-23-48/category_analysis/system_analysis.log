@@ -1,0 +1,5333 @@
+================================================================================
+⚙️ SYSTEM-LEVEL ISSUES
+================================================================================
+Generated: 2026-02-25 15:27:57
+Category: SYSTEM
+Total Events in Category: 170
+================================================================================
+
+STATISTICS
+--------------------------------------------------------------------------------
+  Critical Events: 0
+  Error Events:    4
+  Warning Events:  166
+  Info Events:     0
+
+EVENT SOURCES
+--------------------------------------------------------------------------------
+  Network: 170 events
+
+DETECTED ISSUES IN THIS CATEGORY
+--------------------------------------------------------------------------------
+  No specific issues detected in this category.
+
+ROOT CAUSES IDENTIFIED
+--------------------------------------------------------------------------------
+
+  1. System-Level Issues
+     Severity: High
+     Related Events: 170
+     Description: System-level errors detected. This could indicate service failures, resource exhaustion, or system instability.
+     Affected Components: Network
+
+
+DETAILED EVENT LOG
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Time:       2026-02-25 15:24:03
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #2
+--------------------------------------------------------------------------------
+Time:       2026-02-25 15:23:50
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #3
+--------------------------------------------------------------------------------
+Time:       2026-02-25 15:20:37
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #4
+--------------------------------------------------------------------------------
+Time:       2026-02-25 15:15:36
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #5
+--------------------------------------------------------------------------------
+Time:       2026-02-25 15:10:36
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #6
+--------------------------------------------------------------------------------
+Time:       2026-02-25 15:05:36
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #7
+--------------------------------------------------------------------------------
+Time:       2026-02-25 15:05:35
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #8
+--------------------------------------------------------------------------------
+Time:       2026-02-25 15:04:22
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #9
+--------------------------------------------------------------------------------
+Time:       2026-02-25 15:04:18
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #10
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:54:28
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #11
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:49:28
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #12
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:44:28
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #13
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:39:28
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #14
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:39:26
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #15
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:38:15
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #16
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:35:44
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #17
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:34:15
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #18
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:29:15
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #19
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:24:15
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #20
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:19:15
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #21
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:14:14
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #22
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:13:08
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #23
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:13:07
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #24
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:12:00
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #25
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:07:00
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #26
+--------------------------------------------------------------------------------
+Time:       2026-02-25 14:01:55
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #27
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:57:17
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #28
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:57:14
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #29
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:56:05
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #30
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:56:01
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #31
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:54:58
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #32
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:53:56
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #33
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:50:53
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #34
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:50:49
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #35
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:50:36
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #36
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:49:42
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #37
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:49:35
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #38
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:47:23
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #39
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:42:22
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #40
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:37:22
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #41
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:32:22
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #42
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:27:22
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #43
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:27:22
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #44
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:27:19
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #45
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:22:43
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #46
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:22:33
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #47
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:22:31
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #48
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:17:49
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #49
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:12:49
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #50
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:11:43
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #51
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:11:39
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #52
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:11:34
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #53
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:10:35
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #54
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:10:29
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #55
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:09:49
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #56
+--------------------------------------------------------------------------------
+Time:       2026-02-25 13:04:49
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #57
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:59:49
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #58
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:54:49
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #59
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:54:45
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #60
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:54:42
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #61
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:53:52
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #62
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:53:41
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #63
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:53:39
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #64
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:50:27
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #65
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:45:27
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #66
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:40:27
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #67
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:35:27
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #68
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:30:27
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #69
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:25:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #70
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:20:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #71
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:15:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #72
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:10:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #73
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:05:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #74
+--------------------------------------------------------------------------------
+Time:       2026-02-25 12:00:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #75
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:55:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #76
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:50:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #77
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:45:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #78
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:45:20
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #79
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:44:15
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #80
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:44:15
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #81
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:44:02
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #82
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:40:35
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #83
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:35:35
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #84
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:35:29
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #85
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:33:43
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #86
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:28:43
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #87
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:23:43
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #88
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:18:43
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #89
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:14:10
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #90
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:12:57
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #91
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:12:24
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #92
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:11:18
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #93
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:08:14
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #94
+--------------------------------------------------------------------------------
+Time:       2026-02-25 11:08:13
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #95
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:58:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #96
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:53:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #97
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:48:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #98
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:43:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #99
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:38:26
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #100
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:35:55
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #101
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:35:50
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #102
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:34:09
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #103
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:30:56
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #104
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:30:32
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #105
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:07:22
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #106
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:06:36
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #107
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:05:50
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #108
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:05:50
+Level:      Warning
+Source:     Network
+Event ID:   8033
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #109
+--------------------------------------------------------------------------------
+Time:       2026-02-25 10:03:48
+Level:      Warning
+Source:     Network
+Event ID:   8033
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #110
+--------------------------------------------------------------------------------
+Time:       2026-02-25 09:58:37
+Level:      Warning
+Source:     Network
+Event ID:   8033
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #111
+--------------------------------------------------------------------------------
+Time:       2026-02-25 09:58:00
+Level:      Warning
+Source:     Network
+Event ID:   10002
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+WLAN Extensibility Module has stopped.
+
+Module Path: C:\windows\System32\DriverStore\FileRepository\netwtw6e.inf_amd64_ee761166daec7794\IntelIHVRouter18.dll
+
+
+
+Event #112
+--------------------------------------------------------------------------------
+Time:       2026-02-25 09:57:38
+Level:      Warning
+Source:     Network
+Event ID:   4003
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+WLAN AutoConfig detected limited connectivity, attempting automatic recovery.
+
+Recovery Type: 4
+Error Code: 0x0
+Trigger Reason: 5
+IP Family: 0
+
+
+
+Event #113
+--------------------------------------------------------------------------------
+Time:       2026-02-25 00:10:00
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #114
+--------------------------------------------------------------------------------
+Time:       2026-02-25 00:10:00
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e6
+
+Event #115
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:56:52
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #116
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:56:49
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #117
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:56:19
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #118
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:56:16
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #119
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:56:13
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #120
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:56:03
+Level:      Warning
+Source:     Network
+Event ID:   8017
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : 192.55.52.33:53
+
+          IP Address(es) :
+
+            2405:201:d037:20
+
+Event #121
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:56:02
+Level:      Warning
+Source:     Network
+Event ID:   8017
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : 192.55.52.33:53
+
+          IP Address(es) :
+
+            2405:201:d037:20
+
+Event #122
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:55:46
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #123
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:55:45
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e6
+
+Event #124
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:37:13
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #125
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:33:08
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #126
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:33:05
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #127
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:32:36
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #128
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:32:33
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #129
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:32:30
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #130
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:32:12
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037
+
+Event #131
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:32:11
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2405:201:d037:201e:5e6
+
+Event #132
+--------------------------------------------------------------------------------
+Time:       2026-02-24 22:10:51
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #133
+--------------------------------------------------------------------------------
+Time:       2026-02-24 21:40:27
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #134
+--------------------------------------------------------------------------------
+Time:       2026-02-24 21:40:24
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #135
+--------------------------------------------------------------------------------
+Time:       2026-02-24 21:39:30
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #136
+--------------------------------------------------------------------------------
+Time:       2026-02-24 21:39:27
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #137
+--------------------------------------------------------------------------------
+Time:       2026-02-24 21:39:24
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.164.216
+
+The reason the system could not register these RRs during the update
+
+Event #138
+--------------------------------------------------------------------------------
+Time:       2026-02-24 21:39:19
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	2405:201:d037:201e::c0a8:1d01, 192.168.29.1, 2405:201:d037:201e::c0a8:1d01
+
+          Sent update to server : [2001:503:a83e::2:30]:53
+
+          IP Address(es) :
+
+            2
+
+Event #139
+--------------------------------------------------------------------------------
+Time:       2026-02-24 19:25:27
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+The reason the update request failed was because of a syste
+
+Event #140
+--------------------------------------------------------------------------------
+Time:       2026-02-24 19:20:27
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+The reason the update request failed was because of a syste
+
+Event #141
+--------------------------------------------------------------------------------
+Time:       2026-02-24 19:15:27
+Level:      Warning
+Source:     Network
+Event ID:   8033
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+
+        The system could not remove these host (A or AAAA
+
+Event #142
+--------------------------------------------------------------------------------
+Time:       2026-02-24 19:10:54
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #143
+--------------------------------------------------------------------------------
+Time:       2026-02-24 19:10:51
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #144
+--------------------------------------------------------------------------------
+Time:       2026-02-24 19:10:15
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {F83B3653-C278-4660-8E58-AF8FDCF1B18C}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.247.188.146
+
+The reason the system could not register these RRs during the update
+
+Event #145
+--------------------------------------------------------------------------------
+Time:       2026-02-24 19:10:15
+Level:      Warning
+Source:     Network
+Event ID:   8033
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+
+        The system could not remove these host (A or AAAA
+
+Event #146
+--------------------------------------------------------------------------------
+Time:       2026-02-24 19:09:12
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+The reason the update request failed was because of a syste
+
+Event #147
+--------------------------------------------------------------------------------
+Time:       2026-02-24 19:09:11
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+The reason the system could not register these RRs during the update
+
+Event #148
+--------------------------------------------------------------------------------
+Time:       2026-02-24 19:09:02
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	192.168.1.1
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            192.168.1.104
+
+The reason the system could not register these RRs during the update
+
+Event #149
+--------------------------------------------------------------------------------
+Time:       2026-02-24 16:53:14
+Level:      Warning
+Source:     Network
+Event ID:   8033
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	fec0:0:0:ffff::1, fec0:0:0:ffff::2, fec0:0:0:ffff::3
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2401:4900:16ea:1cee:5407:86:9a18:fc
+
+Event #150
+--------------------------------------------------------------------------------
+Time:       2026-02-24 16:13:02
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	fec0:0:0:ffff::1, fec0:0:0:ffff::2, fec0:0:0:ffff::3
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2401:4900:16ea:1cee:5407:86:9a18:fc
+
+Event #151
+--------------------------------------------------------------------------------
+Time:       2026-02-24 16:12:50
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	fec0:0:0:ffff::1, fec0:0:0:ffff::2, fec0:0:0:ffff::3
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            2401:4900:16ea:1cee:5407:86:9a18:fcdc
+
+The
+
+Event #152
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:55:43
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #153
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:55:14
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #154
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:50:21
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #155
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:50:05
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #156
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:50:02
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #157
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:49:58
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #158
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:49:25
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #159
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:44:25
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #160
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:44:22
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #161
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:41:42
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #162
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:36:42
+Level:      Warning
+Source:     Network
+Event ID:   8038
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+Event #163
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:33:02
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #164
+--------------------------------------------------------------------------------
+Time:       2026-02-24 15:24:13
+Level:      Warning
+Source:     Network
+Event ID:   8020
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+Event #165
+--------------------------------------------------------------------------------
+Time:       /Date(1771997306200
+Level:      Warning
+Source:     Network
+Event ID:   1003
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+Your computer was not able to renew its address from the network (from the DHCP Server) for the Network Card with network address 0xD0577E0C60CF.  The following error occurred: 0x490. Your computer will continue to try and obtain an address on its own from the network address (DHCP) server.
+
+Event #166
+--------------------------------------------------------------------------------
+Time:       /Date(1771993708837
+Level:      Error
+Source:     Network
+Event ID:   4205
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+Gateway resolution failed on interface {6816806e-718c-43de-8da7-d6812368c850} for 10.106.112.1 with error: 0x43
+
+Event #167
+--------------------------------------------------------------------------------
+Time:       /Date(1771993672975
+Level:      Error
+Source:     Network
+Event ID:   8002
+Category:   system
+Issue Type: service.*fail
+
+Message:
+WLAN AutoConfig service failed to connect to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Sunil 5G
+SSID: Sunil 5G
+BSS Type: Infrastructure
+Failure Reason:Failed for an unknown reason.
+RSSI: 255
+
+
+Event #168
+--------------------------------------------------------------------------------
+Time:       /Date(1771993672599
+Level:      Error
+Source:     Network
+Event ID:   8002
+Category:   system
+Issue Type: service.*fail
+
+Message:
+WLAN AutoConfig service failed to connect to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: On Connect v2.3
+SSID: TSNOfficeWLAN
+BSS Type: Infrastructure
+Failure Reason:Failed for an unknown reason.
+RSSI: 255
+
+
+Event #169
+--------------------------------------------------------------------------------
+Time:       /Date(1771993672428
+Level:      Error
+Source:     Network
+Event ID:   8002
+Category:   system
+Issue Type: service.*fail
+
+Message:
+WLAN AutoConfig service failed to connect to a wireless network.
+
+Network Adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+Connection Mode: Automatic connection with a profile
+Profile Name: Primary WLAN Voice-Data v2.2
+SSID: RSN2OfficeWLAN
+BSS Type: Infrastructure
+Failure Reason:The driver disconnected.
+RSSI: 255
+
+
+Event #170
+--------------------------------------------------------------------------------
+Time:       /Date(1771928417967
+Level:      Warning
+Source:     Network
+Event ID:   1003
+Category:   system
+Issue Type: Unknown System Issue
+
+Message:
+Your computer was not able to renew its address from the network (from the DHCP Server) for the Network Card with network address 0xD0577E0C60CF.  The following error occurred: 0x79. Your computer will continue to try and obtain an address on its own from the network address (DHCP) server.
+
+================================================================================
+End of System-Level Issues
+Total Events Listed: 170
+================================================================================

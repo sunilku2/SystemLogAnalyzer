@@ -2,7 +2,7 @@
 REST API Backend for Log Analyzer
 Provides endpoints for the .NET frontend
 """
-from flask import Flask, jsonify, request, send_from_directory
+from flask import Flask, jsonify, request, send_from_directory, Response
 from flask_cors import CORS
 from datetime import datetime, timedelta
 import json
@@ -19,7 +19,7 @@ from logging.handlers import RotatingFileHandler
 # Add parent directory to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from config import LOGS_DIR, LOG_TYPES, REPORT_OUTPUT_DIR, LLM_ENABLED, LLM_PROVIDER, LLM_MODEL, LLM_FALLBACK_TO_PATTERNS
+from config import LOGS_DIR, LOG_TYPES, REPORT_OUTPUT_DIR, LLM_ENABLED, LLM_PROVIDER, LLM_MODEL, LLM_FALLBACK_TO_PATTERNS, ANALYSIS_SCOPE
 from log_parser import LogParser
 from issue_detector import IssueDetector
 from llm_analyzer import LLMAnalyzer
@@ -62,6 +62,7 @@ logger.addHandler(console_handler)
 
 logger.info('=== Log Analyzer API Server Starting ===')
 logger.info(f'Logs Directory: {LOGS_DIR}')
+logger.info(f'Analysis Scope: {ANALYSIS_SCOPE}')
 logger.info(f'Report Output Directory: {REPORT_OUTPUT_DIR}')
 logger.info(f'LLM Enabled: {LLM_ENABLED}')
 logger.info(f'LLM Provider: {LLM_PROVIDER}')
@@ -148,6 +149,24 @@ def _execute_analysis(use_llm: bool, model_name: str, provider: str, source: str
 
         detector = IssueDetector()
         issues = detector.detect_issues(log_entries)
+
+        if use_llm:
+            if provider == 'ollama':
+                model_exists, model_error = _ollama_model_exists(model_name)
+                if model_error:
+                    if LLM_FALLBACK_TO_PATTERNS:
+                        print(f"[API] Unable to verify Ollama model '{model_name}' ({model_error}). Falling back to pattern-based analysis.")
+                        logger.warning(f"Unable to verify Ollama model '{model_name}': {model_error}. Falling back to pattern-based analysis.")
+                        use_llm = False
+                    else:
+                        raise Exception(model_error)
+                elif not model_exists:
+                    if LLM_FALLBACK_TO_PATTERNS:
+                        print(f"[API] Ollama model '{model_name}' is not installed. Falling back to pattern-based analysis.")
+                        logger.warning(f"Ollama model '{model_name}' is not installed. Falling back to pattern-based analysis.")
+                        use_llm = False
+                    else:
+                        raise Exception(f"Model '{model_name}' not found in Ollama")
 
         if use_llm:
             llm_analyzer = LLMAnalyzer(model_name=model_name, provider=provider)
@@ -370,6 +389,18 @@ def health_check():
     })
 
 
+@app.route('/manifest.json', methods=['GET'])
+def manifest_placeholder():
+    """Suppress noisy 404s when browser/frontend probes manifest on API host."""
+    return Response(status=204)
+
+
+@app.route('/favicon.ico', methods=['GET'])
+def favicon_placeholder():
+    """Suppress noisy 404s when browser/frontend probes favicon on API host."""
+    return Response(status=204)
+
+
 @app.route('/api/logs/sessions', methods=['GET'])
 def get_log_sessions():
     """Get list of available log sessions"""
@@ -391,7 +422,8 @@ def get_log_sessions():
                     'directory_exists': os.path.exists(LOGS_DIR),
                     'next_steps': [
                         'Check that the logs directory exists at: ' + os.path.abspath(LOGS_DIR),
-                        'Ensure logs follow this structure: {user_id}/{system_name}/{timestamp}/',
+                        'Ensure logs are under analysis_logs/ with user and system subfolders',
+                        'Supported layouts include {user}/{system}/{timestamp}/ and {user}/{system}/',
                         'Call /api/logs/diagnose for detailed directory structure',
                         'Check LOGS_DIR setting in config.py if path is incorrect'
                     ]
@@ -441,6 +473,7 @@ def get_log_sessions():
 def diagnose_logs():
     """Diagnostic endpoint to check log directory structure"""
     try:
+        parser = LogParser()
         diagnosis = {
             'logs_dir': LOGS_DIR,
             'exists': os.path.exists(LOGS_DIR),
@@ -477,6 +510,22 @@ def diagnose_logs():
                 'files': files_at_root,
                 'total_items': len(all_items)
             }
+
+            discovered_sessions = parser.discover_logs(LOGS_DIR)
+            diagnosis['discovered_session_count'] = len(discovered_sessions)
+            diagnosis['supported_layouts'] = [
+                '{user_id}/{system_name}/{timestamp}/',
+                '{user_id}/{system_name}/'
+            ]
+            diagnosis['sample_sessions'] = [
+                {
+                    'user_id': user_id,
+                    'system_name': system_name,
+                    'session_timestamp': session_time,
+                    'path': path
+                }
+                for user_id, system_name, session_time, path in discovered_sessions[:10]
+            ]
             
         except Exception as e:
             diagnosis['error_reading_directory'] = str(e)
@@ -1397,6 +1446,32 @@ def get_analyzer_status():
         }), 500
 
 
+@app.route('/api/analyzer/clear-memory', methods=['POST'])
+def clear_analyzer_memory():
+    """Clear in-memory analysis cache and analysis state metadata."""
+    try:
+        analysis_cache.clear()
+        analysis_state['last_run_at'] = None
+        analysis_state['last_source'] = None
+        analysis_state['last_error'] = None
+        analysis_state['last_logs_signature'] = None
+
+        is_running = watcher_thread is not None and watcher_thread.is_alive()
+
+        return jsonify({
+            'success': True,
+            'message': 'In-memory analysis data cleared',
+            'status': 'cleared',
+            'watcher_running': is_running,
+            'has_latest_report': False
+        })
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+
 @app.route('/api/ollama/status', methods=['GET'])
 def get_ollama_status():
     """Get Ollama service status and information"""
@@ -1789,6 +1864,7 @@ if __name__ == '__main__':
     print("    POST /api/analyzer/start")
     print("    POST /api/analyzer/stop")
     print("    POST /api/analyzer/restart")
+    print("    POST /api/analyzer/clear-memory")
     print("    GET  /api/analyzer/status")
     print("\n  Ollama Control (Admin):")
     print("    GET  /api/ollama/status")

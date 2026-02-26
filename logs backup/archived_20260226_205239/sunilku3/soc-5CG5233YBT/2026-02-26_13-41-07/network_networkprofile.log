@@ -1,0 +1,5016 @@
+================================================================================
+NETWORK EVENTS - NetworkProfile
+================================================================================
+Generated: 2026-02-26 13:41:25
+Total Events: 332
+
+Summary:
+  Errors: 0
+  Warnings: 0
+  Information: 332
+
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772093454400
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #2
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772093449120
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #3
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772093146122
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #4
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772093076060
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #5
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772092768160
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #6
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772092698226
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #7
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772092695099
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #8
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772092689093
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #9
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772092688237
+Message: Network Connected
+	Name: RSN2OfficeWLAN
+	Desc: RSN2OfficeWLAN
+	Type: Unmanaged
+	State: Connected,IPV4 (Internet)
+	Category: Public
+
+
+Event #10
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4002
+Time: /Date(1772092688229
+Message: Transitioning to State: Identified Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #11
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772092685877
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #12
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772092684798
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #13
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772092625087
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: true
+	Tethering Client Count Changed: false
+
+Event #14
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772092361601
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #15
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772092361201
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #16
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772092361161
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #17
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10001
+Time: /Date(1772092361156
+Message: Network Disconnected
+	Name: RSN2OfficeWLAN
+	Desc: RSN2OfficeWLAN
+	Type: Unmanaged
+	State: Disconnected
+	Category: Public
+
+
+Event #18
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772092055138
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #19
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091985289
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #20
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091863768
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #21
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091799185
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #22
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091794125
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #23
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091704920
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #24
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091640235
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #25
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091635136
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #26
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091599334
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #27
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091529486
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #28
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091507795
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #29
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091437016
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #30
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091182293
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #31
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091173231
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #32
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772091109361
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #33
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772090843887
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #34
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772090773958
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #35
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772090474169
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #36
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772090404276
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #37
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772090064700
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #38
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772089994755
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #39
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772089687538
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #40
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772089617418
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #41
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772089281309
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #42
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772089211886
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #43
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772088966339
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #44
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772088896314
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #45
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772088543760
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #46
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772088473678
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #47
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772088165519
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #48
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772088100772
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #49
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772088095652
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #50
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772087848473
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #51
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772087778429
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #52
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772087474067
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #53
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772087397951
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #54
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772087076333
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #55
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772087006273
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #56
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772086692844
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #57
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772086622922
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #58
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772086381732
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #59
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772086312202
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #60
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772086016017
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #61
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772085945967
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #62
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772085684992
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #63
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772085614967
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #64
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772085438880
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #65
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772085368905
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #66
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772085308051
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #67
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772085243248
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #68
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772085238133
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #69
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772085200911
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #70
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772085128223
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #71
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772082533711
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: true
+	Tethering Client Count Changed: false
+
+Event #72
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772082245448
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #73
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772082217439
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #74
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772082093470
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #75
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772082023493
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #76
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772081945710
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #77
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772081875462
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #78
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772081844631
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #79
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772081767964
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #80
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772081767389
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #81
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772080874343
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: true
+	Tethering Client Count Changed: false
+
+Event #82
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772080373095
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: true
+	Tethering Client Count Changed: false
+
+Event #83
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772080090472
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #84
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772080042454
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #85
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772080031848
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #86
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772080031344
+Message: Network Connected
+	Name: RSN2OfficeWLAN
+	Desc: RSN2OfficeWLAN
+	Type: Unmanaged
+	State: Connected,IPV4 (Internet)
+	Category: Public
+
+
+Event #87
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4002
+Time: /Date(1772080031334
+Message: Transitioning to State: Identified Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #88
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772079739103
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #89
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772079737180
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #90
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772079730878
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #91
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772079726400
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #92
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772079687719
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #93
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772079687301
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #94
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772079687297
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #95
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10001
+Time: /Date(1772079687297
+Message: Network Disconnected
+	Name: RSN2OfficeWLAN
+	Desc: RSN2OfficeWLAN
+	Type: Unmanaged
+	State: Disconnected
+	Category: Public
+
+
+Event #96
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772079452225
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #97
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772079445379
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #98
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772079375845
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #99
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772079046201
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #100
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772078976609
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #101
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772078699814
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #102
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772078630307
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #103
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772078368551
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #104
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772078298969
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #105
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772077969232
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #106
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772077899663
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #107
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772077561248
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #108
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772077491591
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #109
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772077187120
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #110
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772077117667
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #111
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772076810602
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #112
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772076741099
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #113
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772076433381
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #114
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772076368841
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #115
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772076363570
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #116
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772076123237
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #117
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772076053807
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #118
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075789878
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #119
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075720422
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #120
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075581106
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #121
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075511549
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #122
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075430638
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #123
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075361159
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #124
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075317059
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #125
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075247533
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #126
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075227333
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #127
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075157665
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #128
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075143038
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #129
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075072838
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #130
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075054525
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #131
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075028174
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #132
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772075017613
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #133
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074988901
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #134
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074983785
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #135
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074973466
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #136
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074972407
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #137
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074944500
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #138
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074932030
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #139
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074926046
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #140
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772074925734
+Message: Network Connected
+	Name: RSN2OfficeWLAN
+	Desc: RSN2OfficeWLAN
+	Type: Unmanaged
+	State: Connected,IPV4 (Internet)
+	Category: Public
+
+
+Event #141
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4002
+Time: /Date(1772074925442
+Message: Transitioning to State: Identified Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #142
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074925099
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #143
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074918471
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #144
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074917798
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #145
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074917168
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #146
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 20002
+Time: /Date(1772074916833
+Message: NSI Set Category Result
+	Profile GUID: {ffffffff-ffff-ffff-ffff-ffffffffffff}
+	Interface GUID: {6816806e-718c-43de-8da7-d6812368c850}
+	Network Category: Public
+	IPv4 Error Code: 0
+	IPv6 Error Code: 0
+	Context: 3251
+
+
+Event #147
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772074916701
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #148
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772074916700
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #149
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074912258
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #150
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074907963
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #151
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074906425
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #152
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074905805
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #153
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10001
+Time: /Date(1772074905695
+Message: Network Disconnected
+	Name: RSN2OfficeWLAN
+	Desc: RSN2OfficeWLAN
+	Type: Unmanaged
+	State: Disconnected
+	Category: Public
+
+
+Event #154
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074887589
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #155
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074881131
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #156
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074880582
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #157
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074873859
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #158
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074873150
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #159
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772074872819
+Message: Network Connected
+	Name: RSN2OfficeWLAN
+	Desc: RSN2OfficeWLAN
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #160
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4002
+Time: /Date(1772074872742
+Message: Transitioning to State: Identified Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #161
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074865990
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #162
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772074865117
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #163
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772074864886
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #164
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074856195
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #165
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074846123
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #166
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772074845609
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #167
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772041871708
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #168
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772039504440
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #169
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772039504051
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #170
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772039504048
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #171
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10001
+Time: /Date(1772039504003
+Message: Network Disconnected
+	Name: Sunil 5G
+	Desc: Sunil 5G
+	Type: Unmanaged
+	State: Disconnected
+	Category: Public
+
+
+Event #172
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772039502988
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #173
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772039502566
+Message: Network Connected
+	Name: Sunil 5G
+	Desc: Sunil 5G
+	Type: Unmanaged
+	State: Connected,IPV4 (Internet),IPV6 (Internet)
+	Category: Public
+
+
+Event #174
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4002
+Time: /Date(1772039502533
+Message: Transitioning to State: Identified Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #175
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772039498016
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #176
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772039496843
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #177
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772039492920
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #178
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772039492285
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #179
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772039492107
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #180
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772039305191
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #181
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772038835688
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #182
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772038817437
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #183
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772038810678
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #184
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772038810304
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #185
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772038810301
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #186
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772038810301
+Message: Entered State: Identifying Network Interface Guid: {f83b3653-c278-4660-8e58-af8fdcf1b18c}
+
+Event #187
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10001
+Time: /Date(1772038810282
+Message: Network Disconnected
+	Name: Sunil 4G
+	Desc: Sunil 4G
+	Type: Unmanaged
+	State: Disconnected
+	Category: Public
+
+
+Event #188
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772033946671
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #189
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772033941506
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #190
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032953924
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #191
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032926595
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #192
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032921774
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #193
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032917771
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #194
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032915026
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #195
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032913332
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #196
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772032913233
+Message: Network Connected
+	Name: Unidentified network
+	Desc: Unidentified network
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #197
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4003
+Time: /Date(1772032913222
+Message: Transitioning to State: Unidentified Network Interface Guid: {f83b3653-c278-4660-8e58-af8fdcf1b18c}
+
+Event #198
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772032913058
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #199
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 20002
+Time: /Date(1772032913010
+Message: NSI Set Category Result
+	Profile GUID: {ffffffff-ffff-ffff-ffff-ffffffffffff}
+	Interface GUID: {f83b3653-c278-4660-8e58-af8fdcf1b18c}
+	Network Category: Public
+	IPv4 Error Code: 0
+	IPv6 Error Code: 0
+	Context: 3251
+
+
+Event #200
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772032912949
+Message: Entered State: Identifying Network Interface Guid: {f83b3653-c278-4660-8e58-af8fdcf1b18c}
+
+Event #201
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032907486
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #202
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032906096
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #203
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772032905550
+Message: Network Connected
+	Name: Sunil 4G
+	Desc: Sunil 4G
+	Type: Unmanaged
+	State: Connected,IPV6 (Internet)
+	Category: Public
+
+
+Event #204
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4002
+Time: /Date(1772032905538
+Message: Transitioning to State: Identified Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #205
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032905130
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #206
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032904145
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #207
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032899968
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #208
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032896874
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #209
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032895829
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #210
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772032895354
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #211
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772032895340
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #212
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032886948
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #213
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10001
+Time: /Date(1772032886590
+Message: Network Disconnected
+	Name: Sunil 5G
+	Desc: Sunil 5G
+	Type: Unmanaged
+	State: Disconnected
+	Category: Public
+
+
+Event #214
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032780156
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #215
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032769395
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #216
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032749527
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #217
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032725161
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #218
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032719007
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #219
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032716712
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #220
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032715231
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #221
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032712734
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #222
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032710204
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #223
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032709365
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #224
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772032709266
+Message: Network Connected
+	Name: Unidentified network
+	Desc: Unidentified network
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #225
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4003
+Time: /Date(1772032709231
+Message: Transitioning to State: Unidentified Network Interface Guid: {f83b3653-c278-4660-8e58-af8fdcf1b18c}
+
+Event #226
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772032708993
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #227
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 20002
+Time: /Date(1772032708968
+Message: NSI Set Category Result
+	Profile GUID: {ffffffff-ffff-ffff-ffff-ffffffffffff}
+	Interface GUID: {f83b3653-c278-4660-8e58-af8fdcf1b18c}
+	Network Category: Public
+	IPv4 Error Code: 0
+	IPv6 Error Code: 0
+	Context: 3251
+
+
+Event #228
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772032708967
+Message: Entered State: Identifying Network Interface Guid: {f83b3653-c278-4660-8e58-af8fdcf1b18c}
+
+Event #229
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032691228
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #230
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032674916
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #231
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032667159
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #232
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772032666618
+Message: Network Connected
+	Name: Sunil 5G
+	Desc: Sunil 5G
+	Type: Unmanaged
+	State: Connected,IPV4 (Internet),IPV6 (Internet)
+	Category: Public
+
+
+Event #233
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4002
+Time: /Date(1772032666495
+Message: Transitioning to State: Identified Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #234
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032661897
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #235
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032660933
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #236
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032658926
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #237
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772032656380
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected,IPV4 (Internet),IPV6 (Internet)
+	Category: Public
+
+
+Event #238
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772032656343
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #239
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772032656230
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #240
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10001
+Time: /Date(1772032656219
+Message: Network Disconnected
+	Name: ECO-216
+	Desc: ECO-216
+	Type: Unmanaged
+	State: Disconnected
+	Category: Public
+
+
+Event #241
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772017462836
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #242
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772017457877
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #243
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772017457031
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #244
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772017456559
+Message: Network Connected
+	Name: ECO-216
+	Desc: ECO-216
+	Type: Unmanaged
+	State: Connected,IPV6 (Internet)
+	Category: Public
+
+
+Event #245
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4002
+Time: /Date(1772017456530
+Message: Transitioning to State: Identified Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #246
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772017456055
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #247
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772017455484
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #248
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772017453042
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #249
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772017452506
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #250
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772017452373
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #251
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772017452338
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #252
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772017448166
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #253
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772015140254
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #254
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772015139760
+Message: Network Connected
+	Name: Unidentified network
+	Desc: Unidentified network
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #255
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4003
+Time: /Date(1772015139751
+Message: Transitioning to State: Unidentified Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #256
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772015138844
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #257
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772015135493
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #258
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772015135479
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #259
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772014846063
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: true
+	Tethering Client Count Changed: false
+
+Event #260
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772014627995
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #261
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772014607751
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #262
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772014558631
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #263
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772014558297
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #264
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772014558261
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #265
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10001
+Time: /Date(1772014558226
+Message: Network Disconnected
+	Name: RSN2OfficeWLAN
+	Desc: RSN2OfficeWLAN
+	Type: Unmanaged
+	State: Disconnected
+	Category: Public
+
+
+Event #266
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772014553521
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #267
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772014552620
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #268
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772014290317
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #269
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772014220463
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #270
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013897078
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #271
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013827408
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #272
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013693326
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #273
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013623283
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #274
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013536653
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #275
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013469854
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #276
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013464752
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #277
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013422291
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #278
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013352370
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #279
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013334109
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #280
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013264662
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #281
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013258060
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #282
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772013254445
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #283
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012936877
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #284
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012867250
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #285
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012529932
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #286
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012459822
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #287
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012214896
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #288
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012150184
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #289
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012145105
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #290
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012130895
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #291
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012076296
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #292
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012064062
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #293
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012060612
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #294
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772012060567
+Message: Network Connected
+	Name: RSN2OfficeWLAN
+	Desc: RSN2OfficeWLAN
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #295
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4002
+Time: /Date(1772012060409
+Message: Transitioning to State: Identified Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #296
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012058928
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #297
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772012057904
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #298
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772012057418
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #299
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772012057372
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #300
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772011519945
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #301
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772011004965
+Message: Network State Change Fired
+	New Internet Connection Profile: true
+	Connection Cost Changed: true
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: true
+	Host Name Changed: false
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #302
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10000
+Time: /Date(1772011004589
+Message: Network Connected
+	Name: Identifying...
+	Desc: Identifying...
+	Type: Unmanaged
+	State: Connected
+	Category: Public
+
+
+Event #303
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4001
+Time: /Date(1772011004516
+Message: Entered State: Identifying Network Interface Guid: {6816806e-718c-43de-8da7-d6812368c850}
+
+Event #304
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 10001
+Time: /Date(1772011004497
+Message: Network Disconnected
+	Name: RSN2OfficeWLAN
+	Desc: RSN2OfficeWLAN
+	Type: Unmanaged
+	State: Disconnected
+	Category: Public
+
+
+Event #305
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772010922302
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #306
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772010857684
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #307
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772010852632
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #308
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772010562289
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #309
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772010492588
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #310
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772010148633
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #311
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772010079233
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #312
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772009773129
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #313
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772009703193
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #314
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772009427846
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #315
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772009363258
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #316
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772009358106
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #317
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772009052137
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #318
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772008982392
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #319
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772008686800
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #320
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772008617183
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #321
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772008269365
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #322
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772008199566
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #323
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772008031598
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #324
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772007962014
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #325
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772007895349
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #326
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772007825431
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #327
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772007793850
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #328
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772007724272
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #329
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772007703510
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #330
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772007633211
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #331
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772007376996
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+
+Event #332
+--------------------------------------------------------------------------------
+Level: Information
+Source: Microsoft-Windows-NetworkProfile
+Event ID: 4004
+Time: /Date(1772007306993
+Message: Network State Change Fired
+	New Internet Connection Profile: false
+	Connection Cost Changed: false
+	Domain Connectivity Level Changed: false
+	Network Connectivity Level Changed: false
+	Host Name Changed: true
+	Wwan Registration State Changed: false
+	Tethering Operational State Changed: false
+	Tethering Client Count Changed: false
+

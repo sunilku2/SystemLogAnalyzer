@@ -1,0 +1,971 @@
+================================================================================
+SYSTEM LOGS - CAPTURED 2026-02-26_13-47-47
+================================================================================
+
+STATISTICS
+--------------------------------------------------------------------------------
+Total Events:        50
+Critical Events:     0
+Error Events:        0
+Warning Events:      14
+Information Events:  36
+
+EVENT SOURCES
+--------------------------------------------------------------------------------
+  Microsoft-Windows-DNS-Client: 14 events
+  Microsoft-Windows-Kernel-Power: 11 events
+  Service Control Manager: 8 events
+  Netwaw18: 6 events
+  Microsoft-Windows-IsolatedUserMode: 6 events
+  Microsoft-Windows-Kernel-General: 3 events
+  Microsoft-Windows-Iphlpsvc-Trace: 2 events
+
+DETAILED EVENT LOG
+================================================================================
+
+Event #1
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:45:52
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8038
+Category:   System
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+================================================================================
+
+Event #2
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:45:37
+Level:      Information
+Source:     Service Control Manager
+Event ID:   7040
+Category:   System
+
+Message:
+The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+================================================================================
+
+Event #3
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:41:28
+Level:      Information
+Source:     Service Control Manager
+Event ID:   7040
+Category:   System
+
+Message:
+The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+================================================================================
+
+Event #4
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:40:52
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8038
+Category:   System
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+================================================================================
+
+Event #5
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:40:00
+Level:      Information
+Source:     Microsoft-Windows-Kernel-General
+Event ID:   16
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #6
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:40:00
+Level:      Information
+Source:     Microsoft-Windows-Kernel-General
+Event ID:   16
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #7
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:40:00
+Level:      Information
+Source:     Microsoft-Windows-Kernel-General
+Event ID:   16
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #8
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:38:48
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8020
+Category:   System
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+================================================================================
+
+Event #9
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:38:47
+Level:      Information
+Source:     Netwaw18
+Event ID:   7003
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #10
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:38:47
+Level:      Information
+Source:     Netwaw18
+Event ID:   7021
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #11
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:35:48
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8038
+Category:   System
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+================================================================================
+
+Event #12
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:35:29
+Level:      Information
+Source:     Microsoft-Windows-IsolatedUserMode
+Event ID:   2
+Category:   System
+
+Message:
+Secure Trustlet Id 5 and Pid 47336 stopped with status 0.
+
+
+================================================================================
+
+Event #13
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:35:26
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   566
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #14
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:35:26
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   507
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #15
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:35:26
+Level:      Information
+Source:     Microsoft-Windows-IsolatedUserMode
+Event ID:   1
+Category:   System
+
+Message:
+Secure Trustlet C:\windows\system32\FsIso.exe Id 5 and Pid 47336 started with status 0.
+
+
+================================================================================
+
+Event #16
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:35:26
+Level:      Information
+Source:     Microsoft-Windows-IsolatedUserMode
+Event ID:   5
+Category:   System
+
+Message:
+Secure Trustlet NULL Id 0 and Pid 0 started with status 0.
+
+
+================================================================================
+
+Event #17
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:35:15
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   506
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #18
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:35:15
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   566
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #19
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:34:42
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8020
+Category:   System
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+================================================================================
+
+Event #20
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:34:40
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8020
+Category:   System
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+================================================================================
+
+Event #21
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:34:39
+Level:      Information
+Source:     Netwaw18
+Event ID:   7003
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #22
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:34:39
+Level:      Information
+Source:     Netwaw18
+Event ID:   7021
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #23
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:33:51
+Level:      Information
+Source:     Service Control Manager
+Event ID:   7040
+Category:   System
+
+Message:
+The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+================================================================================
+
+Event #24
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:33:30
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8038
+Category:   System
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+================================================================================
+
+Event #25
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:30:46
+Level:      Information
+Source:     Service Control Manager
+Event ID:   7040
+Category:   System
+
+Message:
+The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+================================================================================
+
+Event #26
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:28:37
+Level:      Information
+Source:     Microsoft-Windows-IsolatedUserMode
+Event ID:   2
+Category:   System
+
+Message:
+Secure Trustlet Id 5 and Pid 58540 stopped with status 0.
+
+
+================================================================================
+
+Event #27
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:28:30
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8038
+Category:   System
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+================================================================================
+
+Event #28
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:28:17
+Level:      Information
+Source:     Microsoft-Windows-Iphlpsvc-Trace
+Event ID:   4068
+Category:   System
+
+Message:
+Teredo connectivity initiated by DoSvc
+
+
+================================================================================
+
+Event #29
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:28:04
+Level:      Information
+Source:     Microsoft-Windows-IsolatedUserMode
+Event ID:   1
+Category:   System
+
+Message:
+Secure Trustlet C:\windows\system32\FsIso.exe Id 5 and Pid 58540 started with status 0.
+
+
+================================================================================
+
+Event #30
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:28:04
+Level:      Information
+Source:     Microsoft-Windows-IsolatedUserMode
+Event ID:   5
+Category:   System
+
+Message:
+Secure Trustlet NULL Id 0 and Pid 0 started with status 0.
+
+
+================================================================================
+
+Event #31
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:28:04
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   566
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #32
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:28:04
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   507
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #33
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:28:03
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   172
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #34
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:24:14
+Level:      Information
+Source:     Service Control Manager
+Event ID:   7040
+Category:   System
+
+Message:
+The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+================================================================================
+
+Event #35
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:23:30
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8038
+Category:   System
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+================================================================================
+
+Event #36
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:23:12
+Level:      Information
+Source:     Microsoft-Windows-Iphlpsvc-Trace
+Event ID:   4071
+Category:   System
+
+Message:
+Teredo connectivity ended by DoSvc
+
+
+================================================================================
+
+Event #37
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:22:42
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   172
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #38
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:22:34
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   566
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #39
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:22:15
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   506
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #40
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:22:15
+Level:      Information
+Source:     Microsoft-Windows-Kernel-Power
+Event ID:   566
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #41
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:19:30
+Level:      Information
+Source:     Service Control Manager
+Event ID:   7040
+Category:   System
+
+Message:
+The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+================================================================================
+
+Event #42
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:18:30
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8038
+Category:   System
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+================================================================================
+
+Event #43
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:13:30
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8038
+Category:   System
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+================================================================================
+
+Event #44
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:13:21
+Level:      Information
+Source:     Service Control Manager
+Event ID:   7040
+Category:   System
+
+Message:
+The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.
+
+
+================================================================================
+
+Event #45
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:11:14
+Level:      Information
+Source:     Service Control Manager
+Event ID:   7040
+Category:   System
+
+Message:
+The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.
+
+
+================================================================================
+
+Event #46
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:08:30
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8038
+Category:   System
+
+Message:
+The system failed to update and remove host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the update request 
+
+================================================================================
+
+Event #47
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:08:25
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8020
+Category:   System
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+================================================================================
+
+Event #48
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:08:25
+Level:      Information
+Source:     Netwaw18
+Event ID:   7003
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #49
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:08:25
+Level:      Information
+Source:     Netwaw18
+Event ID:   7021
+Category:   System
+
+Message:
+No message
+
+================================================================================
+
+Event #50
+--------------------------------------------------------------------------------
+Time:       2026-02-26 13:07:56
+Level:      Warning
+Source:     Microsoft-Windows-DNS-Client
+Event ID:   8020
+Category:   System
+
+Message:
+The system failed to register host (A or AAAA) resource records (RRs) for network adapter
+with settings:
+
+
+          Adapter Name : {6816806E-718C-43DE-8DA7-D6812368C850}
+
+          Host Name : soc-5CG5233YBT
+
+          Primary Domain Suffix : clients.intel.com
+
+          DNS server list :
+
+            	10.248.2.1, 10.109.90.215, 10.108.224.23
+
+          Sent update to server : <?>
+
+          IP Address(es) :
+
+            10.106.113.16
+
+The reason the system could not registe
+
+================================================================================
+

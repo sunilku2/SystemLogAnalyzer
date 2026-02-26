@@ -167,6 +167,7 @@ def validate_log_structure():
     print("=" * 80)
     
     from config import LOGS_DIR, LOG_TYPES
+    from log_parser import LogParser
     
     if not os.path.exists(LOGS_DIR):
         print(f"\n❌ Base logs directory not found: {LOGS_DIR}")
@@ -174,52 +175,31 @@ def validate_log_structure():
         print("  analysis_logs/")
         print("    {user_id}/")
         print("      {system_name}/")
-        print("        {timestamp}/")
-        print("          System.log")
-        print("          Application.log")
+        print("        {timestamp}/  (optional)")
+        print("          *.log / *.evtx / *_log*.txt")
         print("          ...")
         return False
     
     print(f"\n✅ Base directory exists: {LOGS_DIR}")
     
-    # Check structure
+    parser = LogParser()
+    sessions = parser.discover_logs(LOGS_DIR)
+
+    if not sessions:
+        print("\n⚠ No session directories with supported log files were discovered")
+        return False
+
     issues = []
     valid_sessions = 0
-    
-    for user_id in os.listdir(LOGS_DIR):
-        user_path = os.path.join(LOGS_DIR, user_id)
-        if not os.path.isdir(user_path):
-            continue
-        
-        for system_name in os.listdir(user_path):
-            system_path = os.path.join(user_path, system_name)
-            if not os.path.isdir(system_path):
-                continue
-            
-            for session_time in os.listdir(system_path):
-                session_path = os.path.join(system_path, session_time)
-                if not os.path.isdir(session_path):
-                    continue
-                
-                # Check for log files
-                found_logs = []
-                missing_logs = []
-                
-                for log_type in LOG_TYPES:
-                    log_file = os.path.join(session_path, log_type)
-                    if os.path.exists(log_file):
-                        found_logs.append(log_type)
-                    else:
-                        missing_logs.append(log_type)
-                
-                if found_logs:
-                    valid_sessions += 1
-                    print(f"\n✅ Valid session: {user_id}/{system_name}/{session_time}")
-                    print(f"   Found: {', '.join(found_logs)}")
-                    if missing_logs:
-                        print(f"   Missing: {', '.join(missing_logs)}")
-                else:
-                    issues.append(f"No log files in: {session_path}")
+
+    for user_id, system_name, session_time, session_path in sessions:
+        found_logs = parser._find_log_files_in_directory(session_path, configured_log_types=LOG_TYPES)
+        if found_logs:
+            valid_sessions += 1
+            print(f"\n✅ Valid session: {user_id}/{system_name}/{session_time}")
+            print(f"   Found: {', '.join(found_logs)}")
+        else:
+            issues.append(f"No supported log files in: {session_path}")
     
     print(f"\n{'-' * 80}")
     print(f"Valid Sessions: {valid_sessions}")

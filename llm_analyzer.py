@@ -9,6 +9,7 @@ import logging
 from typing import List, Dict, Optional
 from models import LogEntry, Issue
 import hashlib
+from config import LLM_REQUEST_TIMEOUT_SECONDS, LLM_MAX_RETRIES
 
 logger = logging.getLogger('log_analyzer.llm')
 
@@ -220,7 +221,7 @@ Only respond with valid JSON, no other text."""
             return result
             
         except Exception as e:
-            print(f"Error in LLM group analysis: {e}")
+            logger.warning(f"LLM group analysis failed: {e}")
             return {
                 "issue_title": "Automatic Analysis Failed",
                 "category": "Unknown",
@@ -232,8 +233,10 @@ Only respond with valid JSON, no other text."""
                 "confidence": 0.0
             }
     
-    def _call_llm(self, prompt: str, max_retries: int = 3) -> str:
+    def _call_llm(self, prompt: str, max_retries: Optional[int] = None) -> str:
         """Call the LLM API with retries and longer timeout for slow local models."""
+        retries = max_retries if max_retries is not None else LLM_MAX_RETRIES
+
         # Disable proxies for localhost connections
         proxies = {
             'http': None,
@@ -242,7 +245,7 @@ Only respond with valid JSON, no other text."""
         
         last_error = None
         
-        for attempt in range(max_retries):
+        for attempt in range(retries):
             try:
                 if self.provider == "ollama":
                     response = requests.post(
@@ -256,7 +259,7 @@ Only respond with valid JSON, no other text."""
                                 "top_p": 0.9
                             }
                         },
-                        timeout=60,
+                        timeout=LLM_REQUEST_TIMEOUT_SECONDS,
                         proxies=proxies
                     )
                     
@@ -273,7 +276,7 @@ Only respond with valid JSON, no other text."""
                             "messages": [{"role": "user", "content": prompt}],
                             "temperature": 0.3
                         },
-                        timeout=60,
+                        timeout=LLM_REQUEST_TIMEOUT_SECONDS,
                         proxies=proxies
                     )
                     
@@ -284,16 +287,16 @@ Only respond with valid JSON, no other text."""
                 
             except requests.exceptions.Timeout:
                 last_error = f"Timeout on attempt {attempt + 1}"
-                print(f"[LLM] {last_error}")
+                logger.warning(f"[LLM] {last_error} (provider={self.provider}, model={self.model_name})")
                 # brief backoff before retrying
                 time.sleep(1 + attempt)
                 continue
             except Exception as e:
                 last_error = str(e)
-                print(f"[LLM] Error calling LLM: {e}")
+                logger.warning(f"[LLM] Error calling LLM (provider={self.provider}, model={self.model_name}): {e}")
                 break
         
-        raise Exception(f"Failed to get response from LLM: {last_error}")
+        raise Exception(f"Failed to get response from LLM after {retries} attempt(s): {last_error}")
     
     def _get_fallback_analysis(self, log_entry: LogEntry) -> Dict:
         """Provide fallback analysis when LLM fails"""
