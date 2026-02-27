@@ -41,6 +41,28 @@ class LLMAnalyzer:
         url = urls.get(self.provider, urls["ollama"])
         logger.info(f'Base URL for {self.provider}: {url}')
         return url
+
+    def _with_instruction_context(self, prompt: str, instruction_text: Optional[str] = None) -> str:
+        """Attach uploaded instruction guidance to the prompt when provided."""
+        if not instruction_text:
+            return prompt
+
+        normalized = instruction_text.strip()
+        if not normalized:
+            return prompt
+
+        max_instruction_chars = 12000
+        if len(normalized) > max_instruction_chars:
+            normalized = normalized[:max_instruction_chars]
+
+        return (
+            "Use the following analysis instruction file as authoritative guidance for this task. "
+            "Prioritize these rules when interpreting events and producing outputs.\n\n"
+            "=== BEGIN INSTRUCTION FILE ===\n"
+            f"{normalized}\n"
+            "=== END INSTRUCTION FILE ===\n\n"
+            f"{prompt}"
+        )
     
     def get_available_models(self) -> List[Dict]:
         """Get list of available models from the provider"""
@@ -109,7 +131,7 @@ class LLMAnalyzer:
             {"name": "mistral", "size": 4000000000},
         ]
     
-    def analyze_log_entry_with_llm(self, log_entry: LogEntry) -> Dict:
+    def analyze_log_entry_with_llm(self, log_entry: LogEntry, instruction_text: Optional[str] = None) -> Dict:
         """
         Analyze a single log entry using LLM
         
@@ -135,8 +157,10 @@ Provide analysis in JSON format:
 
 Only respond with valid JSON, no other text."""
 
+        final_prompt = self._with_instruction_context(prompt, instruction_text=instruction_text)
+
         try:
-            analysis = self._call_llm(prompt)
+            analysis = self._call_llm(final_prompt)
             
             # Parse JSON response
             if isinstance(analysis, str):
@@ -162,7 +186,7 @@ Only respond with valid JSON, no other text."""
             print(f"Error in LLM analysis: {e}")
             return self._get_fallback_analysis(log_entry)
     
-    def analyze_issue_group_with_llm(self, entries: List[LogEntry]) -> Dict:
+    def analyze_issue_group_with_llm(self, entries: List[LogEntry], instruction_text: Optional[str] = None) -> Dict:
         """
         Analyze a group of similar log entries to provide comprehensive insights
         """
@@ -181,7 +205,11 @@ Only respond with valid JSON, no other text."""
             for i, entry in enumerate(sample_entries)
         ])
         
-        prompt = f"""Analyze these {len(entries)} similar log entries from multiple users/systems:
+        prompt = f"""You are a senior Windows network reliability engineer.
+
+Analyze these {len(entries)} similar Windows network log entries and produce a precise diagnosis.
+Focus on network root causes (DNS, DHCP, WLAN auth/association, gateway reachability, captive portal, NCSI state changes, adapter driver/power events).
+Avoid generic wording and avoid inventing details not present in the logs.
 
 {entries_text}
 
@@ -192,19 +220,22 @@ Affected systems: {len(set(e.system_name for e in entries))}
 Provide comprehensive analysis in JSON format:
 {{
     "issue_title": "brief descriptive title",
-    "category": "specific category",
+    "category": "specific category (prefer Network Connectivity for network faults)",
     "severity": "Critical|Error|Warning|Information",
     "root_cause": "detailed explanation of root cause",
     "solution": "step-by-step solution",
     "impact": "description of impact on users/systems",
     "priority": "High|Medium|Low",
-    "confidence": 0.0-1.0
+    "confidence": 0.0-1.0,
+    "is_issue": true|false
 }}
 
 Only respond with valid JSON, no other text."""
 
+        final_prompt = self._with_instruction_context(prompt, instruction_text=instruction_text)
+
         try:
-            analysis = self._call_llm(prompt)
+            analysis = self._call_llm(final_prompt)
             
             # Parse JSON
             if isinstance(analysis, str):
@@ -224,13 +255,14 @@ Only respond with valid JSON, no other text."""
             logger.warning(f"LLM group analysis failed: {e}")
             return {
                 "issue_title": "Automatic Analysis Failed",
-                "category": "Unknown",
+                "category": "Network Connectivity",
                 "severity": entries[0].level,
                 "root_cause": "Unable to analyze with LLM",
                 "solution": "Review manually",
                 "impact": "Unknown impact",
                 "priority": "Medium",
-                "confidence": 0.0
+                "confidence": 0.0,
+                "is_issue": True
             }
     
     def _call_llm(self, prompt: str, max_retries: Optional[int] = None) -> str:

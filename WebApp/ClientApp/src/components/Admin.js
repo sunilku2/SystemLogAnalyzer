@@ -8,7 +8,7 @@ const getApiUrl = (endpoint) => {
   return `${baseUrl}/api${endpoint}`;
 };
 
-export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisAction, onInMemoryDataCleared }) {
+export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisAction, onInMemoryDataCleared, onRefreshSessions }) {
   const [llmModel, setLlmModel] = useState('');
   const [llmProvider, setLlmProvider] = useState('');
   const [llmEnabled, setLlmEnabled] = useState(false);
@@ -31,6 +31,13 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
   const [isStartingOllama, setIsStartingOllama] = useState(false);
   const [isInstallingOllama, setIsInstallingOllama] = useState(false);
   const [isClearingMemory, setIsClearingMemory] = useState(false);
+  const [useInstructionFile, setUseInstructionFile] = useState(true);
+  const [instructionStatus, setInstructionStatus] = useState(null);
+  const [instructionUploadFile, setInstructionUploadFile] = useState(null);
+  const [isUploadingInstruction, setIsUploadingInstruction] = useState(false);
+  const [isUpdatingInstructionToggle, setIsUpdatingInstructionToggle] = useState(false);
+  const [logFolderFiles, setLogFolderFiles] = useState([]);
+  const [isUploadingLogFolder, setIsUploadingLogFolder] = useState(false);
 
   // Initialize from config
   useEffect(() => {
@@ -38,6 +45,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
       setLlmModel(config.llm_model || 'llama3.1:70b');
       setLlmProvider(config.llm_provider || 'ollama');
       setLlmEnabled(config.llm_enabled !== false);
+      setUseInstructionFile(config.use_instruction_file !== false);
       setLlmTemperature(config.llm_temperature || 0.7);
       setAutoAnalysisEnabled(config.auto_analysis_enabled !== false);
       setAnalysisInterval(config.analysis_interval || 3600);
@@ -94,6 +102,21 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     }
   };
 
+  const fetchInstructionStatus = async () => {
+    try {
+      const response = await fetch(getApiUrl('/instructions/status'));
+      if (response.ok) {
+        const data = await response.json();
+        if (data.instruction) {
+          setInstructionStatus(data.instruction);
+          setUseInstructionFile(data.instruction.enabled !== false);
+        }
+      }
+    } catch (error) {
+      console.error('Failed to fetch instruction status:', error);
+    }
+  };
+
   const fetchOllamaStatus = async () => {
     try {
       const response = await fetch(getApiUrl('/ollama/status'));
@@ -142,6 +165,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
     fetchAnalyzerStatus();
     fetchOllamaStatus();
     checkOllamaInstalled();
+    fetchInstructionStatus();
   }, []);
 
   const handleSaveConfiguration = async () => {
@@ -155,6 +179,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
           llm_model: llmModel,
           llm_provider: llmProvider,
           llm_enabled: llmEnabled,
+          use_instruction_file: useInstructionFile,
           llm_temperature: parseFloat(llmTemperature),
           auto_analysis_enabled: autoAnalysisEnabled,
           analysis_interval: parseInt(analysisInterval),
@@ -169,6 +194,7 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
         setLastConfigUpdate(new Date().toLocaleString());
         setTimeout(() => setSuccessMessage(''), 3000);
         if (onConfigUpdate) onConfigUpdate(data);
+        fetchInstructionStatus();
       } else {
         setErrorMessage('❌ Failed to save configuration');
       }
@@ -243,6 +269,127 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
       setErrorMessage(`❌ Error: ${error.message}`);
     } finally {
       setIsClearingMemory(false);
+    }
+  };
+
+  const handleInstructionToggle = async () => {
+    setErrorMessage('');
+    setSuccessMessage('');
+    setIsUpdatingInstructionToggle(true);
+
+    try {
+      const response = await fetch(getApiUrl('/instructions/toggle'), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ enabled: useInstructionFile })
+      });
+
+      const data = await response.json().catch(() => ({}));
+      if (response.ok && data.success) {
+        setInstructionStatus(data.instruction || null);
+        setSuccessMessage('✅ Instruction file mode updated.');
+        setTimeout(() => setSuccessMessage(''), 3000);
+      } else {
+        setErrorMessage(`❌ ${data.error || 'Failed to update instruction mode'}`);
+      }
+    } catch (error) {
+      setErrorMessage(`❌ Error: ${error.message}`);
+    } finally {
+      setIsUpdatingInstructionToggle(false);
+    }
+  };
+
+  const handleInstructionUpload = async () => {
+    if (!instructionUploadFile) {
+      setErrorMessage('❌ Please choose an instruction file to upload.');
+      return;
+    }
+
+    setErrorMessage('');
+    setSuccessMessage('');
+    setIsUploadingInstruction(true);
+
+    try {
+      const formData = new FormData();
+      formData.append('file', instructionUploadFile);
+
+      const response = await fetch(getApiUrl('/instructions/upload'), {
+        method: 'POST',
+        body: formData
+      });
+
+      const data = await response.json().catch(() => ({}));
+      if (response.ok && data.success) {
+        setInstructionStatus(data.instruction || null);
+        setUseInstructionFile(true);
+        setInstructionUploadFile(null);
+        setSuccessMessage('✅ Instruction file uploaded and enabled successfully.');
+        setTimeout(() => setSuccessMessage(''), 4000);
+      } else {
+        setErrorMessage(`❌ ${data.error || 'Failed to upload instruction file'}`);
+      }
+    } catch (error) {
+      setErrorMessage(`❌ Error: ${error.message}`);
+    } finally {
+      setIsUploadingInstruction(false);
+    }
+  };
+
+  const handleLogFolderUpload = async () => {
+    if (!logFolderFiles || logFolderFiles.length === 0) {
+      setErrorMessage('❌ Please select a log folder to upload.');
+      return;
+    }
+
+    setErrorMessage('');
+    setSuccessMessage('');
+    setIsUploadingLogFolder(true);
+
+    try {
+      const formData = new FormData();
+
+      Array.from(logFolderFiles).forEach((file) => {
+        formData.append('files', file);
+        formData.append('relative_paths', file.webkitRelativePath || file.name);
+      });
+
+      const response = await fetch(getApiUrl('/logs/upload-folder'), {
+        method: 'POST',
+        body: formData
+      });
+
+      const data = await response.json().catch(() => ({}));
+      if (response.ok && data.success) {
+        setSuccessMessage(`✅ ${data.message}`);
+        setTimeout(() => setSuccessMessage(''), 4000);
+        setLogFolderFiles([]);
+        if (onRefreshSessions) {
+          await onRefreshSessions();
+        }
+      } else {
+        setErrorMessage(`❌ ${data.error || 'Failed to upload log folder'}`);
+      }
+    } catch (error) {
+      setErrorMessage(`❌ Error: ${error.message}`);
+    } finally {
+      setIsUploadingLogFolder(false);
+    }
+  };
+
+  const handleRefreshSessions = async () => {
+    setErrorMessage('');
+    setSuccessMessage('');
+
+    try {
+      if (onRefreshSessions) {
+        await onRefreshSessions();
+      }
+      await fetchInstructionStatus();
+      await fetchAnalyzerStatus();
+      setSuccessMessage('✅ Sessions and dashboard data refreshed.');
+      setTimeout(() => setSuccessMessage(''), 3000);
+    } catch (error) {
+      setErrorMessage(`❌ Failed to refresh sessions: ${error.message}`);
     }
   };
 
@@ -564,6 +711,76 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
           </div>
         </div>
 
+        {/* Instruction File Configuration */}
+        <div className="admin-card">
+          <div className="card-header">
+            <h3>📘 Analysis Instruction File</h3>
+            <span className="card-badge">Prompt Guidance</span>
+          </div>
+          <div className="card-content">
+            <div className="form-group">
+              <label>Use Instruction File During Analysis</label>
+              <div className="toggle-switch">
+                <input
+                  type="checkbox"
+                  checked={useInstructionFile}
+                  onChange={(e) => setUseInstructionFile(e.target.checked)}
+                  id="instruction-toggle"
+                />
+                <label htmlFor="instruction-toggle" className="toggle-label">
+                  {useInstructionFile ? 'Enabled' : 'Disabled'}
+                </label>
+              </div>
+            </div>
+
+            <button
+              className="btn btn-secondary"
+              onClick={handleInstructionToggle}
+              disabled={isUpdatingInstructionToggle}
+              style={{ marginBottom: '16px' }}
+            >
+              {isUpdatingInstructionToggle ? 'Saving...' : 'Save Instruction Mode'}
+            </button>
+
+            <div className="form-group">
+              <label>Current Instruction File</label>
+              <div className="info-box">
+                <div className="info-item">
+                  <span>File:</span>
+                  <span>{instructionStatus?.file_name || 'Not loaded'}</span>
+                </div>
+                <div className="info-item">
+                  <span>Loaded:</span>
+                  <span>{instructionStatus?.loaded ? 'Yes' : 'No'}</span>
+                </div>
+                <div className="info-item">
+                  <span>Content Length:</span>
+                  <span>{instructionStatus?.content_length || 0}</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="form-group">
+              <label>Upload New Instruction File (.md/.txt)</label>
+              <input
+                type="file"
+                accept=".md,.markdown,.txt"
+                onChange={(e) => setInstructionUploadFile(e.target.files?.[0] || null)}
+                className="form-input"
+              />
+              <small>Upload a markdown instruction file to guide LLM analysis behavior.</small>
+            </div>
+
+            <button
+              className="btn btn-primary"
+              onClick={handleInstructionUpload}
+              disabled={isUploadingInstruction || !instructionUploadFile}
+            >
+              {isUploadingInstruction ? 'Uploading...' : 'Upload Instruction File'}
+            </button>
+          </div>
+        </div>
+
         {/* Ollama Status */}
         {supportsDownload && ollamaStatus && (
           <div className="admin-card">
@@ -761,6 +978,53 @@ export default function Admin({ config, onConfigUpdate, isAnalyzing, onAnalysisA
               />
               <small>{(analysisInterval / 60).toFixed(1)} minutes</small>
             </div>
+          </div>
+        </div>
+
+        {/* Log Folder Upload */}
+        <div className="admin-card">
+          <div className="card-header">
+            <h3>📂 Upload Analysis Logs Folder</h3>
+            <span className="card-badge">Data Import</span>
+          </div>
+          <div className="card-content">
+            <div className="form-group">
+              <label>Select Root Log Folder</label>
+              <input
+                type="file"
+                multiple
+                webkitdirectory="true"
+                directory="true"
+                onChange={(e) => setLogFolderFiles(Array.from(e.target.files || []))}
+                className="form-input"
+              />
+              <small>
+                Choose a folder under analysis_logs structure. All child folders and files will be uploaded recursively.
+              </small>
+            </div>
+
+            <div className="info-box" style={{ marginBottom: '16px' }}>
+              <div className="info-item">
+                <span>Selected Files:</span>
+                <span>{logFolderFiles.length}</span>
+              </div>
+            </div>
+
+            <button
+              className="btn btn-primary"
+              onClick={handleLogFolderUpload}
+              disabled={isUploadingLogFolder || logFolderFiles.length === 0}
+            >
+              {isUploadingLogFolder ? 'Uploading Folder...' : 'Upload Log Folder'}
+            </button>
+
+            <button
+              className="btn btn-secondary"
+              onClick={handleRefreshSessions}
+              style={{ marginLeft: '8px' }}
+            >
+              🔄 Refresh Sessions
+            </button>
           </div>
         </div>
 

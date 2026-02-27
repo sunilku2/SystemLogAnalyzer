@@ -4,6 +4,7 @@ Provides endpoints for the .NET frontend
 """
 from flask import Flask, jsonify, request, send_from_directory, Response
 from flask_cors import CORS
+from werkzeug.utils import secure_filename
 from datetime import datetime, timedelta
 import json
 import os
@@ -14,18 +15,21 @@ import subprocess
 import tempfile
 import requests
 import logging
+import hashlib
+import re
+from collections import defaultdict
 from logging.handlers import RotatingFileHandler
 
 # Add parent directory to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from config import LOGS_DIR, LOG_TYPES, REPORT_OUTPUT_DIR, LLM_ENABLED, LLM_PROVIDER, LLM_MODEL, LLM_FALLBACK_TO_PATTERNS, ANALYSIS_SCOPE
+from config import LOGS_DIR, LOG_TYPES, REPORT_OUTPUT_DIR, LLM_ENABLED, LLM_PROVIDER, LLM_MODEL, LLM_FALLBACK_TO_PATTERNS, ANALYSIS_SCOPE, LLM_ONLY_ANALYSIS, NETWORK_ANALYSIS_ONLY, NETWORK_LOG_KEYWORDS
 from log_parser import LogParser
 from issue_detector import IssueDetector
 from llm_analyzer import LLMAnalyzer
 from report_generator import ReportGenerator
 from data_source import DataSourceFactory
-from models import AnalysisReport
+from models import AnalysisReport, Issue
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for .NET frontend
@@ -67,6 +71,7 @@ logger.info(f'Report Output Directory: {REPORT_OUTPUT_DIR}')
 logger.info(f'LLM Enabled: {LLM_ENABLED}')
 logger.info(f'LLM Provider: {LLM_PROVIDER}')
 logger.info(f'LLM Model: {LLM_MODEL}')
+logger.info(f'LLM Only Analysis: {LLM_ONLY_ANALYSIS}')
 
 # Background watcher settings
 WATCH_INTERVAL_SECONDS = 600  # 10 minutes
@@ -86,6 +91,102 @@ watcher_thread = None
 watcher_stop_event = threading.Event()
 watcher_started = False
 analysis_lock = threading.Lock()
+
+DEFAULT_INSTRUCTION_FILE = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    'NetworkConnectivity-Analysis-Instructions_v1.md'
+)
+INSTRUCTIONS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'analysis_instructions')
+
+instruction_state = {
+    'enabled': True,
+    'path': DEFAULT_INSTRUCTION_FILE,
+    'content': None,
+    'last_loaded_at': None,
+    'last_error': None
+}
+
+
+def _load_instruction_file(file_path: str):
+    """Load instruction file content into runtime state."""
+    if not file_path or not os.path.exists(file_path):
+        raise FileNotFoundError(f'Instruction file not found: {file_path}')
+
+    with open(file_path, 'r', encoding='utf-8', errors='ignore') as handle:
+        content = handle.read().strip()
+
+    if not content:
+        raise ValueError('Instruction file is empty')
+
+    instruction_state['path'] = file_path
+    instruction_state['content'] = content
+    instruction_state['last_loaded_at'] = datetime.now()
+    instruction_state['last_error'] = None
+
+
+def _get_instruction_status():
+    """Return current instruction-file runtime status."""
+    path = instruction_state.get('path')
+    exists = bool(path and os.path.exists(path))
+    file_name = os.path.basename(path) if path else None
+    content = instruction_state.get('content') or ''
+
+    return {
+        'enabled': instruction_state.get('enabled', False),
+        'path': path,
+        'file_name': file_name,
+        'exists': exists,
+        'loaded': bool(content),
+        'content_length': len(content),
+        'last_loaded_at': instruction_state['last_loaded_at'].isoformat() if instruction_state.get('last_loaded_at') else None,
+        'last_error': instruction_state.get('last_error')
+    }
+
+
+def _sanitize_relative_upload_path(relative_path: str) -> str:
+    """Validate and sanitize a user-provided relative upload path."""
+    raw = (relative_path or '').replace('\\', '/').strip()
+    if not raw:
+        raise ValueError('Empty relative path')
+
+    normalized = os.path.normpath(raw).replace('\\', '/')
+    if normalized.startswith('/'):
+        normalized = normalized.lstrip('/')
+
+    parts = [part for part in normalized.split('/') if part not in ['', '.']]
+    if not parts or any(part == '..' for part in parts):
+        raise ValueError(f'Invalid relative path: {relative_path}')
+
+    return '/'.join(parts)
+
+
+def _resolve_nonconflicting_target_path(base_dir: str, relative_path: str):
+    """Return a safe target path that preserves existing files by appending a suffix when needed."""
+    normalized_rel = _sanitize_relative_upload_path(relative_path)
+    target_path = os.path.join(base_dir, normalized_rel)
+
+    if not os.path.exists(target_path):
+        return target_path, normalized_rel, False
+
+    rel_dir, rel_name = os.path.split(normalized_rel)
+    name_root, extension = os.path.splitext(rel_name)
+
+    counter = 1
+    while True:
+        candidate_name = f"{name_root}_uploaded_{counter}{extension}"
+        candidate_rel = '/'.join([part for part in [rel_dir, candidate_name] if part])
+        candidate_path = os.path.join(base_dir, candidate_rel)
+        if not os.path.exists(candidate_path):
+            return candidate_path, candidate_rel, True
+        counter += 1
+
+
+try:
+    _load_instruction_file(DEFAULT_INSTRUCTION_FILE)
+    logger.info(f"Loaded default instruction file: {DEFAULT_INSTRUCTION_FILE}")
+except Exception as init_instruction_error:
+    instruction_state['last_error'] = str(init_instruction_error)
+    logger.warning(f"Failed to load default instruction file '{DEFAULT_INSTRUCTION_FILE}': {init_instruction_error}")
 
 
 def _compute_logs_signature():
@@ -126,9 +227,14 @@ def _execute_analysis(use_llm: bool, model_name: str, provider: str, source: str
     with analysis_lock:
         print(f"\n[API] Starting analysis... (source={source})")
         print(f"  LLM Enabled: {use_llm}")
+        print(f"  LLM Only Mode: {LLM_ONLY_ANALYSIS}")
+        print(f"  Instruction File Enabled: {instruction_state.get('enabled', False)}")
         if use_llm:
             print(f"  Provider: {provider}")
             print(f"  Model: {model_name}")
+
+        if LLM_ONLY_ANALYSIS and not use_llm:
+            raise Exception('LLM-only mode is enabled. Pattern matching analysis is disabled.')
 
         # Step 1: Load logs
         print("[API] Loading logs...")
@@ -144,24 +250,36 @@ def _execute_analysis(use_llm: bool, model_name: str, provider: str, source: str
         if not log_entries:
             raise Exception('No log entries found')
 
-        # Step 2: Detect issues
-        print(f"[API] Analyzing {len(log_entries)} log entries...")
+        analysis_entries = log_entries
+        if NETWORK_ANALYSIS_ONLY:
+            analysis_entries = [entry for entry in log_entries if _is_network_entry(entry)]
+            logger.info(f'Network-only filtering applied in API: {len(log_entries)} -> {len(analysis_entries)} entries')
 
-        detector = IssueDetector()
-        issues = detector.detect_issues(log_entries)
+        if not analysis_entries:
+            raise Exception('No network log entries found for analysis')
+
+        # Step 2: Detect issues
+        print(f"[API] Analyzing {len(analysis_entries)} log entries...")
+
+        llm_analyzer = None
+        instruction_text = None
+        if instruction_state.get('enabled', False):
+            instruction_text = instruction_state.get('content')
+            if not instruction_text:
+                raise Exception('Instruction file mode is enabled but no instruction content is loaded. Upload a valid instruction file or disable instruction mode.')
 
         if use_llm:
             if provider == 'ollama':
                 model_exists, model_error = _ollama_model_exists(model_name)
                 if model_error:
-                    if LLM_FALLBACK_TO_PATTERNS:
+                    if LLM_FALLBACK_TO_PATTERNS and not LLM_ONLY_ANALYSIS:
                         print(f"[API] Unable to verify Ollama model '{model_name}' ({model_error}). Falling back to pattern-based analysis.")
                         logger.warning(f"Unable to verify Ollama model '{model_name}': {model_error}. Falling back to pattern-based analysis.")
                         use_llm = False
                     else:
                         raise Exception(model_error)
                 elif not model_exists:
-                    if LLM_FALLBACK_TO_PATTERNS:
+                    if LLM_FALLBACK_TO_PATTERNS and not LLM_ONLY_ANALYSIS:
                         print(f"[API] Ollama model '{model_name}' is not installed. Falling back to pattern-based analysis.")
                         logger.warning(f"Ollama model '{model_name}' is not installed. Falling back to pattern-based analysis.")
                         use_llm = False
@@ -173,18 +291,22 @@ def _execute_analysis(use_llm: bool, model_name: str, provider: str, source: str
 
             # Check if LLM is available
             if not llm_analyzer.check_provider_availability():
-                if LLM_FALLBACK_TO_PATTERNS:
+                if LLM_FALLBACK_TO_PATTERNS and not LLM_ONLY_ANALYSIS:
                     print(f"[API] LLM provider {provider} unavailable. Falling back to pattern-based analysis.")
                     use_llm = False
                 else:
                     raise Exception(f'LLM provider {provider} is not available. Please start {provider} and try again.')
 
-            if use_llm:
+            if use_llm and LLM_ONLY_ANALYSIS:
+                issues = _detect_issues_with_llm(analysis_entries, llm_analyzer, instruction_text=instruction_text)
+            elif use_llm:
+                detector = IssueDetector()
+                issues = detector.detect_issues(analysis_entries)
                 # Enhance issues with LLM analysis
                 print("[API] Enhancing analysis with LLM...")
                 for issue in issues:
                     try:
-                        llm_result = llm_analyzer.analyze_issue_group_with_llm(issue.log_entries)
+                        llm_result = llm_analyzer.analyze_issue_group_with_llm(issue.log_entries, instruction_text=instruction_text)
 
                         # Update issue with LLM insights
                         if llm_result.get('issue_title'):
@@ -199,16 +321,19 @@ def _execute_analysis(use_llm: bool, model_name: str, provider: str, source: str
                     except Exception as e:
                         print(f"[API] LLM analysis failed for issue {issue.issue_id}: {e}")
                         continue
+        else:
+            detector = IssueDetector()
+            issues = detector.detect_issues(analysis_entries)
 
         # Step 3: Build report
-        unique_users = set(entry.user_id for entry in log_entries)
-        unique_systems = set(entry.system_name for entry in log_entries)
+        unique_users = set(entry.user_id for entry in analysis_entries)
+        unique_systems = set(entry.system_name for entry in analysis_entries)
 
         report = AnalysisReport(
             generated_at=datetime.now(),
             total_users_analyzed=len(unique_users),
             total_systems_analyzed=len(unique_systems),
-            total_logs_processed=len(log_entries),
+            total_logs_processed=len(analysis_entries),
             issues=issues
         )
 
@@ -280,6 +405,106 @@ def _execute_analysis(use_llm: bool, model_name: str, provider: str, source: str
 
         print("[API] Analysis complete!")
         return result
+
+
+def _is_network_entry(entry):
+    """Return True when a log entry appears to be network-related."""
+    log_type = (entry.log_type or '').lower()
+    source = (entry.source or '').lower()
+    message = (entry.message or '').lower()
+
+    return any(
+        keyword in log_type or keyword in source or keyword in message
+        for keyword in NETWORK_LOG_KEYWORDS
+    )
+
+
+def _normalize_message_for_grouping(message: str) -> str:
+    """Normalize noisy tokens to improve semantic grouping before LLM analysis."""
+    if not message:
+        return ''
+
+    normalized = message.lower()
+    normalized = re.sub(r'0x[0-9a-f]+', '<hex>', normalized)
+    normalized = re.sub(r'\b\d{1,3}(?:\.\d{1,3}){3}\b', '<ip>', normalized)
+    normalized = re.sub(r'\{[0-9a-f\-]{8,}\}', '<guid>', normalized)
+    normalized = re.sub(r'\d+', '<num>', normalized)
+    normalized = re.sub(r'\s+', ' ', normalized).strip()
+    return normalized[:220]
+
+
+def _detect_issues_with_llm(log_entries, llm_analyzer: LLMAnalyzer, instruction_text: str = None):
+    """Detect issues using LLM only, without regex/pattern matching."""
+    significant_entries = [
+        entry for entry in log_entries
+        if entry.level in ["Warning", "Error", "Critical"]
+    ]
+
+    grouped_entries = defaultdict(list)
+    for entry in significant_entries:
+        group_key = (
+            (entry.source or "unknown").strip().lower(),
+            int(entry.event_id) if entry.event_id is not None else -1,
+            (entry.level or "Information").strip(),
+            _normalize_message_for_grouping(entry.message)
+        )
+        grouped_entries[group_key].append(entry)
+
+    issues = []
+    for (source, event_id, severity_level, _message_signature), entries in grouped_entries.items():
+        representative = entries[0]
+        llm_result = llm_analyzer.analyze_issue_group_with_llm(entries, instruction_text=instruction_text)
+
+        if llm_result.get('is_issue') is False:
+            continue
+
+        confidence_raw = llm_result.get('confidence', 0.0)
+        try:
+            confidence = float(confidence_raw)
+        except (TypeError, ValueError):
+            confidence = 0.0
+
+        if confidence < 0.2:
+            continue
+
+        category = llm_result.get('category') or ('Network Connectivity' if NETWORK_ANALYSIS_ONLY else 'LLM-Identified Issue')
+        severity = llm_result.get('severity') or severity_level
+        root_cause = llm_result.get('root_cause') or 'Requires LLM review'
+        solution = llm_result.get('solution') or 'Review logs and apply remediation.'
+
+        affected_users = list(set(entry.user_id for entry in entries))
+        affected_systems = list(set(entry.system_name for entry in entries))
+
+        issue_title = (llm_result.get('issue_title') or '').strip()
+        summary_message = (representative.message or '').strip()
+        if len(summary_message) > 180:
+            summary_message = summary_message[:177] + '...'
+
+        if issue_title:
+            description = issue_title
+        else:
+            description = f"{representative.log_type} - {representative.source}: {summary_message}" if summary_message else f"{representative.log_type} - {representative.source}"
+
+        signature = f"{source}|{event_id}|{severity}|{category}|{root_cause}|{solution}"
+        issue_id = hashlib.md5(signature.encode('utf-8')).hexdigest()[:8]
+
+        issue = Issue(
+            issue_id=issue_id,
+            category=category,
+            severity=severity,
+            description=description,
+            pattern=f"LLM-only grouping: Event ID {event_id}, Source {representative.source}",
+            affected_users=affected_users,
+            affected_systems=affected_systems,
+            occurrences=len(entries),
+            log_entries=entries,
+            root_cause=root_cause,
+            solution=solution
+        )
+        issues.append(issue)
+
+    logger.info(f'LLM-only issue detection created {len(issues)} issues from {len(significant_entries)} significant entries')
+    return issues
 
 
 def _list_ollama_models():
@@ -538,6 +763,79 @@ def diagnose_logs():
         }), 500
 
 
+@app.route('/api/logs/upload-folder', methods=['POST'])
+def upload_logs_folder():
+    """Upload a folder (including child files) into the analysis logs directory."""
+    try:
+        if 'files' not in request.files:
+            return jsonify({
+                'success': False,
+                'error': 'No files provided. Submit multipart/form-data with field name "files".'
+            }), 400
+
+        files = request.files.getlist('files')
+        relative_paths = request.form.getlist('relative_paths')
+
+        if not files:
+            return jsonify({
+                'success': False,
+                'error': 'No files selected for upload.'
+            }), 400
+
+        uploaded_files = 0
+        skipped_files = 0
+        renamed_files = 0
+        saved_paths = []
+
+        os.makedirs(LOGS_DIR, exist_ok=True)
+
+        for index, uploaded_file in enumerate(files):
+            if not uploaded_file or not uploaded_file.filename:
+                skipped_files += 1
+                continue
+
+            relative_path = relative_paths[index] if index < len(relative_paths) else uploaded_file.filename
+
+            try:
+                safe_relative_path = _sanitize_relative_upload_path(relative_path)
+            except ValueError:
+                skipped_files += 1
+                continue
+
+            target_path, stored_relative_path, was_renamed = _resolve_nonconflicting_target_path(LOGS_DIR, safe_relative_path)
+            target_dir = os.path.dirname(target_path)
+            os.makedirs(target_dir, exist_ok=True)
+            uploaded_file.save(target_path)
+
+            uploaded_files += 1
+            if was_renamed:
+                renamed_files += 1
+            saved_paths.append(stored_relative_path)
+
+        if uploaded_files == 0:
+            return jsonify({
+                'success': False,
+                'error': 'No valid files were uploaded. Check folder contents and path structure.'
+            }), 400
+
+        return jsonify({
+            'success': True,
+            'message': f'Uploaded {uploaded_files} file(s) to analysis logs folder. Appended into existing parent folders where present.',
+            'uploaded_files': uploaded_files,
+            'skipped_files': skipped_files,
+            'renamed_files': renamed_files,
+            'base_directory': LOGS_DIR,
+            'sample_paths': saved_paths[:20]
+        })
+
+    except Exception as e:
+        logger.error(f'Folder upload failed: {e}', exc_info=True)
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+
 @app.route('/api/analyze', methods=['POST'])
 def run_analysis():
     """Run log analysis with optional LLM"""
@@ -547,6 +845,13 @@ def run_analysis():
         model_name = data.get('model', LLM_MODEL)
         provider = data.get('provider', LLM_PROVIDER)
         auto_download = data.get('auto_download', False)
+
+        if LLM_ONLY_ANALYSIS and not use_llm:
+            return jsonify({
+                'success': False,
+                'error': 'LLM-only mode is enabled. Please run analysis with use_llm=true.',
+                'llm_only_mode': True
+            }), 400
 
         if use_llm and provider == 'ollama':
             model_exists, error = _ollama_model_exists(model_name)
@@ -1214,9 +1519,14 @@ def get_analysis_state():
 @app.route('/api/config', methods=['GET'])
 def get_config():
     """Get current system configuration"""
+    instruction_status = _get_instruction_status()
     return jsonify({
         'success': True,
         'llm_enabled': LLM_ENABLED,
+        'llm_only_analysis': LLM_ONLY_ANALYSIS,
+        'use_instruction_file': instruction_status['enabled'],
+        'instruction_file_name': instruction_status['file_name'],
+        'instruction_loaded': instruction_status['loaded'],
         'llm_provider': LLM_PROVIDER,
         'llm_model': LLM_MODEL,
         'llm_temperature': 0.7,  # Default value
@@ -1235,10 +1545,14 @@ def update_config():
         
         # In a production system, you would persist these settings
         # For now, we validate and return success
+        requested_use_instruction_file = data.get('use_instruction_file', instruction_state.get('enabled', True))
+        instruction_state['enabled'] = bool(requested_use_instruction_file)
+
         config_update = {
             'llm_model': data.get('llm_model', LLM_MODEL),
             'llm_provider': data.get('llm_provider', LLM_PROVIDER),
             'llm_enabled': data.get('llm_enabled', LLM_ENABLED),
+            'use_instruction_file': instruction_state['enabled'],
             'llm_temperature': data.get('llm_temperature', 0.7),
             'auto_analysis_enabled': data.get('auto_analysis_enabled', False),
             'analysis_interval': data.get('analysis_interval', WATCH_INTERVAL_SECONDS),
@@ -1257,13 +1571,94 @@ def update_config():
         return jsonify({
             'success': True,
             'message': 'Configuration updated successfully',
-            'config': config_update
+            'config': config_update,
+            'instruction_status': _get_instruction_status()
         })
     except Exception as e:
         return jsonify({
             'success': False,
             'error': str(e)
         }), 400
+
+
+@app.route('/api/instructions/status', methods=['GET'])
+def get_instruction_status():
+    """Return instruction file status used by LLM prompts."""
+    return jsonify({
+        'success': True,
+        'instruction': _get_instruction_status()
+    })
+
+
+@app.route('/api/instructions/toggle', methods=['POST'])
+def toggle_instruction_usage():
+    """Enable or disable usage of instruction file during LLM analysis."""
+    try:
+        data = request.json or {}
+        enabled = bool(data.get('enabled', False))
+
+        if enabled and not instruction_state.get('content'):
+            return jsonify({
+                'success': False,
+                'error': 'Cannot enable instruction mode because no instruction file is loaded.'
+            }), 400
+
+        instruction_state['enabled'] = enabled
+        return jsonify({
+            'success': True,
+            'message': 'Instruction file usage updated',
+            'instruction': _get_instruction_status()
+        })
+    except Exception as e:
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
+
+
+@app.route('/api/instructions/upload', methods=['POST'])
+def upload_instruction_file():
+    """Upload a new instruction file and load it for LLM prompt guidance."""
+    try:
+        if 'file' not in request.files:
+            return jsonify({
+                'success': False,
+                'error': 'No file was provided. Use multipart/form-data with field name "file".'
+            }), 400
+
+        uploaded_file = request.files['file']
+        if not uploaded_file or not uploaded_file.filename:
+            return jsonify({
+                'success': False,
+                'error': 'No instruction file selected.'
+            }), 400
+
+        filename = secure_filename(uploaded_file.filename)
+        extension = os.path.splitext(filename)[1].lower()
+        if extension not in ['.md', '.markdown', '.txt']:
+            return jsonify({
+                'success': False,
+                'error': 'Unsupported file type. Upload a .md, .markdown, or .txt file.'
+            }), 400
+
+        os.makedirs(INSTRUCTIONS_DIR, exist_ok=True)
+        destination_path = os.path.join(INSTRUCTIONS_DIR, filename)
+        uploaded_file.save(destination_path)
+
+        _load_instruction_file(destination_path)
+        instruction_state['enabled'] = True
+
+        return jsonify({
+            'success': True,
+            'message': f'Instruction file "{filename}" uploaded and loaded successfully.',
+            'instruction': _get_instruction_status()
+        })
+    except Exception as e:
+        instruction_state['last_error'] = str(e)
+        return jsonify({
+            'success': False,
+            'error': str(e)
+        }), 500
 
 
 @app.route('/api/models/available', methods=['GET'])
@@ -1858,6 +2253,9 @@ if __name__ == '__main__':
     print("\n  Configuration (Admin):")
     print("    GET  /api/config")
     print("    POST /api/config")
+    print("    GET  /api/instructions/status")
+    print("    POST /api/instructions/toggle")
+    print("    POST /api/instructions/upload")
     print("    GET  /api/models/available")
     print("    POST /api/test-llm")
     print("\n  Analyzer Control (Admin):")
@@ -1874,6 +2272,7 @@ if __name__ == '__main__':
     print("    POST /api/ollama/install")
     print("\n  Data:")
     print("    GET  /api/logs/sessions")
+    print("    POST /api/logs/upload-folder")
     print("    GET  /api/logs/diagnose (troubleshooting)")
     print(f"\nServer running on: http://localhost:5000")
     print("=" * 80)

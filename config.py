@@ -61,7 +61,8 @@ MIN_USER_THRESHOLD = 1  # Minimum users affected to report an issue
 LLM_ENABLED = True  # Enable/disable LLM analysis
 LLM_PROVIDER = "ollama"  # Options: "ollama", "lmstudio", "openai", "azure"
 LLM_MODEL = "llama3.2:3b"  # Default model aligned with requested Ollama 3b model
-LLM_FALLBACK_TO_PATTERNS = True  # Use pattern matching if LLM fails
+LLM_ONLY_ANALYSIS = os.environ.get("LOG_ANALYZER_LLM_ONLY", "true").lower() == "true"
+LLM_FALLBACK_TO_PATTERNS = False  # Disabled to enforce strict LLM-only analysis
 LLM_REQUEST_TIMEOUT_SECONDS = int(os.environ.get("LOG_ANALYZER_LLM_TIMEOUT", "180"))
 LLM_MAX_RETRIES = int(os.environ.get("LOG_ANALYZER_LLM_RETRIES", "3"))
 

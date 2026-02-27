@@ -29,6 +29,31 @@ function App() {
     loadInitialData();
   }, []);
 
+  const refreshDashboardData = async () => {
+    try {
+      const [configData, sessionsData] = await Promise.all([
+        fetchConfig(),
+        fetchSessions()
+      ]);
+
+      setConfig(configData);
+      setSessions(sessionsData);
+
+      try {
+        const latestReport = await fetchLatestReport();
+        if (latestReport && latestReport.success !== false && latestReport.issues) {
+          setAnalysisResult(latestReport);
+        } else {
+          setAnalysisResult(null);
+        }
+      } catch (err) {
+        setAnalysisResult(null);
+      }
+    } catch (err) {
+      setError('Failed to refresh dashboard data: ' + err.message);
+    }
+  };
+
   useEffect(() => {
     const POLL_INTERVAL_MS = 10 * 60 * 1000; // 10 minutes
 
@@ -50,30 +75,7 @@ function App() {
   }, []);
 
   const loadInitialData = async () => {
-    try {
-      const [configData, sessionsData] = await Promise.all([
-        fetchConfig(),
-        fetchSessions()
-      ]);
-      
-      setConfig(configData);
-      setSessions(sessionsData);
-      
-      // Try to load latest report
-      try {
-        const latestReport = await fetchLatestReport();
-        if (latestReport && latestReport.success !== false && latestReport.issues) {
-          setAnalysisResult(latestReport);
-        } else {
-          setAnalysisResult(null);
-        }
-      } catch (err) {
-        // No latest report available
-        setAnalysisResult(null);
-      }
-    } catch (err) {
-      setError('Failed to load initial data: ' + err.message);
-    }
+    await refreshDashboardData();
   };
 
   const handleRunAnalysis = async (settings) => {
@@ -221,6 +223,7 @@ function App() {
                 isAnalyzing={isAnalyzing}
                 onAnalysisAction={handleRunAnalysis}
                 onInMemoryDataCleared={handleInMemoryDataCleared}
+                onRefreshSessions={refreshDashboardData}
               />
             </div>
           )}
